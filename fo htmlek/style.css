@@ -1,0 +1,10 @@
+menu{
+    width: 500px;
+    height:150px;
+
+    flex-wrap: nowrap;
+    display:flex;
+    flex-direction: row;
+}
+
+		
