@@ -1,0 +1,13 @@
+.resz {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+  
+.bal {
+    width: 25%;
+}
+  
+.job {
+    width: 75%;
+}
