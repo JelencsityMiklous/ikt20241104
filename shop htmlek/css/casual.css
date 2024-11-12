@@ -14,7 +14,7 @@
 
 
 :root {
-	--ColorPrimaryDk: #5f0606;
+	--ColorPrimaryDk: #5f0606;  
     --ColorPrimaryLt: #ff0022;
 }
 
@@ -26,6 +26,7 @@ body {
     --range-slider-common-height: 16px;
     --range-slider-handle-width: 24px;
     --range-slider-handle-height: 24px;
+    margin: 7% auto;
 
     position: relative;
     display: flex;
@@ -53,7 +54,7 @@ body {
 	position: absolute;
 	left: 0;
 	border-radius: 10px;
-	background-color: #ccc;
+	background-color: #831111;
 	margin: 0 7px;
 }
 
@@ -62,7 +63,7 @@ body {
 	right: 0;
     margin: 0 7px;
     border-radius: 10px;
-	background-color: #ccc;
+	background-color: #831111;
 }
 
 .range-slider > div > .range-slider-val-range {
@@ -81,7 +82,7 @@ body {
     margin-left: -11px;
     width: var(--range-slider-handle-width);
     height: var(--range-slider-handle-height);
-    border-radius: 25%;
+    border-radius: 100%;
     background-color: #ff0000;
     text-align: left;
 	
@@ -220,4 +221,19 @@ div.range-slider > input[type="range"]::-ms-tooltip {
 width: 25%;
 float: right;
 margin-right: 15%;
+}
+
+#filtergomb{
+
+float:left;
+margin-left:3%;
+background-color: lightgray;
+border-radius: 0;
+border: solid 2px lightgray;
+
+}
+
+#pricefelirat{
+    float:right;
+    margin-right:3%;
 }
