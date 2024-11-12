@@ -221,3 +221,23 @@ width: 25%;
 float: right;
 margin-right: 15%;
 }
+
+.card {
+    width: 45%;
+}
+
+.cardkep {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.column {
+    float: left;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
