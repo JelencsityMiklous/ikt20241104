@@ -251,14 +251,21 @@ border: solid 2px lightgray;
     width: 45%;
 }
 
+.container {
+    width: 140px;
+    margin-left: 10px;
+}
+
 .cardkep {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     object-fit: cover;
 }
 
 .column {
     float: left;
+    background-color: lightgray;
+    margin: 10px;
 }
   
 .row:after {
@@ -268,3 +275,11 @@ border: solid 2px lightgray;
 }
 
 
+
+
+
+.learazott {
+    font-weight: normal;
+    text-decoration: line-through;
+    color: red;
+}
