@@ -12,6 +12,9 @@
     width: 75%;
 }
 
+#baloshr{
+    width: 58%;
+}
 
 :root {
 	--ColorPrimaryDk: #5f0606;  
@@ -226,16 +229,16 @@ div.range-slider > input[type="range"]::-ms-tooltip {
 #oldalmenu{
 width: 25%;
 float: right;
-margin-right: 15%;
+margin-right: 13%;
+margin-top: -0.7%;
 }
 
 #filtergomb{
 
 float:left;
 margin-left:3%;
-background-color: lightgray;
 border-radius: 0;
-border: solid 2px lightgray;
+
 
 
 
@@ -282,4 +285,18 @@ border: solid 2px lightgray;
     font-weight: normal;
     text-decoration: line-through;
     color: red;
+}
+
+
+li{
+    width: 85%;
+    padding: 5%;
+
+    border-bottom: 1px dotted black;
+}
+
+ul{
+    width: 100%;
+    float: left;
+    padding-left: 5%;
 }
