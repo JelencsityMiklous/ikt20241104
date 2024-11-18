@@ -6,23 +6,34 @@
     height: 100px;
     width: 85vw;
     flex-direction: row;
-      
-    
-    
 
+
+    padding: 30px 16px;
+    font-size: 14px;
+    border: none;
+    font-family:monospace;
     
+   
+}
+
+#nahuh{
+      float: left;
+      font-size: 19px;
+      
+
 }
 .help a{
     color: rgb(0, 0, 0);
     margin-left: 20px;
     margin-right: 20px;
+    text-decoration: none;
 }
 
 .dropbtn {
     background-color: white;
-    padding: 16px;
-    font-size: 16px;
+    font-size: 14.49px;
     border: none;
+    font-family:monospace;
   }
   
   
@@ -32,13 +43,13 @@
     display: none;
     position: absolute;
     
-    min-width: 160px;
+    min-width: 150px;
     
   }
   
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 7px 12px;
     text-decoration: none;
     display: block;
   }
