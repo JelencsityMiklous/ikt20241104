@@ -3,12 +3,13 @@
 }
 
 .bal {
-    width: 70%;
+    width: 60%;
 }
 
 .jobb {
     width: 30%;
-
+    margin-right: 10%;
+    margin-top: 0.85%;
 }
 
 :root {
@@ -282,3 +283,15 @@ ul {
     width: 20%;
     z-index: 1;
 }
+
+#baloshr{
+
+    width:90%;
+}
+
+#toprated{
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+
