@@ -300,3 +300,25 @@ ul{
     float: left;
     padding-left: 5%;
 }
+
+#piroshr {
+    background-color: #d1d1d1;
+    border: none;
+    display: block;
+    height: 2px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+}
+
+#piroshr:before {
+    background-color: rgb(255, 0, 0);
+    content: '';
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0px;
+    width: 20%;
+    z-index: 1;
+}
