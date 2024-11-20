@@ -8,7 +8,6 @@
 
 .jobb {
     width: 30%;
-
 }
 
 :root {
@@ -216,32 +215,52 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     margin-right: 3%;
 }
 
-.card {
-    width: 45%;
-}
-
-.container {
-    width: 140px;
-    margin-left: 10px;
-}
-
 .cardkep {
     width: 170px;
     height: 170px;
     object-fit: cover;
 }
 
-.column {
-    float: left;
-    background-color: lightgray;
-    margin: 10px;
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3%;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.div1 {
+    width: 170px;
+    background-color: rgb(190, 190, 190);
 }
+
+.div2 {
+    width: 170px;
+    background-color: rgb(190, 190, 190);
+}
+
+.div3 {
+    width: 170px;
+    background-color: rgb(190, 190, 190);
+}
+
+.div4 {
+    width: 170px;
+    background-color: rgb(190, 190, 190);
+    grid-row-start: 2;
+}
+
+.div5 {
+    width: 170px;
+    background-color: rgb(190, 190, 190);
+    grid-row-start: 2;
+}
+
+.div6 {
+    width: 170px;
+    background-color: rgb(190, 190, 190);
+    grid-row-start: 2;
+}
+        
 
 .learazott {
     font-weight: normal;
