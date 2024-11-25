@@ -3,12 +3,12 @@
 }
 
 .bal {
-    width: 65%;
-    margin-left: 4%;
+    width: 60%;
+    margin-left: 5%;
 }
 
 .jobb {
-    width: 30%;
+    width: 25%;
     margin-right: 10%;
     margin-top: 0.85%;
 }
@@ -17,10 +17,11 @@
     --ColorPrimaryDk: #5f0606;
     --ColorPrimaryLt: #ff0022;
 }
-
+/*
 body {
     padding: 60px 16px 0;
 }
+*/
 
 .range-slider {
     --range-slider-common-height: 16px;
@@ -315,4 +316,33 @@ ul {
     padding-bottom: 8%;
 }
 
+#topratedutso{
+    padding-top: 5%;
+    padding-bottom: 8%;
+    border: none;
+}
 
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    color: white;
+
+}
+
+.footercontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+
+}
+
+.belsofootercontainer{
+
+    width: 30%;
+
+}
