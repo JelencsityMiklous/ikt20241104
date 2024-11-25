@@ -3,7 +3,7 @@
     display:flex;
     flex-wrap: nowrap;
     justify-content:right;
-    height: 100px;
+    height: 20px;
     width: 85vw;
     flex-direction: row;
 
@@ -16,6 +16,16 @@
    
 }
 
+#hihi{
+  margin-left:15vw;
+}
+.szius{
+  font-size:25px;
+  margin-top: -18px ;
+}
+.szius2{
+  margin-top: -18px;
+}
 .help a{
     color: rgb(0, 0, 0);
     margin-left: 20px;
@@ -31,7 +41,11 @@
   }
   
   
- 
+ .felsofejlec{
+  background-color: red;
+  width: 100%;
+  height: 90px;
+ }
   
   .dropdown-content {
     display: none;
@@ -46,6 +60,7 @@
     padding: 7px 12px;
     text-decoration: none;
     display: block;
+    background-color: #ffffff;
   }
   
   .dropdown-content a:hover {background-color: #ddd;}
