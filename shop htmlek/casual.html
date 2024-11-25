@@ -10,66 +10,12 @@
 
 <body>
   <div id="torzs">
-    <div id="resz bal"> 
-      <div id="oldalmenu">
-        <h2>Filter by price</h2>
-        <hr>
-        <div id="RangeSlider" class="range-slider">
-          <div>
-            <div class="range-slider-val-left"></div>
-            <div class="range-slider-val-right"></div>
-            <div class="range-slider-val-range"></div>
-
-            <span class="range-slider-handle range-slider-handle-left"></span>
-            <span class="range-slider-handle range-slider-handle-right"></span>
-
-            <div class="range-slider-tooltip range-slider-tooltip-left">
-              <span class="range-slider-tooltip-text"></span>
-            </div>
-
-            <div class="range-slider-tooltip range-slider-tooltip-right">
-              <span class="range-slider-tooltip-text"></span>
-            </div>
-          </div>
-
-          <input type="range" class="range-slider-input-left" tabindex="0" max="100" min="0" step="1">
-          <input type="range" class="range-slider-input-right" tabindex="0" max="100" min="0" step="1">
-        </div>
-        <div id="filtergomb">
-          <input type="button" value="FILTER">
-        </div>
-        <div id="pricefelirat">
-          Price: $17 - $67
-        </div>
-        <div>
-          <br>
-          <br>
-          <h2>Product categories</h2>
-          <hr>
-          <br>
-          <ul>
-            <li>Accessories</li>
-            <li>Casual</li>
-            <li>Clothing</li>
-            <li>Men</li>
-            <li>Women</li>
-          </ul>
-          <br>
-          
-          <h2>Top rated products</h2>
-          <hr>
-        </div>
-        
-
-      </div>
-    </div>
-
-    <div id="resz jobb">
+    <div class="resz bal"> 
       <h1>Casual</h1>
       <hr id="baloshr">
       <p>Showing all 6 results</p>
-      <div class="row">
-        <div class="column">
+      <div class="parent">
+        <div class="div1">
           <div class="card">
             <img src="../kepek/collar-light-gray-t-m.png" alt="Avatar" class="cardkep">
             <div class="container">
@@ -78,7 +24,8 @@
             </div>
           </div>
         </div>
-        <div class="column">
+        
+        <div class="div2">
           <div class="card">
             <img src="../kepek/white-t-m.png" alt="Avatar" class="cardkep">
             <div class="container">
@@ -87,7 +34,8 @@
             </div>
           </div>
         </div>
-        <div class="column">
+
+        <div class="div3">
           <div class="card">
             <img src="../kepek/hat-f.png" alt="Avatar" class="cardkep">
             <div class="container">
@@ -96,9 +44,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="column">
+
+        <div class="div4">
           <div class="card">
             <img src="../kepek/leather-jacket-m.png" alt="Avatar" class="cardkep">
             <div class="container">
@@ -107,7 +54,8 @@
             </div>
           </div>
         </div>
-        <div class="column">
+
+        <div class="div5">
           <div class="card">
             <img src="../kepek/patterned-dress-f.png" alt="Avatar" class="cardkep">
             <div class="container">
@@ -116,7 +64,8 @@
             </div>
           </div>
         </div>
-        <div class="column">
+
+        <div class="div6">
           <div class="card">
             <img src="../kepek/black-dress-f.png" alt="Avatar" class="cardkep">
             <div class="container">
@@ -127,7 +76,67 @@
         </div>
       </div>
     </div>
+
+    <div class="resz jobb">
+      <h2>Filter by price</h2>
+      <hr id="piroshr">
+      <div id="RangeSlider" class="range-slider">
+        <div>
+          <div class="range-slider-val-left"></div>
+          <div class="range-slider-val-right"></div>
+          <div class="range-slider-val-range"></div>
+
+          <span class="range-slider-handle range-slider-handle-left"></span>
+          <span class="range-slider-handle range-slider-handle-right"></span>
+
+          <div class="range-slider-tooltip range-slider-tooltip-left">
+            <span class="range-slider-tooltip-text"></span>
+          </div>
+
+          <div class="range-slider-tooltip range-slider-tooltip-right">
+           <span class="range-slider-tooltip-text"></span>
+          </div>
+        </div>
+
+        <input type="range" class="range-slider-input-left" tabindex="0" max="100" min="0" step="1">
+        <input type="range" class="range-slider-input-right" tabindex="0" max="100" min="0" step="1">
+      </div>
+      <div id="filtergomb">
+        <input type="button" value="FILTER">
+      </div>
+      <div id="pricefelirat">
+        Price: $17 - $67
+      </div>
+      <div>
+        <br>
+        <br>
+        <h2>Product categories</h2>
+        <hr id="piroshr">
+        <br>
+        <ul style="margin-bottom: 13%;">
+          <li style="font-size: 1.3vw;">Accessories</li>
+          <li style="font-size: 1.3vw;">Casual</li>
+          <li style="font-size: 1.3vw;">Clothing</li>
+          <li style="font-size: 1.3vw;">Men</li>
+          <li style="font-size: 1.3vw;">Women</li>
+        </ul>
+        
+        
+        <h2>Top rated products</h2>
+        <hr id="piroshr">
+        <ul>
+          <li id="toprated"><strong>Jeans Jacket</strong><img src="../kepek/jeansjacket.jpg" style="float: right;" width="15%"><br>$59.00</li>
+          <li id="toprated"><strong>Black Shorts</strong><img src="../kepek/blackshorts.jpg" style="float: right;" width="15%"><br>$25.00</li>
+          <li id="toprated"><strong>Leather Jacket</strong><img src="../kepek/leatherjacket.jpg" style="float: right;" width="15%"><br><s>$100.00</s><div  style="background-color: yellow; display: inline;">$50.00</div></li>
+          <li id="toprated"><strong>Women Tops</strong><img src="../kepek/womantops.jpg" style="float: right;" width="15%"><br>$45.00</li>
+          <li id="toprated"><strong>Collar T-shirt</strong><img src="../kepek/collartshirt.jpg" style="float: right;" width="15%"><br>$35.00</li>
+        </ul>
+          
+      </div>
+    </div>
   </div>
+
+
 </body>
 <script src="./js/casual.js"></script>
 </html>
