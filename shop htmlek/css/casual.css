@@ -325,20 +325,22 @@ ul {
 footer{
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color: rgb(22, 18, 31);
     display: flex;
     color: white;
 
 }
 
 .footercontainer{
-    width: 100%;
+    width: 75%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 0 auto;
-    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
     
 
 }
@@ -350,3 +352,4 @@ footer{
     
 
 }
+
