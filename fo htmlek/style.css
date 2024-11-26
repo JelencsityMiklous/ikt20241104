@@ -12,12 +12,13 @@
     font-size: 14px;
     border: none;
     font-family:monospace;
+    font-weight: bold;
     
    
 }
 
 #hihi{
-  margin-left:15vw;
+  margin-left:10vw;
 }
 .szius{
   font-size:25px;
@@ -29,15 +30,17 @@
 .help a{
     color: rgb(0, 0, 0);
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
     text-decoration: none;
 }
 
 .dropbtn {
-    background-color: white;
+
+    background:none;
     font-size: 14.49px;
     border: none;
     font-family:monospace;
+    font-weight: bold;
     
   }
   
@@ -64,6 +67,6 @@
     background-color: #ffffff;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #ddd; color: red;}
   .menusor:hover .dropdown-content {display: block;}
   
