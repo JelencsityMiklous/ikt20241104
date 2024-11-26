@@ -337,6 +337,8 @@ footer{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
     
 
 }
@@ -344,5 +346,7 @@ footer{
 .belsofootercontainer{
 
     width: 30%;
+    
+    
 
 }
