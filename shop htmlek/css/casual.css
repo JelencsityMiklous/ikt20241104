@@ -218,7 +218,6 @@ div.range-slider>input[type="range"]::-ms-tooltip {
   border-width: 0;
   color: #333333;
   cursor: pointer;
-  display: inline-block;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
