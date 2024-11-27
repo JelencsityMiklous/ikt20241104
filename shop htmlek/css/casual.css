@@ -363,8 +363,10 @@ footer{
 .belsofootercontainer{
 
     width: 30%;
+    color: #9795b1; 
     
-    
-
 }
 
+.belsofootercontainer > h2{
+    color: white;
+}
