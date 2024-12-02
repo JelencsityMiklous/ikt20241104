@@ -14,11 +14,12 @@
     font-family:monospace;
     font-weight: bold;
     
+    
    
 }
 
 #hihi{
-  margin-left:10vw;
+  margin-left:7vw;
 }
 .szius{
   font-size:25px;
@@ -48,7 +49,7 @@
  .felsofejlec{
   background-color: red;
   width: 100%;
-  height: 90px;
+  height: 80px;
  }
   
   .dropdown-content {
@@ -57,14 +58,16 @@
     
     min-width: 150px;
     
+    
   }
   
   .dropdown-content a {
     color: black;
-    padding: 7px 12px;
+    padding: 10px 15px;
     text-decoration: none;
     display: block;
     background-color: #ffffff;
+    
   }
   
   .dropdown-content a:hover {background-color: #ddd; color: red;}
