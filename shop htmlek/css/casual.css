@@ -241,6 +241,7 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 }
 
 .parent {
+    margin-left: 4.5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -249,42 +250,47 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 
 .div1 {
     width: 170px;
-    background-color: rgb(190, 190, 190);
 }
 
 .div2 {
     width: 170px;
-    background-color: rgb(190, 190, 190);
 }
 
 .div3 {
     width: 170px;
-    background-color: rgb(190, 190, 190);
 }
 
 .div4 {
     width: 170px;
-    background-color: rgb(190, 190, 190);
     grid-row-start: 2;
 }
 
 .div5 {
     width: 170px;
-    background-color: rgb(190, 190, 190);
     grid-row-start: 2;
 }
 
 .div6 {
     width: 170px;
-    background-color: rgb(190, 190, 190);
     grid-row-start: 2;
 }
-        
+
+.container {
+    text-indent: 10%;
+}
+
+.balindent {
+    text-indent: 4.5%;
+}
+
+.normalis {
+    color: red;
+}
 
 .learazott {
     font-weight: normal;
     text-decoration: line-through;
-    color: red;
+    color: rgb(182, 182, 182);
 }
 
 li {
@@ -322,8 +328,25 @@ ul {
 }
 
 #baloshr{
-
+    background-color: #d1d1d1;
+    border: none;
+    display: block;
+    height: 2px;
+    overflow: visible;
+    position: relative;
     width:90%;
+}
+
+#baloshr:before {
+    background-color: rgb(255, 0, 0);
+    content: '';
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0px;
+    width: 10%;
+    z-index: 1;
 }
 
 #toprated{
