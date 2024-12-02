@@ -212,6 +212,21 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     float: left;
     margin-left: 3%;
     border-radius: 0;
+
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 0;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 2% 3%;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
 }
 
 #pricefelirat {
@@ -325,20 +340,22 @@ ul {
 footer{
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color: rgb(22, 18, 31);
     display: flex;
     color: white;
 
 }
 
 .footercontainer{
-    width: 100%;
+    width: 75%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 0 auto;
-    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
     
 
 }
@@ -346,7 +363,10 @@ footer{
 .belsofootercontainer{
 
     width: 30%;
+    color: #9795b1; 
     
-    
+}
 
+.belsofootercontainer > h2{
+    color: white;
 }
