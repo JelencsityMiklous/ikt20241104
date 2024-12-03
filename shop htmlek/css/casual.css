@@ -241,7 +241,7 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 }
 
 .parent {
-    margin-left: 4.5%;
+    margin-left: 6.2%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -280,7 +280,7 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 }
 
 .balindent {
-    text-indent: 4.5%;
+    text-indent: 6.2%;
 }
 
 .normalis {
@@ -334,7 +334,8 @@ ul {
     height: 2px;
     overflow: visible;
     position: relative;
-    width:90%;
+    width: 87%;
+    margin-left: 6.2%;
 }
 
 #baloshr:before {
