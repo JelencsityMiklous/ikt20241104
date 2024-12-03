@@ -5,18 +5,21 @@
     justify-content:right;
     height: 20px;
     width: 85vw;
+    background-color: white;
     flex-direction: row;
 
 
-    padding: 30px 16px;
+    padding: 30px 14px;
     font-size: 14px;
     border: none;
     font-family:monospace;
     font-weight: bold;
     
     
+    
    
 }
+
 
 #hihi{
   margin-left:7vw;
@@ -24,14 +27,16 @@
 .szius{
   font-size:25px;
   margin-top: -18px ;
+ 
 }
+
 .szius2{
   margin-top: -18px;
 }
 .help a{
     color: rgb(0, 0, 0);
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 5px;
     text-decoration: none;
 }
 
@@ -49,7 +54,8 @@
  .felsofejlec{
   background-color: red;
   width: 100%;
-  height: 80px;
+  height: 70px;
+  
  
  }
  #fejleclec{
@@ -68,14 +74,20 @@
     min-width: 150px;
     
     
+    
+    
   }
-  
+ #ize{
+  margin-top: 45px;
+ }
   .dropdown-content a {
-    color: black;
-    padding: 10px 15px;
+    color: rgb(119, 119, 119);
+    padding: 10px 10px 5px 10px;
     text-decoration: none;
     display: block;
     background-color: #ffffff;
+    width:130px;
+    border-bottom: 1px solid rgb(214, 214, 214);
     
   }
   
