@@ -27,7 +27,9 @@
 .szius{
   font-size:25px;
   margin-top: -18px ;
+ 
 }
+
 .szius2{
   margin-top: -18px;
 }
@@ -79,13 +81,13 @@
   margin-top: 45px;
  }
   .dropdown-content a {
-    color: rgb(94, 94, 94);
+    color: rgb(119, 119, 119);
     padding: 10px 10px 5px 10px;
     text-decoration: none;
     display: block;
     background-color: #ffffff;
     width:130px;
-    border-bottom: 1px solid rgb(182, 182, 182);
+    border-bottom: 1px solid rgb(214, 214, 214);
     
   }
   
