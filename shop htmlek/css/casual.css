@@ -252,29 +252,35 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 
 .div1 {
     width: 170px;
+    background-color: #f8f8f8;
 }
 
 .div2 {
     width: 170px;
+    background-color: #f8f8f8;
 }
 
 .div3 {
     width: 170px;
+    background-color: #f8f8f8;
 }
 
 .div4 {
     width: 170px;
     grid-row-start: 2;
+    background-color: #f8f8f8;
 }
 
 .div5 {
     width: 170px;
     grid-row-start: 2;
+    background-color: #f8f8f8;
 }
 
 .div6 {
     width: 170px;
     grid-row-start: 2;
+    background-color: #f8f8f8;
 }
 
 .container {
