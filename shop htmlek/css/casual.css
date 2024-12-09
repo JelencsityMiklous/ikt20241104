@@ -227,6 +227,7 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 #pricefelirat {
     float: right;
     margin-right: 3%;
+    margin-top: 2%;
 }
 
 .cardkep {
@@ -422,3 +423,4 @@ position: relative;
 #torzs{
 font-size: 1vw;
 }
+
