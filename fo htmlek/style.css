@@ -17,6 +17,7 @@
     
     
     
+    
    
 }
 
@@ -51,6 +52,7 @@
     border: none;
     font-family:monospace;
     font-weight: bold;
+    z-index: 2;
     
   }
   
@@ -77,6 +79,7 @@
     position: absolute;
     
     min-width: 150px;
+    z-index: 2;
     
     
     
