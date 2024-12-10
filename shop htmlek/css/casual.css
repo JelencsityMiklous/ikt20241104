@@ -33,7 +33,7 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    width: 99%;
+    width: 105%;
     height: 100%;
 }
 
@@ -41,7 +41,7 @@ body{
     position: absolute;
     display: flex;
     align-items: center;
-    left: 13px;
+    left: -7px;
     right: 15px;
     height: var(--range-slider-common-height);
 }
@@ -85,7 +85,7 @@ body{
     z-index: 1;
     position: absolute;
     top: -6px;
-    margin-left: -11px;
+    margin-left: -8px;
     width: var(--range-slider-handle-width);
     height: var(--range-slider-handle-height);
     border-radius: 100%;
@@ -308,7 +308,7 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 
 li {
     width: 85%;
-    padding: 5%;
+    padding: 4%;
     border-bottom: 1px dotted black;
 }
 
