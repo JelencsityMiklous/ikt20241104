@@ -256,11 +256,12 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 }
 
 .middle {
+    position: relative;
     margin: 0 auto;
-    position: absolute;
     opacity: 0;
-    top: 50%;
-    left: 50%;
+    top: -50%;
+    left: 20%;
+    text-align: center;
 }
 
 .parent {
