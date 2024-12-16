@@ -305,6 +305,17 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     background-color: #f8f8f8;
 }
 
+.results_sorting {
+    margin-left: 6.2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.sorting_drop {
+    margin-left: 54%;
+}
+
 .container {
     text-indent: 10%;
 }
