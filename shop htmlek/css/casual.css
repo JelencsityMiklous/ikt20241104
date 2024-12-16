@@ -251,25 +251,72 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     opacity: 0.2;
 }
 
+.middle {
+    position: absolute;
+    margin: 0 auto;
+    opacity: 0;
+    top: 37%;
+    left: 18%;
+    text-align: center;
+    font-size: smaller;
+    color: white;
+    border: white solid 1px;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background: none;
+}
+
 .imghover:hover .middle {
     opacity: 1;
 }
 
-.middle {
-    position: relative;
+.top1img {
+    position: absolute;
     margin: 0 auto;
+    padding: 0;
     opacity: 0;
-    top: -50%;
-    left: 20%;
+    top: 3%;
+    left: 79%;
     text-align: center;
+    font-size: medium;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: white solid 1px;
+}
+
+.imghover:hover .top1img {
+    opacity: 1;
+}
+
+.top2img {
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    opacity: 0;
+    top: 18%;
+    left: 79%;
+    text-align: center;
+    font-size: large;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: white solid 1px;
+}
+
+.imghover:hover .top2img {
+    opacity: 1;
 }
 
 .parent {
+    margin-top: 5%;
     margin-left: 6.2%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 3%;
+    row-gap: 10%;
 }
 
 .div1 {
