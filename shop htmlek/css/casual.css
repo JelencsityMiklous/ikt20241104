@@ -361,7 +361,14 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 
 .sorting_drop {
     margin-top: 2%;
-    margin-left: 54%;
+    margin-left: 42%;
+
+}
+
+#sortingdropdown{
+    width: 150px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .container {
