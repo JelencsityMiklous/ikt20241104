@@ -248,7 +248,8 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 }
 
 .imghover:hover img{
-    opacity: 0.2;
+    animation: fadeInRed 0.3s;
+    animation-fill-mode: forwards;
 }
 
 .middle {
@@ -266,6 +267,46 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     padding-right: 17px;
     background: none;
 }
+
+@keyframes fadeInRed {
+    0% { background: none; }
+    100% { opacity: 0.2; }
+}
+
+@keyframes fadeInMid {
+    0% {
+        color: white;
+        background: none;
+    }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeInTop {
+    0% {
+        color: black;
+        background: white;
+    }
+    100% { opacity: 1; }
+}
+
+.middle:hover {
+    animation: fadeInMid 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.top1img:hover {
+    animation: fadeInTop 0.3s;
+    background-color: black;
+    color: white;
+}
+
+.top2img:hover {
+    animation: fadeInTop 0.3s;
+    background-color: black;
+    color: white;
+}
+
 
 .imghover:hover .middle {
     opacity: 1;
