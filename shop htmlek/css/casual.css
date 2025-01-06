@@ -535,3 +535,39 @@ font-size: 1vw;
     left: -20px;
     
 }
+
+
+@media only screen and (max-width: 1030px) {
+    .jobb {
+      
+        display: flex;
+        width: 100%;
+
+    }
+    .bal{
+        display: block;
+        width: 100%;
+
+    }
+
+    .parent{
+
+        gap: 3%;
+        row-gap: 4%;
+    }
+    
+    
+
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .footercontainer{
+
+        flex-direction: column;
+
+    }
+
+
+
+  }
