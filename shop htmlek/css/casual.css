@@ -577,6 +577,23 @@ font-size: 1vw;
     
 }
 
+.belsofootercontainer:nth-of-type(3){
+
+    margin-top: 2%;
+
+}
+
+
+#feherrepeatnyil{
+
+margin-top: 4%;
+
+}
+
+#penztarca{
+    margin-bottom: 2%;
+}
+
 
 @media only screen and (max-width: 1030px) {
     .jobb {
@@ -601,14 +618,62 @@ font-size: 1vw;
 
   }
 
-  @media only screen and (max-width: 600px) {
+
+  /* Lábléc reszponzivitása */
+
+  @media only screen and (max-width: 700px) {
+
+
+    .belsofootercontainer > p{
+
+font-size: 4vw;
+
+    }
+
+    .belsofootercontainer > h2 {
+
+        font-size: 4vw;
+
+    }
+
+    .belsofootercontainer > div {
+        margin-left: 5%;
+    }
+
+    .belsofootercontainer{
+
+        font-size: 4vw;
+        width: 100%;
+        
+        
+
+    }
 
     .footercontainer{
 
         flex-direction: column;
+        font-size: 2vw;
+        align-items: center;
+
+    }
+    #felmutatonyil{
+        display: none;
+    }
+
+    .belsofootercontainer:first-child{
+
+        margin-left: 15%;
 
     }
 
+    #feherrepeatnyil{
 
+margin-top: 5%;
+
+    }
+
+    #penztarca{
+        margin-top: 0%;
+    }
 
   }
