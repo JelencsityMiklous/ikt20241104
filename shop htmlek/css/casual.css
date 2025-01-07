@@ -594,14 +594,34 @@ margin-top: 4%;
     margin-bottom: 2%;
 }
 
+.jobb>li{
+    font-size: 1.1vw;
+}
+
 
 @media only screen and (max-width: 1030px) {
     .jobb {
       
-        display: flex;
+        display: block;
         width: 100%;
+        margin-top: 10%;
+        font-size: 3vw;
+    }
+
+    .jobb>ul{
+
+    font-size: 4vw;
 
     }
+
+
+    #filtergomb{
+        width: 25%;
+        height: 5vw;
+        font-size: 4vw;
+    }
+
+
     .bal{
         display: block;
         width: 100%;
@@ -614,6 +634,9 @@ margin-top: 4%;
         row-gap: 4%;
     }
     
+    .range-slider{
+        width: 80%;
+    }
     
 
   }
