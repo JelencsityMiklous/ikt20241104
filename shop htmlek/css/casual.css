@@ -603,7 +603,7 @@ margin-top: 4%;
     .jobb {
       
         display: block;
-        width: 100%;
+        width: 95%;
         margin-top: 10%;
         font-size: 3vw;
     }
@@ -611,20 +611,20 @@ margin-top: 4%;
     .jobb>ul{
 
     font-size: 4vw;
-
+    width: 50%;        
     }
 
 
     #filtergomb{
         width: 25%;
         height: 5vw;
-        font-size: 4vw;
+        font-size: 3.2vw;
     }
 
 
     .bal{
         display: block;
-        width: 100%;
+        width: 95%;
 
     }
 
@@ -698,5 +698,47 @@ margin-top: 5%;
     #penztarca{
         margin-top: 0%;
     }
+
+  }
+
+
+/* Bal oldal reszponzivitás */
+
+
+  @media only screen and (max-width: 700px) {
+    
+    .bal{
+
+        grid-column: auto;
+        
+
+    }
+
+    .parent{
+
+        display: block;
+
+
+    }
+
+    .div1,.div2,.div3,.div4,.div5,.div6{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .sorting_drop{
+
+margin-left: 20%;
+
+    }
+
+    .cardkep{
+
+        width: 100%;
+    }
+
+    
 
   }
