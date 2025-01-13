@@ -633,6 +633,68 @@ margin-top: 4%;
         gap: 3%;
         row-gap: 4%;
     }
+
+    /*.bal{
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .parent {
+        margin-top: 5%;
+        margin-left: 6.2%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10%;
+        row-gap: 20%;
+    }
+        
+    .div1 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .div2 {
+        width: 250px; 
+        height: 250px;
+    }
+
+    .div3 { 
+        width: 250px;
+        height: 250px;
+        grid-row-start: 2;
+    }
+
+    .div4 {
+        width: 250px;
+        height: 250px;
+        grid-row-start: 2;
+    }
+
+    .div5 {
+        width: 250px;
+        height: 250px;
+        grid-row-start: 3;
+    }
+
+    .div6 {
+        width: 250px;
+        height: 250px;
+        grid-row-start: 3;
+    }
+
+    .cardkep {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .container {
+        
+        margin-top: 20%;
+        font-size: x-large;
+        width: 200px;
+    }*/
     
     .range-slider{
         width: 80%;
