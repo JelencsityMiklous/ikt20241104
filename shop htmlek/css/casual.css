@@ -598,6 +598,9 @@ margin-top: 4%;
     font-size: 1.1vw;
 }
 
+#felmutatonyil2{
+    display: none;
+}
 
 @media only screen and (max-width: 1030px) {
     .jobb {
@@ -680,7 +683,19 @@ font-size: 4vw;
 
     }
     #felmutatonyil{
-        display: none;
+     display: none;   
+    }
+
+    #felmutatonyil2{
+
+        margin-left: 90%;
+        width: 7%;
+        display:inline;
+        position:sticky;
+        bottom: 20px;
+        top:20px;
+        
+
     }
 
     .belsofootercontainer:first-child{
