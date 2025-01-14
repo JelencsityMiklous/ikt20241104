@@ -248,7 +248,8 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 }
 
 .imghover:hover img{
-    opacity: 0.2;
+    animation: fadeInRed 0.3s;
+    animation-fill-mode: forwards;
 }
 
 .middle {
@@ -266,6 +267,46 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     padding-right: 17px;
     background: none;
 }
+
+@keyframes fadeInRed {
+    0% { background: none; }
+    100% { opacity: 0.2; }
+}
+
+@keyframes fadeInMid {
+    0% {
+        color: white;
+        background: none;
+    }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeInTop {
+    0% {
+        color: black;
+        background: white;
+    }
+    100% { opacity: 1; }
+}
+
+.middle:hover {
+    animation: fadeInMid 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.top1img:hover {
+    animation: fadeInTop 0.3s;
+    background-color: black;
+    color: white;
+}
+
+.top2img:hover {
+    animation: fadeInTop 0.3s;
+    background-color: black;
+    color: white;
+}
+
 
 .imghover:hover .middle {
     opacity: 1;
@@ -535,3 +576,246 @@ font-size: 1vw;
     left: -20px;
     
 }
+
+.belsofootercontainer:nth-of-type(3){
+
+    margin-top: 2%;
+
+}
+
+
+#feherrepeatnyil{
+
+margin-top: 4%;
+
+}
+
+#penztarca{
+    margin-bottom: 2%;
+}
+
+.jobb>li{
+    font-size: 1.1vw;
+}
+
+#felmutatonyil2{
+    display: none;
+}
+
+@media only screen and (max-width: 1030px) {
+    .jobb {
+      
+        display: block;
+        width: 95%;
+        margin-top: 10%;
+        font-size: 3vw;
+    }
+
+    .jobb>ul{
+
+    font-size: 4vw;
+    width: 50%;        
+    }
+
+
+    #filtergomb{
+        width: 25%;
+        height: 5vw;
+        font-size: 3.2vw;
+    }
+
+
+    .bal{
+        display: block;
+        width: 95%;
+
+    }
+
+    .parent{
+
+        gap: 3%;
+        row-gap: 4%;
+    }
+
+    /*.bal{
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .parent {
+        margin-top: 5%;
+        margin-left: 6.2%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10%;
+        row-gap: 20%;
+    }
+        
+    .div1 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .div2 {
+        width: 250px; 
+        height: 250px;
+    }
+
+    .div3 { 
+        width: 250px;
+        height: 250px;
+        grid-row-start: 2;
+    }
+
+    .div4 {
+        width: 250px;
+        height: 250px;
+        grid-row-start: 2;
+    }
+
+    .div5 {
+        width: 250px;
+        height: 250px;
+        grid-row-start: 3;
+    }
+
+    .div6 {
+        width: 250px;
+        height: 250px;
+        grid-row-start: 3;
+    }
+
+    .cardkep {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .container {
+        
+        margin-top: 20%;
+        font-size: x-large;
+        width: 200px;
+    }*/
+    
+    .range-slider{
+        width: 80%;
+    }
+    
+
+  }
+
+
+  /* Lábléc reszponzivitása */
+
+  @media only screen and (max-width: 700px) {
+
+
+    .belsofootercontainer > p{
+
+font-size: 4vw;
+
+    }
+
+    .belsofootercontainer > h2 {
+
+        font-size: 4vw;
+
+    }
+
+    .belsofootercontainer > div {
+        margin-left: 5%;
+    }
+
+    .belsofootercontainer{
+
+        font-size: 4vw;
+        width: 100%;
+        
+        
+
+    }
+
+    .footercontainer{
+
+        flex-direction: column;
+        font-size: 2vw;
+        align-items: center;
+
+    }
+    #felmutatonyil{
+     display: none;   
+    }
+
+    #felmutatonyil2{
+
+        margin-left: 90%;
+        width: 7%;
+        display:inline;
+        position:sticky;
+        bottom: 20px;
+        top:20px;
+        
+
+    }
+
+    .belsofootercontainer:first-child{
+
+        margin-left: 15%;
+
+    }
+
+    #feherrepeatnyil{
+
+margin-top: 5%;
+
+    }
+
+    #penztarca{
+        margin-top: 0%;
+    }
+
+  }
+
+
+/* Bal oldal reszponzivitás */
+
+
+  @media only screen and (max-width: 700px) {
+    
+    .bal{
+
+        grid-column: auto;
+        
+
+    }
+
+    .parent{
+
+        display: block;
+
+
+    }
+
+    .div1,.div2,.div3,.div4,.div5,.div6{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .sorting_drop{
+
+margin-left: 20%;
+
+    }
+
+    .cardkep{
+
+        width: 100%;
+    }
+
+    
+
+  }
