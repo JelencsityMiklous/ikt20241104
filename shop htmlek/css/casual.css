@@ -25,6 +25,7 @@ body {
 body{
     font-family:Arial, Helvetica, sans-serif
 }
+
 .range-slider {
     --range-slider-common-height: 16px;
     --range-slider-handle-width: 24px;
@@ -209,7 +210,6 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 .range-slider:hover>div>.range-slider-tooltip {
     opacity: 1;
 }
-
 
 #filtergomb{
     width:65px;
@@ -403,7 +403,6 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 .sorting_drop {
     margin-top: 2%;
     margin-left: 42%;
-
 }
 
 #sortingdropdown{
@@ -484,7 +483,6 @@ ul {
     position: absolute;
     top: 0px;
     width: 10%;
-    
 }
 
 #toprated{
@@ -505,7 +503,6 @@ footer{
     display: flex;
     color: white;
     font-size: 1.1vw;
-
 }
 
 .footercontainer{
@@ -518,22 +515,16 @@ footer{
     margin-top: 3%;
     margin-bottom: 3%;
     position: relative;
-    
-
 }
 
 .belsofootercontainer{
-
     width: 30%;
     color: #9795b1; 
-    
 }
 
 .belsofootercontainer > h2{
     color: white;
     font-size: 1.2vw;
-
-
 }
 
 .belsofootercontainer > p{
@@ -541,22 +532,18 @@ footer{
 }
 
 .belsofootercontainer > img{
-
-display: flex;
-width: 10%;
-
+    display: flex;
+    width: 10%;
 }
 
 
 #belsofootercontainerutso{
-
-display: inline;
-position: relative;
-
+    display: inline;
+    position: relative;
 }
 
 #torzs{
-font-size: 1vw;
+    font-size: 1vw;
 }
 
 
@@ -565,29 +552,21 @@ font-size: 1vw;
     position: absolute;
     top: -18px;
     left: -20px;
-    
-
 }
 
 .sale1{
     width:30%;
     position: absolute;
     top: -18px;
-    left: -20px;
-    
+    left: -20px; 
 }
 
 .belsofootercontainer:nth-of-type(3){
-
     margin-top: 2%;
-
 }
 
-
 #feherrepeatnyil{
-
-margin-top: 4%;
-
+    margin-top: 4%;
 }
 
 #penztarca{
@@ -611,10 +590,9 @@ margin-top: 4%;
     }
 
     .jobb>ul{
-    font-size: 4vw;
-    width: 50%;        
+        font-size: 4vw;
+        width: 50%;        
     }
-
 
     #filtergomb{
         width: 25%;
@@ -641,6 +619,11 @@ margin-top: 4%;
         font-size: medium;
         width: 200px;
         text-indent: 10%;
+    }
+
+    .sorting_drop {
+        margin-top: 2%;
+        margin-left: 50%;
     }
 
     .cardkep {
@@ -738,8 +721,7 @@ margin-top: 4%;
     .range-slider{
         width: 80%;
     }
-    
-  }
+}
 
 @media only screen and (max-width: 850px) {
     .parent {
@@ -751,26 +733,19 @@ margin-top: 4%;
         gap: 20%;
         row-gap: 3%;
     }
+
+    .sorting_drop {
+        margin-left: 40%;
+    }
 }
-
-
-
-
-  /* Lábléc reszponzivitása */
-
-  @media only screen and (max-width: 700px) {
-
-
+/* Lábléc reszponzivitása */
+@media only screen and (max-width: 700px) {
     .belsofootercontainer > p{
-
-font-size: 4vw;
-
+        font-size: 4vw;
     }
 
     .belsofootercontainer > h2 {
-
         font-size: 4vw;
-
     }
 
     .belsofootercontainer > div {
@@ -778,93 +753,83 @@ font-size: 4vw;
     }
 
     .belsofootercontainer{
-
         font-size: 4vw;
         width: 100%;
-        
-        
-
     }
 
     .footercontainer{
-
         flex-direction: column;
         font-size: 2vw;
         align-items: center;
-
     }
+
     #felmutatonyil{
      display: none;   
     }
 
     #felmutatonyil2{
-
         margin-left: 90%;
         width: 7%;
         display:inline;
         position:sticky;
         bottom: 20px;
         top:20px;
-        
-
     }
 
     .belsofootercontainer:first-child{
-
         margin-left: 15%;
-
     }
 
     #feherrepeatnyil{
-
-margin-top: 5%;
-
+        margin-top: 5%;
     }
 
     #penztarca{
         margin-top: 0%;
     }
-
-  }
-
-
+}
 /* Bal oldal reszponzivitás */
-
-
-  @media only screen and (max-width: 700px) {
-    
-    .bal{
-
-        grid-column: auto;
+@media only screen and (max-width: 700px) { 
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin: auto;
+        width: 50%;
+    }
         
-
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2;
     }
 
-    .parent{
-
-        display: block;
-
-
+    .div2 {
+        grid-area: 2 / 1 / 3 / 2;
     }
 
-    .div1,.div2,.div3,.div4,.div5,.div6{
-        width: 60%;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 4vw;
+    .div3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .div4 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .div5 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .div6 {
+        grid-area: 6 / 1 / 7 / 2;
     }
 
     .sorting_drop{
-
-margin-left: 20%;
-
+        margin-top: 4%;
+        margin-left: 20%;
     }
 
     .cardkep{
-
         width: 100%;
     }
-
-    
-
-  }
+}
