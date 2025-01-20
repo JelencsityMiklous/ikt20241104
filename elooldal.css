@@ -1,10 +1,15 @@
 nav {
-    background-color: green;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 20px ;
+    margin-bottom: 30px;
+    height:30px;
+    font-family:monospace;
+    font-weight: bold;
+    
   }
   
   .logo {
@@ -16,6 +21,7 @@ nav {
     list-style: none;
     padding: 0;
     margin: 0;
+    
   }
   
   ul li {
@@ -23,18 +29,20 @@ nav {
   }
   
   ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    color:white;
+
     
   }
   
   ul li a:hover {
-    color: lightgreen;
+    color: rgb(185, 185, 185);
   }
   
   .checkbtn {
     font-size: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     display: none;
   }
@@ -64,7 +72,7 @@ nav {
       position: fixed;
       top: 60px;
       right: -100%;
-      background-color: green;
+      background-color: rgb(255, 0, 0);
       width: 100vw;
       height: 50vh;
       
@@ -72,10 +80,13 @@ nav {
       flex-direction: column;
       
       
+      
     }
   
     ul li {
       margin: 20px 0;
+      margin-left:30px;
+      
     }
   
     ul li a {
