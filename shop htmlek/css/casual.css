@@ -543,7 +543,7 @@ footer{
 .belsofootercontainer > img{
 
 display: flex;
-width: 10%;
+width: 8%;
 
 }
 
@@ -554,6 +554,8 @@ display: inline;
 position: relative;
 
 }
+
+
 
 #torzs{
 font-size: 1vw;
