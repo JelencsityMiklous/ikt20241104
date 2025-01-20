@@ -9,13 +9,23 @@ nav {
     height:30px;
     font-family:monospace;
     font-weight: bold;
+    margin-top: 20px;
     
   }
   
   .logo {
-    font-size: 1.5rem;
+    font-size: 25px;
   }
-  
+  .logoszoveg{
+    margin-top: 5px;
+    color:rgb(92, 92, 92)
+  }
+  .logodiv{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:left;
+    flex-direction: column;
+  }
   ul {
     display: flex;
     list-style: none;
@@ -42,20 +52,23 @@ nav {
   
   .checkbtn {
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    
+    color: rgb(255, 0, 0);
     cursor: pointer;
     display: none;
   }
   
   #check {
     display: none;
+    color: rgb(87, 87, 87);
+    font-size: 12px;
   }
   
  #telefonmenu{
   display: none;
  }
 
-  @media (max-width: 768px) {
+  @media (max-width: 791px) {
     #telefonmenu{
       display:contents;
     }
@@ -65,7 +78,8 @@ nav {
     .checkbtn {
       display: block;
       order: 1;
-      margin-right: 20px;
+      margin-right: 5px;
+      font-weight:100;
     }
   
     ul {
@@ -75,7 +89,7 @@ nav {
       background-color: rgb(255, 0, 0);
       width: 100vw;
       height: 50vh;
-      
+      margin-top: 33px;
       display: flex;
       flex-direction: column;
       
