@@ -11,8 +11,21 @@ nav {
     font-weight: bold;
     margin-top: 20px;
     
+    
   }
-  
+  #pluszjeldiv{
+    float: right;
+    border-left:0.5px solid white;
+    border-right:0.5px solid white;
+    margin-top: -16px;
+    margin-bottom: -20px;
+    
+    padding-right: 20px;
+    padding-top:18px;
+    padding-bottom: 14px;
+    
+  }
+
   .logo {
     font-size: 25px;
   }
@@ -88,7 +101,7 @@ nav {
       right: -100%;
       background-color: rgb(255, 0, 0);
       width: 100vw;
-      height: 310px;
+      height:fit-content;
       margin-top: 33px;
       display: flex;
       flex-direction: column;
@@ -96,12 +109,21 @@ nav {
       
       
       
+      
+      
     }
   
+    ul li a{
+      margin-left: 26px;
+    }
     ul li {
-      margin: 20px 0;
-      margin-left:30px;
+      
+      
+      padding-top:15px;
+      padding-bottom: 15px;
       border-bottom: white solid 1px;  
+        
+      
       
       
     }
