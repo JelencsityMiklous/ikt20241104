@@ -74,6 +74,7 @@ nav {
     color: rgb(255, 0, 0);
     cursor: pointer;
     display: none;
+    width:20px
   }
   
   #check {
