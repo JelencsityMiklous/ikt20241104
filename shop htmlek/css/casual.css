@@ -463,13 +463,13 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     color: rgb(182, 182, 182);
 }
 
-li {
+.felsorolas_item {
     width: 85%;
     padding: 4%;
     border-bottom: 1px dotted black;
 }
 
-ul {
+.felsorolas {
     width: 100%;
     float: left;
     padding-left: 5%;
