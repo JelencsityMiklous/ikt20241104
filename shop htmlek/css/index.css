@@ -1,0 +1,50 @@
+img{
+    width: 100%;
+}
+
+.indexcontainer{
+    display: flex;
+    width: 96%;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    gap: 5%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.indexcontainer>div{
+    width: 30%;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: lightgray;
+    box-shadow: 5px 5px 2px rgb(141, 141, 141);
+    
+}
+
+.indexcontainer>div>img{
+    width: 100%;
+}
+
+.indexcontainer>div>button{
+    padding: 5%;
+    width: 80%;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 2px rgb(141, 141, 141);
+    height: 4vw;
+    color: white;
+    font-size: 1.6vw;
+
+}
+
+.indexcontainer>div>h1{
+
+    font-size: 3vw;
+
+}
