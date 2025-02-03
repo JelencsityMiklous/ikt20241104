@@ -10,15 +10,33 @@ nav {
     font-family:monospace;
     font-weight: bold;
     margin-top: 20px;
+      
+    
     
   }
-  
+  #pluszjeldiv{
+    float: right;
+    border-left:1px solid rgb(255, 214, 214);
+    border-right:1px solid rgb(255, 211, 211);
+    
+    
+    margin-top: -16px;
+    margin-bottom: -20px;
+    text-align: center;
+    padding-right: 23px;
+    padding-top:18px;
+    padding-bottom: 14px;
+
+    
+  }
+
   .logo {
-    font-size: 25px;
+    font-size: 22px;
   }
   .logoszoveg{
     margin-top: 5px;
-    color:rgb(92, 92, 92)
+    color:rgb(107, 107, 107);
+    font-weight: 100;
   }
   .logodiv{
     display:flex;
@@ -26,7 +44,7 @@ nav {
     justify-content:left;
     flex-direction: column;
   }
-  ul {
+  #mobilmenuul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -34,11 +52,11 @@ nav {
     
   }
   
-  ul li {
+  #mobilmenuul .mobilmenuli {
     margin-right: 20px;
   }
   
-  ul li a {
+  #mobilmenuul .mobilmenuli a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     color:white;
@@ -46,7 +64,7 @@ nav {
     
   }
   
-  ul li a:hover {
+  #mobilmenuul .mobilmenuli a:hover {
     color: rgb(185, 185, 185);
   }
   
@@ -56,6 +74,7 @@ nav {
     color: rgb(255, 0, 0);
     cursor: pointer;
     display: none;
+    width:20px
   }
   
   #check {
@@ -82,32 +101,47 @@ nav {
       font-weight:100;
     }
   
-    ul {
+    #mobilmenuul {
       position: fixed;
       top: 60px;
-      right: -100%;
+      right: -120%;
       background-color: rgb(255, 0, 0);
       width: 100vw;
-      height: 50vh;
+      height:fit-content;
       margin-top: 33px;
       display: flex;
       flex-direction: column;
+      z-index: 2;
+      
+      
+      
+      
+      
+    }
+    
+  
+    #mobilmenuul .mobilmenuli a{
+      margin-left: 26px;
+    }
+    #mobilmenuul .mobilmenuli {
+      
+      
+      width:100%;
+      padding-top:15px;
+      padding-bottom: 15px;
+      border-bottom: rgb(255, 205, 205) solid 1px;  
+
       
       
       
     }
   
-    ul li {
-      margin: 20px 0;
-      margin-left:30px;
+    #mobilmenuul .mobilmenuli a {
+      font-size: 17px;
       
     }
   
-    ul li a {
-      font-size: 20px;
-    }
-  
-    #check:checked ~ ul {
+    #check:checked ~ #mobilmenuul {
       right: 0;
     }
   }

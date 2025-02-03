@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .resz {
     float: left;
 }
@@ -17,13 +21,14 @@
     --ColorPrimaryDk: #5f0606;
     --ColorPrimaryLt: #ff0022;
 }
+
 /*
 body {
     padding: 60px 16px 0;
 }
 */
-body{
-    font-family:Arial, Helvetica, sans-serif
+body {
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .range-slider {
@@ -211,17 +216,35 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     opacity: 1;
 }
 
-#filtergomb{
-    width:65px;
+#filtergomb {
+    width: 65px;
     height: 27px;
     font-size: 12px;
     border-radius: 0px;
-    border:none;
-    font-weight:bold;
-    font-family:monospace;
+    border: none;
+    font-weight: bold;
+    font-family: monospace;
     text-align: justify;
     text-align: center;
     background-color: rgb(235, 235, 235);
+}
+
+#topgomb {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#nyilkep {
+    width: 40px;
+    height: 40px;
 }
 
 #pricefelirat {
@@ -240,14 +263,14 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     object-fit: cover;
 }
 
-.imghover{
+.imghover {
     width: 170px;
     height: 170px;
     margin: 0 auto;
     background: rgb(255, 90, 90);
 }
 
-.imghover:hover img{
+.imghover:hover img {
     animation: fadeInRed 0.3s;
     animation-fill-mode: forwards;
 }
@@ -269,8 +292,13 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 }
 
 @keyframes fadeInRed {
-    0% { background: none; }
-    100% { opacity: 0.2; }
+    0% {
+        background: none;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
 }
 
 @keyframes fadeInMid {
@@ -278,7 +306,10 @@ div.range-slider>input[type="range"]::-ms-tooltip {
         color: white;
         background: none;
     }
-    100% { opacity: 1; }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeInTop {
@@ -286,7 +317,10 @@ div.range-slider>input[type="range"]::-ms-tooltip {
         color: black;
         background: white;
     }
-    100% { opacity: 1; }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .middle:hover {
@@ -405,7 +439,7 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     margin-left: 42%;
 }
 
-#sortingdropdown{
+#sortingdropdown {
     width: 150px;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -429,17 +463,18 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     color: rgb(182, 182, 182);
 }
 
-li {
+.felsorolas_item {
     width: 85%;
     padding: 4%;
     border-bottom: 1px dotted black;
 }
 
-ul {
+.felsorolas {
     width: 100%;
     float: left;
     padding-left: 5%;
 }
+
 
 #piroshr {
     background-color: #d1d1d1;
@@ -460,10 +495,10 @@ ul {
     position: absolute;
     top: 0px;
     width: 20%;
-    
+
 }
 
-#baloshr{
+#baloshr {
     background-color: #d1d1d1;
     border: none;
     display: block;
@@ -485,18 +520,18 @@ ul {
     width: 10%;
 }
 
-#toprated{
+#toprated {
     padding-top: 5%;
     padding-bottom: 8%;
 }
 
-#topratedutso{
+#topratedutso {
     padding-top: 5%;
     padding-bottom: 8%;
     border: none;
 }
 
-footer{
+footer {
     width: 100%;
     height: auto;
     background-color: rgb(22, 18, 31);
@@ -505,7 +540,7 @@ footer{
     font-size: 1.1vw;
 }
 
-.footercontainer{
+.footercontainer {
     width: 75%;
     display: flex;
     flex-direction: row;
@@ -517,72 +552,65 @@ footer{
     position: relative;
 }
 
-.belsofootercontainer{
+.belsofootercontainer {
     width: 30%;
-    color: #9795b1; 
+    color: #9795b1;
 }
 
-.belsofootercontainer > h2{
+.belsofootercontainer>h2 {
     color: white;
     font-size: 1.2vw;
 }
 
-.belsofootercontainer > p{
+.belsofootercontainer>p {
     font-size: 1vw;
 }
 
-.belsofootercontainer > img{
+.belsofootercontainer>img {
 
-display: flex;
-width: 8%;
+    display: flex;
+    width: 8%;
 
 }
 
-
-#belsofootercontainerutso{
+#belsofootercontainerutso {
     display: inline;
     position: relative;
 }
 
-
-
-#torzs{
+#torzs {
     font-size: 1vw;
 }
 
 
-.sale{
-    width:30%;
+.sale {
+    width: 30%;
     position: absolute;
     top: -18px;
     left: -20px;
 }
 
-.sale1{
-    width:30%;
+.sale1 {
+    width: 30%;
     position: absolute;
     top: -18px;
-    left: -20px; 
+    left: -20px;
 }
 
-.belsofootercontainer:nth-of-type(3){
+.belsofootercontainer:nth-of-type(3) {
     margin-top: 2%;
 }
 
-#feherrepeatnyil{
+#feherrepeatnyil {
     margin-top: 4%;
 }
 
-#penztarca{
+#penztarca {
     margin-bottom: 2%;
 }
 
-.jobb>li{
+.jobb>.felsorolas_item {
     font-size: 1.1vw;
-}
-
-#felmutatonyil2{
-    display: none;
 }
 
 @media only screen and (max-width: 1030px) {
@@ -593,18 +621,18 @@ width: 8%;
         font-size: 3vw;
     }
 
-    .jobb>ul{
+    .jobb>.felsorolas {
         font-size: 4vw;
-        width: 50%;        
+        width: 50%;
     }
 
-    #filtergomb{
+    #filtergomb {
         width: 25%;
         height: 5vw;
         font-size: 3.2vw;
     }
 
-    .bal{
+    .bal {
         width: 95%;
         margin: 0 auto;
         display: block;
@@ -660,7 +688,7 @@ width: 8%;
         height: 40px;
         border: white solid 2px;
     }
-    
+
     .top2img {
         top: 18%;
         left: 79%;
@@ -679,7 +707,7 @@ width: 8%;
         row-gap: 3%;
         position: relative;
     }
-        
+
     .div1 {
         width: 250px;
         height: 350px;
@@ -692,7 +720,7 @@ width: 8%;
         background-color: #f8f8f8;
     }
 
-    .div3 { 
+    .div3 {
         width: 250px;
         height: 350px;
         background-color: #f8f8f8;
@@ -721,8 +749,8 @@ width: 8%;
         grid-row-start: 3;
         margin-bottom: 10%;
     }
-    
-    .range-slider{
+
+    .range-slider {
         width: 80%;
     }
 }
@@ -742,68 +770,55 @@ width: 8%;
         margin-left: 40%;
     }
 }
+
 /* Lábléc reszponzivitása */
 @media only screen and (max-width: 700px) {
-    .belsofootercontainer > p{
+    .belsofootercontainer>p {
         font-size: 4vw;
     }
 
-    .belsofootercontainer > h2 {
+    .belsofootercontainer>h2 {
         font-size: 4vw;
     }
 
-    .belsofootercontainer > div {
+    .belsofootercontainer>div {
         margin-left: 5%;
     }
 
-    .belsofootercontainer{
+    .belsofootercontainer {
         font-size: 4vw;
         width: 100%;
     }
 
-    .footercontainer{
+    .footercontainer {
         flex-direction: column;
         font-size: 2vw;
         align-items: center;
     }
 
-    #felmutatonyil{
-     display: none;   
-    }
-
-    #felmutatonyil2{
-        margin-left: 90%;
-        width: 7%;
-        display:inline;
-        position:sticky;
-        bottom: 20px;
-        top:20px;
-    }
-
-    .belsofootercontainer:first-child{
+    .belsofootercontainer:first-child {
         margin-left: 15%;
     }
 
-    #feherrepeatnyil{
+    #feherrepeatnyil {
         margin-top: 5%;
     }
 
-    #penztarca{
+    #penztarca {
         margin-top: 0%;
     }
 
-    #belsofootercontainerutso> h2{
+    #belsofootercontainerutso>h2 {
         margin-top: 5%;
     }
 
-    footer{
-        text-align:center;
+    footer {
+        text-align: center;
     }
-    
-
 }
+
 /* Bal oldal reszponzivitás */
-@media only screen and (max-width: 700px) { 
+@media only screen and (max-width: 700px) {
     .parent {
         display: grid;
         grid-template-columns: 1fr;
@@ -813,7 +828,7 @@ width: 8%;
         margin: auto;
         width: 50%;
     }
-        
+
     .div1 {
         grid-area: 1 / 1 / 2 / 2;
     }
@@ -838,12 +853,12 @@ width: 8%;
         grid-area: 6 / 1 / 7 / 2;
     }
 
-    .sorting_drop{
+    .sorting_drop {
         margin-top: 4%;
         margin-left: 20%;
     }
 
-    .cardkep{
+    .cardkep {
         width: 100%;
     }
 }
