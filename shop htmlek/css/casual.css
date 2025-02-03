@@ -572,13 +572,10 @@ footer {
 
 }
 
-
 #belsofootercontainerutso {
     display: inline;
     position: relative;
 }
-
-
 
 #torzs {
     font-size: 1vw;
@@ -611,7 +608,7 @@ footer {
     margin-bottom: 2%;
 }
 
-.jobb>li {
+.jobb>.felsorolas_item {
     font-size: 1.1vw;
 }
 
@@ -623,7 +620,7 @@ footer {
         font-size: 3vw;
     }
 
-    .jobb>ul {
+    .jobb>.felsorolas {
         font-size: 4vw;
         width: 50%;
     }
@@ -817,8 +814,6 @@ footer {
     footer {
         text-align: center;
     }
-
-
 }
 
 /* Bal oldal reszponzivitás */
