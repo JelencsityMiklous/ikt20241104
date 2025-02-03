@@ -10,7 +10,7 @@ nav {
     font-family:monospace;
     font-weight: bold;
     margin-top: 20px;
-    position: sticky;
+      
     
     
   }
@@ -44,7 +44,7 @@ nav {
     justify-content:left;
     flex-direction: column;
   }
-  ul {
+  #mobilmenuul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -52,11 +52,11 @@ nav {
     
   }
   
-  ul li {
+  #mobilmenuul .mobilmenuli {
     margin-right: 20px;
   }
   
-  ul li a {
+  #mobilmenuul .mobilmenuli a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     color:white;
@@ -64,7 +64,7 @@ nav {
     
   }
   
-  ul li a:hover {
+  #mobilmenuul .mobilmenuli a:hover {
     color: rgb(185, 185, 185);
   }
   
@@ -101,17 +101,17 @@ nav {
       font-weight:100;
     }
   
-    ul {
+    #mobilmenuul {
       position: fixed;
       top: 60px;
-      right: -100%;
+      right: -120%;
       background-color: rgb(255, 0, 0);
       width: 100vw;
       height:fit-content;
       margin-top: 33px;
       display: flex;
       flex-direction: column;
-      
+      z-index: 2;
       
       
       
@@ -120,10 +120,10 @@ nav {
     }
     
   
-    ul li a{
+    #mobilmenuul .mobilmenuli a{
       margin-left: 26px;
     }
-    ul li {
+    #mobilmenuul .mobilmenuli {
       
       
       width:100%;
@@ -136,12 +136,12 @@ nav {
       
     }
   
-    ul li a {
+    #mobilmenuul .mobilmenuli a {
       font-size: 17px;
       
     }
   
-    #check:checked ~ ul {
+    #check:checked ~ #mobilmenuul {
       right: 0;
     }
   }

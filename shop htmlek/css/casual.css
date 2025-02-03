@@ -462,7 +462,6 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     text-decoration: line-through;
     color: rgb(182, 182, 182);
 }
-
 li {
     width: 85%;
     padding: 4%;
@@ -474,6 +473,7 @@ ul {
     float: left;
     padding-left: 5%;
 }
+
 
 #piroshr {
     background-color: #d1d1d1;
