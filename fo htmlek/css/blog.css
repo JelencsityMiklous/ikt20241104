@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.casualcim {
+    font-size: x-large;
+}
+
+.balindent {
+    text-indent: 8.1%;
+}
+
+.card {
+    width: 250px;
+    height: 320px;
+    background-color: red;
+}
+
+.cardkep {
+    width: 250px;
+    height: 200px;
+}
+
+.piroshr {
+    margin: 0 auto;
+}
