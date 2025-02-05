@@ -147,7 +147,11 @@ nav {
       right: 0;
     }
   }
-
-  
+#hambili{
+  list-style: none;
+}
+#hamburger2{
+  display: none;
+}
 
   
