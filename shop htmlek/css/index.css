@@ -54,23 +54,72 @@
 }
 
 
+/*Hírlevél*/
+
+.hirlevel{
+    text-align: center;
+    width: 40%;
+    margin:0 auto;
+    font-size: 1.4vw;
+}
+
+.hirlevel>input{
+    width: 50%;
+    margin-top: 2%;
+    background-color: lightgray;
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.hirlevel>button{
+    width: 50%;
+    margin-top: 4%;
+    margin-bottom: 40%;
+    background-color:rgb(158, 157, 157);
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: none;
+    color: white;
+}
+
+.hirlevel>h1{
+    margin-top: 30%;
+}
+
+
+/* Hírlevél reszponzivitása*/
+
+@media only screen and (max-width: 700px) {
+    .hirlevel{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
 /*Kisikonok*/
 
 .masodikcontainer{
     display: flex;
-    margin-top: 5%;
+    margin-top: 8%;
     background-color: lightgray;
     padding: 2%;
     text-align:center;
-    align-items: baseline;
-    justify-content: baseline;
+    align-items: center;
+    justify-content: space-between;
+    
 
 }
 
-.masodikcontainer > div>  img {
-    width: 15%;
-    padding-right: 5%;
-    
+.masodikcontainer > img {
+    width: 4%;
+    position:relative;
+    display: flex;
+    top: 5%;
+    align-items: baseline;
+    justify-content: baseline;
+
+
 
 }
 
@@ -79,9 +128,9 @@
     text-align:center;
     align-items: baseline;
     justify-content: baseline;
-    font-size: 2.5vw;
+    font-size: 2vw;
     word-wrap:break-word;
-    font-weight: bold;
+
 
 
 }
@@ -240,3 +289,4 @@ footer {
         text-align: center;
     }
 }
+
