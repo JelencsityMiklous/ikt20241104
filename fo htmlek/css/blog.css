@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blogbody {
+    width: 84%;
+    align-content: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.blogcim {
+    font-size: xx-large;
+    margin: 0 auto;
+}
+
+.fovonal {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.container, h4, p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.jobb {
+    margin: 0 auto;
+    float: right;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 4%;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 310px;
+    background-color: #f8f8f8;
+    margin-bottom: 3%;
+}
+
+.cardkep {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardcim {
+    font-size: larger;
+}
+
+.vilagosabb {
+    color: #8b8b8b;
+}
+
+.piroshr {
+    background-color: #d1d1d1;
+    border: none;
+    display: block;
+    height: 2px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+}
+
+.piroshr:before {
+    background-color: rgb(255, 0, 0);
+    content: '';
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0px;
+    width: 20%;
+}
