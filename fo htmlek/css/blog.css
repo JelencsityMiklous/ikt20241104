@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .blogbody {
@@ -9,12 +9,19 @@ body {
     justify-content: center;
 }
 
-.casualcim {
-    font-size: x-large;
+.blogcim {
+    font-size: xx-large;
+    margin: 0 auto;
 }
 
-.balindent {
-    text-indent: 8.1%;
+.fovonal {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.container, h4, p {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .jobb {
@@ -33,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 320px;
-    height: 345px;
+    height: 310px;
     background-color: #f8f8f8;
     margin-bottom: 3%;
 }
@@ -41,6 +48,15 @@ body {
 .cardkep {
     width: 320px;
     height: 200px;
+    object-fit: cover;
+}
+
+.cardcim {
+    font-size: larger;
+}
+
+.vilagosabb {
+    color: #8b8b8b;
 }
 
 .piroshr {
@@ -62,5 +78,4 @@ body {
     position: absolute;
     top: 0px;
     width: 20%;
-
 }
