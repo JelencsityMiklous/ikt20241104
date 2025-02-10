@@ -81,6 +81,28 @@ body {
     color: #8b8b8b;
 }
 
+.imghover {
+    width: 320px;
+    height: 200px;
+    margin: 0 auto;
+    background: rgb(255, 90, 90);
+}
+
+.imghover:hover img {
+    animation: fadeInRed 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInRed {
+    0% {
+        background: none;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
 .piroshr {
     background-color: #d1d1d1;
     border: none;
@@ -164,6 +186,11 @@ footer {
         width: 450px;
         height: 220px;
     }
+
+    .imghover {
+        width: 450px;
+        height: 220px;
+    }
 }
 
 @media only screen and (max-width: 1160px) {
@@ -173,6 +200,11 @@ footer {
     }
     
     .cardkep {
+        width: 550px;
+        height: 280px;
+    }
+
+    .imghover {
         width: 550px;
         height: 280px;
     }
@@ -188,6 +220,11 @@ footer {
         width: 450px;
         height: 220px;
     }
+
+    .imghover {
+        width: 450px;
+        height: 220px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -197,6 +234,11 @@ footer {
     }
     
     .cardkep {
+        width: 310px;
+        height: 220px;
+    }
+
+    .imghover {
         width: 310px;
         height: 220px;
     }
