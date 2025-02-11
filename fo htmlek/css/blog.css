@@ -179,17 +179,17 @@ footer {
 @media only screen and (max-width: 1260px) {
     .card {
         width: 450px;
-        height: 320px;
+        height: 390px;
     }
     
     .cardkep {
         width: 450px;
-        height: 220px;
+        height: 250px;
     }
 
     .imghover {
         width: 450px;
-        height: 220px;
+        height: 250px;
     }
 }
 
@@ -213,17 +213,17 @@ footer {
 @media only screen and (max-width: 600px) {
     .card {
         width: 450px;
-        height: 320px;
+        height: 370px;
     }
     
     .cardkep {
         width: 450px;
-        height: 220px;
+        height: 240px;
     }
 
     .imghover {
         width: 450px;
-        height: 220px;
+        height: 240px;
     }
 }
 
