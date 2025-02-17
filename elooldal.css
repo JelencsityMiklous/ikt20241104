@@ -14,20 +14,27 @@ nav {
     
     
   }
-  #pluszjeldiv{
+  .pluszjel1{
+    display: inline;
     float: right;
-    border-left:1px solid rgb(255, 214, 214);
-    border-right:1px solid rgb(255, 211, 211);
-    
-    
-    margin-top: -16px;
-    margin-bottom: -20px;
-    text-align: center;
-    padding-right: 23px;
-    padding-top:18px;
-    padding-bottom: 14px;
-
-    
+    color: white;
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right:35px;
+    border-left: #f1f1f1 1px solid;
+    margin-top: -1px;
+    margin-bottom: -15px;
+  }
+  .pluszjel2{
+    display: inline;
+    float: right;
+    color: white;
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right:35px;
+    border-left: #f1f1f1 1px solid;
+    margin-top: -1px;
+    margin-bottom: -15px;
   }
 
   .logo {
@@ -85,8 +92,64 @@ nav {
   
  #telefonmenu{
   display: none;
+  z-index: 3;
  }
+ .burgeritem{
+  height: 43px;
+  
+  padding-bottom: 15px;
+  padding-left:16px;
+  display: flex;
+  border-bottom: 1px rgb(255, 255, 255) solid;
+  
+}
+.dropitem{
 
+  height: 30px;
+  padding-bottom: 5px;
+  border: 1px solid #f1f1f1;
+}
+.dropitem a{
+  margin-left:30px;
+}
+
+.menugomb {
+  border: none;
+  background-color: white;
+}
+
+.menugomb:hover {
+  background-color: #d3d3d3;
+}
+
+.menuitem:hover {
+  color: #eb5e5f;
+}
+.az2 {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.dropdown-content3{
+  display: none;
+  min-width: 160px;
+  width: 100%;
+  position: relative;
+  
+}
+#menuikon2{
+  display: none;
+  }
+.segitseg{
+  font-family: monospace;
+  font-size:40px;
+}
+.kissz {
+  font-size: 15px;
+  font-weight: normal;
+  color: gray;
+}
+
+  
   @media (max-width: 791px) {
     #telefonmenu{
       display:contents;
@@ -154,4 +217,207 @@ nav {
   display: none;
 }
 
+
+
+
+@media only screen and (max-width: 791px) {
+  .card {
+    width: 45%;
+  }
+
+  .menuitem {
+    font-size: 1.6vw;
+  }
+
+  menu h1 {
+    font-size: 2vw;
+  }
+
+  #hol {
+    font-size: 2vw;
+  }
+  .topnav h1 {
+    font-size: 3.5vw;
+    margin-left: 7.5%;
+  }
+
+  .topnav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    min-height: 4.1vh;
+  }
+
+  .topnav #myLinks {
+    display: none;
+    float: left;
+    background-color: #FF4852;
+    width: 100%;
+  }
+
+  .topnav a {
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 2.5vw;
+    display: block;
+    font-weight: bolder;
+    color: white;
+    padding-top: 20px;
+    padding-left: 5%;
+  }
+
+  .topnav a:last-child {
+    padding-bottom: 5px;
+  }
+
+  .topnav a.icon {
+    top: 0;
+    right: 0;
+    font-size: 2vh;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: #FF4852;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
   
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 791px) {
+  #kepdiv{
+    justify-content: center;
+  }
+  .card {
+    width: 40%;
+  }
+  .footer-section {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  footer {
+    font-size: 3vw;
+    margin: auto;
+  }
+
+  .felnyil {
+    font-size: 5vw;
+  }
+
+  #hol {
+    font-size: 2.2vw;
+  }
+
+  .tartalom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .jobboldal {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
+  .filterarak {
+    font-size: large;
+    margin-top: 1%;
+
+  }
+
+  .melyikoldal {
+    display: none;
+  }
+
+  #minar {
+    margin-left: 0%;
+  }
+
+  menu {
+    display: none;
+  }
+
+  .topnav h1 {
+    font-size: 3.5vw;
+    margin-left: 7.5%;
+  }
+
+  .topnav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    min-height: 4.1vh;
+  }
+
+  .topnav #myLinks {
+    display: none;
+    float: left;
+    background-color: #FF4852;
+    width: 100%;
+  }
+
+  .topnav a {
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 2.5vw;
+    display: block;
+    font-weight: bolder;
+    color: white;
+    padding-top: 20px;
+    padding-left: 5%;
+  }
+
+  .topnav a:last-child {
+    padding-bottom: 5px;
+  }
+
+  .topnav a.icon {
+    top: 0;
+    right: 0;
+    font-size: 2vh;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: #FF4852;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
