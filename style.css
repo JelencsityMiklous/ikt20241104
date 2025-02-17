@@ -1,25 +1,5 @@
 
-.help{
-    display:flex;
-    flex-wrap: nowrap;
-    justify-content:right;
-    height: 20px;
-    width: 85vw;
-    background-color: white;
-    flex-direction: row;
 
-
-    padding: 30px 14px;
-    font-size: 14px;
-    border: none;
-    font-family:monospace;
-    font-weight: bold;
-    
-    
-    
-    
-   
-}
 
 .kep{
   width:10px;

@@ -14,6 +14,15 @@ nav {
     
     
   }
+
+  #telefonmenu{
+    font-family:monospace;
+  }
+  #menuikon2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    display:none;
+  }
   .pluszjel1{
     display: inline;
     float: right;
@@ -97,6 +106,8 @@ nav {
  .burgeritem{
   height: 43px;
   
+  
+  
   padding-bottom: 15px;
   padding-left:16px;
   display: flex;
@@ -136,19 +147,37 @@ nav {
   position: relative;
   
 }
-#menuikon2{
-  display: none;
-  }
+
 .segitseg{
   font-family: monospace;
-  font-size:40px;
+  font-size:25px;
 }
 .kissz {
   font-size: 15px;
   font-weight: normal;
   color: gray;
 }
+.help{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content:right;
+  height: 20px;
+  width: 85vw;
+  background-color: white;
+  flex-direction: row;
 
+
+  padding: 30px 14px;
+  font-size: 14px;
+  border: none;
+  font-family:monospace;
+  font-weight: bold;
+  
+  
+  
+  
+ 
+}
   
   @media (max-width: 791px) {
     #telefonmenu{
@@ -184,6 +213,7 @@ nav {
     #fejleclec{
       margin-left: 23px;
     }
+    
   
     #mobilmenuul .mobilmenuli a{
       margin-left: 26px;
@@ -194,7 +224,7 @@ nav {
       width:100%;
       padding-top:15px;
       padding-bottom: 15px;
-      border-bottom: rgb(255, 205, 205) solid 1px;  
+      border-bottom: rgb(255, 171, 171) solid 1px;  
 
       
       
@@ -226,18 +256,14 @@ nav {
   }
 
   .menuitem {
-    font-size: 1.6vw;
+    font-size: 20px;
   }
 
-  menu h1 {
-    font-size: 2vw;
-  }
+  
 
-  #hol {
-    font-size: 2vw;
-  }
+  
   .topnav h1 {
-    font-size: 3.5vw;
+    
     margin-left: 7.5%;
   }
 
@@ -253,14 +279,14 @@ nav {
   .topnav #myLinks {
     display: none;
     float: left;
-    background-color: #FF4852;
+    background-color: #ff000d;
     width: 100%;
   }
 
   .topnav a {
     padding-left: 5px;
     text-decoration: none;
-    font-size: 2.5vw;
+    font-size: 20px;
     display: block;
     font-weight: bolder;
     color: white;
@@ -275,7 +301,7 @@ nav {
   .topnav a.icon {
     top: 0;
     right: 0;
-    font-size: 2vh;
+    font-size: 20px;
     color: white;
     border: none;
     border-radius: 0px;
@@ -283,7 +309,7 @@ nav {
     padding-top: 1vh;
     padding-left: 1vh;
     padding-right: 1vh;
-    color: #FF4852;
+    color: #ff000d;
     display: block;
     position: absolute;
     right: 0;
@@ -315,18 +341,11 @@ nav {
     margin-right: 10%;
   }
 
-  footer {
-    font-size: 3vw;
-    margin: auto;
-  }
+  
 
-  .felnyil {
-    font-size: 5vw;
-  }
+  
 
-  #hol {
-    font-size: 2.2vw;
-  }
+  
 
   .tartalom {
     display: flex;
@@ -348,11 +367,7 @@ nav {
 
   }
 
-  .filterarak {
-    font-size: large;
-    margin-top: 1%;
-
-  }
+  
 
   .melyikoldal {
     display: none;
@@ -367,7 +382,7 @@ nav {
   }
 
   .topnav h1 {
-    font-size: 3.5vw;
+    
     margin-left: 7.5%;
   }
 
@@ -383,14 +398,14 @@ nav {
   .topnav #myLinks {
     display: none;
     float: left;
-    background-color: #FF4852;
+    background-color: #fd0e1a;
     width: 100%;
   }
 
   .topnav a {
     padding-left: 5px;
     text-decoration: none;
-    font-size: 2.5vw;
+    font-size: 15px;
     display: block;
     font-weight: bolder;
     color: white;
@@ -405,14 +420,13 @@ nav {
   .topnav a.icon {
     top: 0;
     right: 0;
-    font-size: 2vh;
+    font-size: 35px;
     color: white;
     border: none;
     border-radius: 0px;
-    margin: 0px;
-    padding-top: 1vh;
-    padding-left: 1vh;
-    padding-right: 1vh;
+    margin-top:20px;
+    margin-right: 7px;
+    padding: 0px;
     color: #FF4852;
     display: block;
     position: absolute;
