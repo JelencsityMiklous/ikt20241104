@@ -166,6 +166,16 @@ body {
 }
 
 
+
+@media only screen and (max-width: 500px){
+    #megtekint{
+        font-size: 4vw;
+        padding-bottom: 10%;
+    }
+    
+
+}
+
 /* ------------------LÁBLÉC ------------------*/
 
 
