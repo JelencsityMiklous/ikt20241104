@@ -1,6 +1,6 @@
 .jobbresz{
     
-    width:900px;
+    width:1000px;
     height: 730px;
     background-color: rgb(233, 114, 114);
     margin:40px;
@@ -9,7 +9,8 @@
     width:700px;
     height: 700px;
     
-    margin:40px;
+    margin-top:30px;
+    
     margin-right: -150px;
     z-index: 2;
 
@@ -17,8 +18,9 @@
 .torzse{
     display: flex;
     flex-direction: row;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-right: 10%;
+
 }
 .balbaldiv{
     display: flex;
@@ -89,7 +91,7 @@
 .ha1{
     font-size: 47px;
     color: rgb(235, 235, 235);
-    margin:10px;
+    margin:5px;
     margin-top: 30px;
     
 }
