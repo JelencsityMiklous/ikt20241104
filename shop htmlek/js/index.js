@@ -16,6 +16,21 @@ function topFunction() {
 	document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
 }
 
+
+/* Hírlevél */
+
+let emailmezo = document.getElementById("email")
+
 function Feliratkozas(){
-	alert("Ne nyomkodd léci:(")
+
+	if(emailmezo.value==""){
+		alert("Ne nyomkodd léci, ha nem írsz be semmit :(")
+	}
+	else if(!emailmezo.value.includes("@")){
+		alert("Nem tartalmaz '@' jelet!")
+	}
+	else{
+		alert("Sikeresen megtörtént a feliratkozás")
+	}
+	
 }
