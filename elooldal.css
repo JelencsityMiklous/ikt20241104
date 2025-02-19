@@ -251,9 +251,7 @@ nav {
 
 
 @media only screen and (max-width: 791px) {
-  .card {
-    width: 45%;
-  }
+
 
   .menuitem {
     font-size: 20px;
@@ -332,9 +330,7 @@ nav {
   #kepdiv{
     justify-content: center;
   }
-  .card {
-    width: 40%;
-  }
+
   .footer-section {
     width: 100%;
     margin-left: 10%;
@@ -360,12 +356,7 @@ nav {
     margin: 0 auto;
   }
 
-  .container {
-    display: block;
-    width: 90%;
-    margin: 0 auto;
 
-  }
 
   
 
