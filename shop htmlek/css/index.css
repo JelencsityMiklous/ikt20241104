@@ -172,6 +172,9 @@ body {
         font-size: 4vw;
         padding-bottom: 10%;
     }
+    .indexcontainer>div>h1{
+        font-size: 4vw;
+    }
     
 
 }
@@ -372,8 +375,8 @@ footer {
     flex-wrap: wrap;
 }
 .masodikcontainer>div{
-    font-size: 4vw;
-    width: 30%;
+    font-size: 6vw;
+    width: 100%;
     flex-direction: row;
 margin-right: 7%;   
 margin-bottom: 10%;
@@ -381,13 +384,14 @@ margin:0 auto;
 text-align: center;
 padding: 0;
 display: block;
+margin-bottom: 4%;
     
 }
 .masodikcontainer>img{
-    width:10%;
+    width:15%;
     margin-left: 10%;
     margin:0 auto;
-    
+    margin-top: 4%;
 }
 
 
