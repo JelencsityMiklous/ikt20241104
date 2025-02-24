@@ -1,76 +1,285 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minta webáruház</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    
     <link rel="stylesheet" href="/ikt20241104/elooldal.css">
-    <link rel="stylesheet" href="../style.css">
+
+  <link rel="stylesheet" href="./css/casual.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../elooldal.css">
+  
+  <title>Casual</title>
 </head>
 
 <body>
-
-  
   <div class="help">
-    <div style="flex-grow: 3" id="hihi"><p class="szius"><b>Minta webáruház</b>
-    </p><p class="szius2">Szép webdesign-nal</p></div>
-    
-<div><a href="../index.html">HOME</a></div>
+    <div style="flex-grow: 3" id="hihi">
+      <p class="szius"><b>Minta webáruház</b>
+      </p>
+      <p class="szius2">Szép webdesign-nal</p>
+    </div>
+    <div><a href="../index.html">HOME</a></div>
 
-<div class="menusor">
-  <a href="" class="dropbtn">SHOP <img class="kep" src="../fo htmlek/hácsek.png"></a>
+    <div class="menusor">
+      <a href="" class="dropbtn">SHOP <img class="kep" src="../fo htmlek/hácsek.png"></a>
 
-    <div class="dropdown-content" style="flex-grow: 7">
-      <a href="./accessories.html"  id="ize">ACCESSORIES</a>
+      <div class="dropdown-content" style="flex-grow: 7">
+        <a href="./accessories.html" id="ize">ACCESSORIES</a>
         <a href="./casual.html">CASUAL</a>
         <a href="./clothing.html">CLOTHING</a>
         <a href="./men.html">MEN</a>
         <a href="./woman.html">WOMAN</a>
 
+      </div>
     </div>
-</div>
 
-<div><a href="../fo htmlek/myacc.html">MY ACCOUNT <img class="kep" src="../fo htmlek/hácsek.png"></a></div>
-<div><a href="../fo htmlek/blog.html">BLOG</a></div>
-<div><a href="../fo htmlek/contactus.html">CONTACT US</a></div>
+    <div><a href="../fo htmlek/myacc.html">MY ACCOUNT <img class="kep" src="../fo htmlek/hácsek.png"></a></div>
+    <div><a href="../fo htmlek/blog.html">BLOG</a></div>
+    <div><a href="../fo htmlek/contactus.html">CONTACT US</a></div>
 
-</div>
-</div>
-<div id="telefonmenu">
-  <div class="topnav">
-      <h1 class="segitseg">Minta webáruház<br> <div class="kissz">Szép webdesign-al</div></h1>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()" allow="autoplay">
-        <i class="fa fa-bars" id="menuikon1"></i>
-        <i class="fa fa-x" id="menuikon2">X</i>
-      </a>
-      <br>
-      <div id="myLinks">
-        <div class="burgeritem"><a href="../index.html" class="az2">HOME</a></div>
-        <div class="burgeritem">
-          <a href="index.html" class="az2">SHOP </a><i class="fa fa-plus pluszjel1" onclick="dropFunction1()"></i> 
-        </div>
-        <div class="dropdown-content3" id="drop3">
-          <a href="../shop htmlek/accessories.html" class="dropitem">ACCESSORIES</a>
-          <a href="../shop htmlek/casual.html" class="dropitem">CASUAL</a>
-          <a href="../shop htmlek/clothing.html" class="dropitem">CLOTHING</a>
-          <a href="../shop htmlek/men.html" class="dropitem">MEN</a>
-          <a href="../shop htmlek/woman.html" class="dropitem">WOMEN</a>
+  </div>
+  </div>
+
+  <div id="telefonmenu">
+    <div class="topnav">
+        <h1 class="segitseg">Minta webáruház<br> <div class="kissz">Szép webdesign-al</div></h1>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()" allow="autoplay">
+          <i class="fa fa-bars" id="menuikon1"></i>
+          <i class="fa fa-x" id="menuikon2">X</i>
+        </a>
+        <br>
+        <div id="myLinks">
+          <div class="burgeritem"><a href="../index.html" class="az2">HOME</a></div>
+          <div class="burgeritem">
+            <a href="index.html" class="az2">SHOP </a><i class="fa fa-plus pluszjel1" onclick="dropFunction1()"></i> 
+          </div>
+          <div class="dropdown-content3" id="drop3">
+            <a href="../shop htmlek/accessories.html" class="dropitem">ACCESSORIES</a>
+            <a href="../shop htmlek/casual.html" class="dropitem">CASUAL</a>
+            <a href="../shop htmlek/clothing.html" class="dropitem">CLOTHING</a>
+            <a href="../shop htmlek/men.html" class="dropitem">MEN</a>
+            <a href="../shop htmlek/woman.html" class="dropitem">WOMEN</a>
+          </div>
+          
+          <div class="burgeritem">
+            <a href="../fo htmlek/myacc.html" class="az2">MY ACCOUNT</a><i class="fa fa-plus pluszjel2" onclick="dropFunction2()"></i>
+          </div>
+            
+            
+          <div class="burgeritem"><a href="../fo htmlek/blog.html" class="az2">BLOG</a></div>
+          <div class="burgeritem"><a href="../fo htmlek/contactus.html" class="az2">CONTACT US</a></div>
         </div>
         
-        <div class="burgeritem">
-          <a href="../fo htmlek/myacc.html" class="az2">MY ACCOUNT</a><i class="fa fa-plus pluszjel2" onclick="dropFunction2()"></i>
-        </div>
-          
-          
-        <div class="burgeritem"><a href="../fo htmlek/blog.html" class="az2">BLOG</a></div>
-        <div class="burgeritem"><a href="../fo htmlek/contactus.html" class="az2">CONTACT US</a></div>
       </div>
-      
-    </div>
 </div>
-<div class="felsofejlec"><p id="fejleclec">Home / Shop / Men</p></div>
-<script src="/ikt20241104/menu.js"></script>
+  <div class="felsofejlec">
+    <p id="fejleclec">Home / Products / Men</p>
+  </div>
+
+  <button onclick="topFunction()" id="topgomb" title="Vissza a tetejére"><img src="../kepek/kislogok/felmutatonyilszurke-removebg-preview.png" alt="" id="nyilkep"></button>
+
+  <div id="torzs">
+    <div class="resz bal">
+      <h1 class="balindent casualcim">Men</h1>
+      <hr id="baloshr">
+      <div class="results_sorting">
+        <div class="results">
+          <p style="color:rgb(138, 138, 138)">Showing all 6 results</p>
+        </div>
+        <div class="sorting_drop">
+          <select name="sortingdropdown" id="sortingdropdown" style="color:rgb(138, 138, 138)">
+            <option value="def_sorting">Default sorting</option>
+          </select>
+        </div>
+      </div>
+      <div class="parent">
+        <div class="div1">
+          <div class="card">
+            <div class="imghover">
+              <img src="../kepek/collar-light-gray-t-m.png" alt="Collar T-Shirt" class="cardkep">
+              <button class="middle">ADD TO CART</button>
+              <button class="top1img">❤</button>
+              <button class="top2img">👁</button>
+            </div>
+            <div class="container">
+              <h4><b>Collar T-Shirt</b></h4>
+              <p class="normalis">$35.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="div2">
+          <div class="card">
+            <div class="imghover">
+              <img src="../kepek/white-t-m.png" alt="Gents T-Shirt" class="cardkep">
+              <button class="middle">ADD TO CART</button>
+              <button class="top1img">❤</button>
+              <button class="top2img">👁</button>
+            </div>
+            <div class="container">
+              <h4><b>Gents T-Shirt</b></h4>
+              <p class="normalis">$49.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="div3">
+          <div class="card">
+            <div class="imghover">
+              <img src="../kepek/hat-f.png" alt="Ladies Hat" class="cardkep">
+              <button class="middle">ADD TO CART</button>
+              <button class="top1img">❤</button>
+              <button class="top2img">👁</button>
+            </div>
+            <div class="container">
+              <img src="../kepek/sale.png" class="sale">
+              <h4><b>Ladies Hat</b></h4>
+              <p class="normalis"> <b class="learazott">$22.00</b> $17.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="div4">
+          <div class="card">
+            <div class="imghover">
+              <img src="../kepek/leather-jacket-m.png" alt="Leather Jacket" class="cardkep">
+              <button class="middle">ADD TO CART</button>
+              <button class="top1img">❤</button>
+              <button class="top2img">👁</button>
+            </div>
+            <div class="container">
+              <img src="../kepek/sale.png" alt="" class="sale1">
+              <h4><b>Leather Jacket</b></h4>
+              <p class="normalis"> <b class="learazott">$100.00</b> $50.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="div5">
+          <div class="card">
+            <div class="imghover">
+              <img src="../kepek/patterned-dress-f.png" alt="Printed Tops" class="cardkep">
+              <button class="middle">ADD TO CART</button>
+              <button class="top1img">❤</button>
+              <button class="top2img">👁</button>
+            </div>
+            <div class="container">
+              <h4><b>Printed Tops</b></h4>
+              <p class="normalis">$75.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="div6">
+          <div class="card">
+            <div class="imghover">
+              <img src="../kepek/black-dress-f.png" alt="Women Tops" class="cardkep">
+              <button class="middle">ADD TO CART</button>
+              <button class="top1img">❤</button>
+              <button class="top2img">👁</button>
+            </div>
+            <div class="container">
+              <h4><b>Women Tops</b></h4>
+              <p class="normalis">$45.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="resz jobb">
+      <h2>Filter by price</h2>
+      <hr id="piroshr">
+      <div id="RangeSlider" class="range-slider">
+        <div>
+          <div class="range-slider-val-left"></div>
+          <div class="range-slider-val-right"></div>
+          <div class="range-slider-val-range"></div>
+
+          <span class="range-slider-handle range-slider-handle-left"></span>
+          <span class="range-slider-handle range-slider-handle-right"></span>
+
+          <div class="range-slider-tooltip range-slider-tooltip-left">
+            <span class="range-slider-tooltip-text"></span>
+          </div>
+
+          <div class="range-slider-tooltip range-slider-tooltip-right">
+            <span class="range-slider-tooltip-text"></span>
+          </div>
+        </div>
+
+        <input type="range" class="range-slider-input-left" tabindex="0" max="100" min="0" step="1">
+        <input type="range" class="range-slider-input-right" tabindex="0" max="100" min="0" step="1">
+      </div>
+      <div id="filtergombdiv">
+        <button id="filtergomb">FILTER</button>
+        <div id="pricefelirat">
+          Price: $17 - $67
+        </div>
+      </div>
+
+      <div>
+        <br>
+        <br>
+        <h2>Product categories</h2>
+        <hr id="piroshr">
+        <br>
+        <ul style="margin-bottom: 12%;" class="felsorolas">
+          <li class="felsorolas_item">Accessories</li>
+          <li class="felsorolas_item">Casual</li>
+          <li class="felsorolas_item">Clothing</li>
+          <li class="felsorolas_item">Men</li>
+          <li style="border: none;" class="felsorolas_item">Women</li>
+        </ul>
+
+        <h2>Top rated products</h2>
+        <hr id="piroshr">
+        <ul class="felsorolas">
+          <li id="toprated" class="felsorolas_item"><strong>Jeans Jacket</strong><img src="../kepek/jeansjacket.jpg" style="float: right;"
+              width="10%"><br>$59.00</li>
+          <li id="toprated" class="felsorolas_item"><strong>Black Shorts</strong><img src="../kepek/blackshorts.jpg" style="float: right;"
+              width="10%"><br>$25.00</li>
+          <li id="toprated" class="felsorolas_item"><strong>Leather Jacket</strong><img src="../kepek/leatherjacket.jpg" style="float: right;"
+              width="10%"><br><s>$100.00</s>
+            <div style="background-color: yellow; display: inline;">$50.00</div></li>
+          <li id="toprated" class="felsorolas_item"><strong>Women Tops</strong><img src="../kepek/womantops.jpg" style="float: right;"
+              width="10%"><br>$45.00</li>
+          <li id="topratedutso" class="felsorolas_item"><strong>Collar T-shirt</strong><img src="../kepek/collartshirt.jpg"
+              style="float: right;" width="10%"><br>$35.00</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footercontainer">
+      <div class="belsofootercontainer" style="line-height: 1.6;">
+        <h2>Rólunk</h2>Nunc et ornare tellus. Quisque imperdiet interdum commondo. Integer laoreet tristique neque quis
+        laoreet. Duis ut ultrices est, sed feugiat leo.
+      </div>
+      <div class="belsofootercontainer" style="margin-left: 10%;">
+        <h2 style="margin-left: 2%;">Contact Us</h2><img src="../kepek/kislogok/emailfeher.png"
+          style="display: inline; margin-top: 5%; "> New York, US<br>
+        <img src="../kepek/kislogok/gpsfeher.png" style="display: inline; margin-top: 5%;"> xxx@yyyyyyyy.com<br><img
+          src="../kepek/kislogok/teloandtablet.png" style="display: inline; margin-top: 5%;"> +1-123-456--7890
+      </div>
+      <div class="belsofootercontainer" id="belsofootercontainerutso"><img src="../kepek/kislogok/feherrepeatnyil.png"
+          style="width: 8%; display:flex; float: left; padding: 5%;" id="feherrepeatnyil">
+        <h2>Free shipping & Return</h2>
+        <p style="margin-left: 20%;">Free shipping on all orders above $99</p>
+        <img src="../kepek/kislogok/feherpeztarca.png" style="width: 8%; display:flex; float: left; padding: 5%;"
+          height="max-content" id="penztarca">
+        <h2>Money Back Guarantee</h2>
+        <p style="margin-left: 20%;">100% money back Gents</p>
+      </div>
+    </div>
+  </footer>
 </body>
+<script src="./js/casual.js"></script>
+<script src="../menu.js"></script>
+
 </html>
