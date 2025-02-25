@@ -2,33 +2,33 @@
 
 let termekek = [
 	{
-		name:"Collar T-shirt",
-		price:35,
+		name:"Brown Hoodie",
+		price:25,
 		gender:"men"
 	},
 	{
-		name:"Gents T-Shirt",
-		price:49,
+		name:"Baggy Jeans",
+		price:59,
 		gender:"men"
 	},
 	{
-		name:"Ladies Hat",
+		name:"White T-Shirt",
 		price:17,
-		gender:"women"
+		gender:"men"
 	},
 	{
-		name:"Leather Jacket",
-		price:50,
+		name:"Linen-Blend Shirt",
+		price:58,
+		gender:"men"
+	},
+	{
+		name:"Jacket",
+		price:70,
 		gender:"men"
 	},
 	{
 		name:"Printed Tops",
-		price:75,
-		gender:"women"
-	},
-	{
-		name:"Women Tops",
-		price:45,
-		gender:"women"
+		price:40,
+		gender:"men"
 	}
 ]
