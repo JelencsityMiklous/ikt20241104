@@ -97,3 +97,23 @@ let termekek = [
 		gender:"women"
 	}
 ]
+
+
+
+
+
+function Sorting(){
+
+	let def_sort = document.getElementById("def_sorting");
+	let def_value = def_sort.value;
+
+	let hightolow = document.getElementById("hightolow");
+	let highvalue = hightolow.value;
+
+	let lowtohigh = document.getElementById("lowtohigh");
+	let lowvalue = lowtohigh.value;
+
+	
+
+}
+
