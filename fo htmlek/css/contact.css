@@ -129,6 +129,9 @@ input[type=button] {
     margin-top: 19px;
     margin-bottom: 20px;
   }
+
+  input[type=button]:focus {background-color: rgb(255, 159, 159);}
+  
   #pk{
     margin-bottom: 0px;
     font-size: 25px;
@@ -341,3 +344,9 @@ input[type=email]{
     .baljobbdiv{
         margin-left:-25px;}
   }
+
+
+
+  
+ 
+  
