@@ -70,37 +70,44 @@ let termekek = [
 		name:"Collar T-shirt",
 		price:35,
 		gender:"men",
-		discount:false
+		discount:false,
+		img:"../../kepek/collar-light-gray-t-m.png"
 	},
 	{
 		name:"Gents T-Shirt",
 		price:49,
 		gender:"men",
-		discount:false
+		discount:false,
+		img:"../../kepek/white-t-m.png"
 	},
 	{
 		name:"Ladies Hat",
 		price:17,
 		gender:"women",
-		discount:true
+		discount:true,
+		img:"../../kepek/hat-f.png"
 	},
 	{
 		name:"Leather Jacket",
 		price:50,
 		gender:"men",
-		discount:true
+		discount:true,
+		img:"../../kepek/leather-jacket-m.png"
 	},
 	{
 		name:"Printed Tops",
 		price:75,
 		gender:"women",
-		discount:false
+		discount:false,
+		img:"../../kepek/patterned-dress-f.png"
+		
 	},
 	{
 		name:"Women Tops",
 		price:45,
 		gender:"women",
-		discount:false
+		discount:false,
+		img:"../../kepek/black-dress-f.png"
 	}
 ]
 
@@ -127,9 +134,36 @@ function Sorting(){
 console.log("a")
 	}
 	else if (sortingdropdownvalue==2){
-		document.getElementById("elsocardkep").src="../../kepek/patterned-dress-f.png"
+		termekek.sort((a,b) => b.price - a.price);
+		for(const price in termekek){
+			
+			console.log(termekek[price].price)
+		}
+
+		/* Képek */
+		document.getElementById("elsocardkep").src=`${termekek[0].img}`
+		document.getElementById("masodikcardkep").src=`${termekek[1].img}`
+		document.getElementById("harmadikcardkep").src=`${termekek[2].img}`
+		document.getElementById("negyedikcardkep").src=`${termekek[3].img}`
+		document.getElementById("otodikcardkep").src=`${termekek[4].img}`
+		document.getElementById("hatodikcardkep").src=`${termekek[5].img}`
+
+		/* Árak */
+
+		document.getElementById("elsoar").innerHTML=`$${termekek[0].price}.00`
+		document.getElementById("masodikar").innerHTML=`$${termekek[1].price}.00`
+		document.getElementById("harmadikar").innerHTML=`$${termekek[2].price}.00`
+		document.getElementById("negyedikar").innerHTML=`$${termekek[3].price}.00`
+		document.getElementById("otodikar").innerHTML=`$${termekek[4].price}.00`
+		document.getElementById("hatodikar").innerHTML=`$${termekek[5].price}.00`
+		
+	
+		
+		
+
 	}
 
 
 }
+
 
