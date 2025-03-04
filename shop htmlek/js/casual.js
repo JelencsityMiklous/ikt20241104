@@ -106,7 +106,7 @@ let termekek = [
 
 
 
-
+let sortertek
 
 function Sorting(){
 
@@ -119,7 +119,17 @@ function Sorting(){
 	let lowtohigh = document.getElementById("lowtohigh");
 	let lowvalue = lowtohigh.value;
 
-	
+	let sortingdropdown = document.getElementById("sortingdropdown");
+	let sortingdropdownvalue = sortingdropdown.value 
+	console.log(sortingdropdownvalue)
+
+	if(sortingdropdownvalue==1){
+console.log("a")
+	}
+	else if (sortingdropdownvalue==2){
+		document.getElementById("elsocardkep").src="../../kepek/patterned-dress-f.png"
+	}
+
 
 }
 
