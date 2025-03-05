@@ -71,6 +71,7 @@ let termekek = [
 		price:35,
 		gender:"men",
 		discount:false,
+		discount_price:"",
 		img:"../../kepek/collar-light-gray-t-m.png"
 	},
 	{
@@ -78,6 +79,7 @@ let termekek = [
 		price:49,
 		gender:"men",
 		discount:false,
+		discount_price:"",
 		img:"../../kepek/white-t-m.png"
 	},
 	{
@@ -85,6 +87,7 @@ let termekek = [
 		price:17,
 		gender:"women",
 		discount:true,
+		discount_price:"22",
 		img:"../../kepek/hat-f.png"
 	},
 	{
@@ -92,6 +95,7 @@ let termekek = [
 		price:50,
 		gender:"men",
 		discount:true,
+		discount_price:"100",
 		img:"../../kepek/leather-jacket-m.png"
 	},
 	{
@@ -99,6 +103,7 @@ let termekek = [
 		price:75,
 		gender:"women",
 		discount:false,
+		discount_price:"",
 		img:"../../kepek/patterned-dress-f.png"
 		
 	},
@@ -107,10 +112,62 @@ let termekek = [
 		price:45,
 		gender:"women",
 		discount:false,
+		discount_price:"",
 		img:"../../kepek/black-dress-f.png"
 	}
 ]
 
+let eredeti_termekek = [
+	{
+		name:"Collar T-shirt",
+		price:35,
+		gender:"men",
+		discount:false,
+		discount_price:"",
+		img:"../../kepek/collar-light-gray-t-m.png"
+	},
+	{
+		name:"Gents T-Shirt",
+		price:49,
+		gender:"men",
+		discount:false,
+		discount_price:"",
+		img:"../../kepek/white-t-m.png"
+	},
+	{
+		name:"Ladies Hat",
+		price:17,
+		gender:"women",
+		discount:true,
+		discount_price:"22.00",
+		img:"../../kepek/hat-f.png"
+	},
+	{
+		name:"Leather Jacket",
+		price:50,
+		gender:"men",
+		discount:true,
+		discount_price:"100.00",
+		img:"../../kepek/leather-jacket-m.png"
+	},
+	{
+		name:"Printed Tops",
+		price:75,
+		gender:"women",
+		discount:false,
+		discount_price:"",
+		img:"../../kepek/patterned-dress-f.png"
+		
+	},
+	{
+		name:"Women Tops",
+		price:45,
+		gender:"women",
+		discount:false,
+		discount_price:"",
+		img:"../../kepek/black-dress-f.png"
+	}
+]
 
 
 let sortertek
@@ -128,17 +185,64 @@ function Sorting(){
 
 	let sortingdropdown = document.getElementById("sortingdropdown");
 	let sortingdropdownvalue = sortingdropdown.value 
-	console.log(sortingdropdownvalue)
+
 
 	if(sortingdropdownvalue==1){
-console.log("a")
+
+		/* Képek */
+		document.getElementById("elsocardkep").src=`${eredeti_termekek[0].img}`
+		document.getElementById("masodikcardkep").src=`${eredeti_termekek[1].img}`
+		document.getElementById("harmadikcardkep").src=`${eredeti_termekek[2].img}`
+		document.getElementById("negyedikcardkep").src=`${eredeti_termekek[3].img}`
+		document.getElementById("otodikcardkep").src=`${eredeti_termekek[4].img}`
+		document.getElementById("hatodikcardkep").src=`${eredeti_termekek[5].img}`
+
+		/* Árak */
+
+		if(eredeti_termekek[0].discount_price==""){
+			document.getElementById("elsoar").innerHTML=`$${eredeti_termekek[0].price}.00`
+		}
+		else{
+			document.getElementById("elsoar").innerHTML=`$${eredeti_termekek[0].discount_price} $${eredeti_termekek[0].price}.00`
+		}
+		if(eredeti_termekek[1].discount_price==""){
+			document.getElementById("masodikar").innerHTML=`$${eredeti_termekek[1].price}.00`
+		}
+		else{
+			document.getElementById("masodikar").innerHTML=`$${eredeti_termekek[1].discount_price} $${eredeti_termekek[0].price}.00`
+		}
+		if(eredeti_termekek[2].discount_price==""){
+			document.getElementById("harmadikar").innerHTML=`$${eredeti_termekek[2].price}.00`
+		}
+		else{
+			document.getElementById("harmadikar").innerHTML=`$${eredeti_termekek[2].discount_price} $${eredeti_termekek[0].price}.00`
+		}
+		if(eredeti_termekek[3].discount_price==""){
+			document.getElementById("negyedikar").innerHTML=`$${eredeti_termekek[3].price}.00`
+		}
+		else{
+			document.getElementById("negyedikar").innerHTML=`$${eredeti_termekek[3].discount_price} $${eredeti_termekek[0].price}.00`
+		}
+		if(eredeti_termekek[4].discount_price==""){
+			document.getElementById("otodikar").innerHTML=`$${eredeti_termekek[4].price}.00`
+		}
+		else{
+			document.getElementById("otodikar").innerHTML=`$${eredeti_termekek[4].discount_price} $${eredeti_termekek[0].price}.00`
+		}
+		if(eredeti_termekek[5].discount_price==""){
+			document.getElementById("hatodikar").innerHTML=`$${eredeti_termekek[5].price}.00`
+		}
+		else{
+			document.getElementById("hatodikar").innerHTML=`$${eredeti_termekek[5].discount_price} $${eredeti_termekek[0].price}.00`
+		}
+		
+		
+
+
 	}
 	else if (sortingdropdownvalue==2){
 		termekek.sort((a,b) => b.price - a.price);
-		for(const price in termekek){
-			
-			console.log(termekek[price].price)
-		}
+		
 
 		/* Képek */
 		document.getElementById("elsocardkep").src=`${termekek[0].img}`
@@ -163,7 +267,32 @@ console.log("a")
 
 	}
 
+	else if (sortingdropdownvalue==3){
+		termekek.sort((a,b) => a.price - b.price);
+		
 
+
+		/* Képek */
+		
+		document.getElementById("elsocardkep").src=`${termekek[0].img}`
+		document.getElementById("masodikcardkep").src=`${termekek[1].img}`
+		document.getElementById("harmadikcardkep").src=`${termekek[2].img}`
+		document.getElementById("negyedikcardkep").src=`${termekek[3].img}`
+		document.getElementById("otodikcardkep").src=`${termekek[4].img}`
+		document.getElementById("hatodikcardkep").src=`${termekek[5].img}`
+
+		/* Árak */
+
+		
+		document.getElementById("elsoar").innerHTML=`$${termekek[0].price}.00`
+		document.getElementById("masodikar").innerHTML=`$${termekek[1].price}.00`
+		document.getElementById("harmadikar").innerHTML=`$${termekek[2].price}.00`
+		document.getElementById("negyedikar").innerHTML=`$${termekek[3].price}.00`
+		document.getElementById("otodikar").innerHTML=`$${termekek[4].price}.00`
+		document.getElementById("hatodikar").innerHTML=`$${termekek[5].price}.00`
+
+
+}
 }
 
 
