@@ -261,7 +261,8 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     align-items: center;
     width: 170px;
     height: 260px;
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;*/
+    background-color: #ff0000;
     margin-bottom: 5%;
     position: relative;
 }
@@ -494,7 +495,8 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     height: 2px;
     overflow: visible;
     position: relative;
-    width: 90%;
+    width: 92%;
+    margin-left: 4%;
 }
 
 #balpiroshr:before {
@@ -616,7 +618,8 @@ footer {
     }
 
     #balpiroshr {
-        width: 95%;
+        width: 90%;
+        margin-left: 6%;
     }
 
     .results {
@@ -631,6 +634,11 @@ footer {
     .sorting_drop {
         margin-top: 2%;
         margin-left: 50%;
+    }
+
+    .card {
+        width: 200px;
+        height: 290px;
     }
 
     .cardkep {
@@ -648,7 +656,7 @@ footer {
 
     .middle {
         top: 37%;
-        left: 20%;
+        left: 14%;
         font-size: medium;
         border: white solid 2px;
         padding: 10px;
@@ -658,7 +666,7 @@ footer {
 
     .top1img {
         top: 3%;
-        left: 79%;
+        left: 76%;
         width: 40px;
         height: 40px;
         border: white solid 2px;
@@ -666,7 +674,7 @@ footer {
 
     .top2img {
         top: 18%;
-        left: 79%;
+        left: 76%;
         width: 40px;
         height: 40px;
         border: white solid 2px;
@@ -678,8 +686,23 @@ footer {
 }
 
 @media only screen and (max-width: 910px) {
+    .cim {
+        font-size: xx-large;
+        text-indent: 2%;
+    }
+    
+    .card-container {
+        column-gap: 15%;
+    }
+
     .container {
-        font-size: medium;
+        font-size: large;
+        width: 300px;
+    }
+
+    .card {
+        width: 300px;
+        height: 410px;
     }
 
     .cardkep {
@@ -694,13 +717,85 @@ footer {
         margin: 0 auto;
         background: rgb(255, 90, 90);
     }
+
+    .middle {
+        top: 37%;
+        left: 24%;
+        font-size: medium;
+        border: white solid 2px;
+        padding: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .top1img {
+        top: 3%;
+        left: 82%;
+        width: 40px;
+        height: 40px;
+        border: white solid 2px;
+    }
+
+    .top2img {
+        top: 14.5%;
+        left: 82%;
+        width: 40px;
+        height: 40px;
+        border: white solid 2px;
+    }
 }
 
 @media only screen and (max-width: 850px) {
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    .bal {
+        margin-left: 0.5%;
+    }
+
+    .container {
+        font-size: large;
+        width: 400px;
+    }
+
+    .card {
+        width: 400px;
+        height: 520px;
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+
+    .cardkep {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .imghover {
+        width: 400px;
+        height: 400px;
+    }
+
+    .middle {
+        top: 37%;
+        left: 32%;
+        font-size: medium;
+        border: white solid 2px;
+        padding: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .top1img {
+        top: 3%;
+        left: 85%;
+        width: 40px;
+        height: 40px;
+        border: white solid 2px;
+    }
+
+    .top2img {
+        top: 13.5%;
+        left: 85%;
+        width: 40px;
+        height: 40px;
+        border: white solid 2px;
     }
 
     .sorting_drop {
