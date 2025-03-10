@@ -261,8 +261,7 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     align-items: center;
     width: 170px;
     height: 260px;
-    /*background-color: #f8f8f8;*/
-    background-color: #ff0000;
+    background-color: #f8f8f8;
     margin-bottom: 5%;
     position: relative;
 }
@@ -801,6 +800,52 @@ footer {
     .sorting_drop {
         margin-left: 40%;
     }
+
+    .sale {
+        width: 22%;
+        position: absolute;
+        top: -18px;
+        left: -20px;
+    }
+    
+    .sale1 {
+        width: 22%;
+        position: absolute;
+        top: -18px;
+        left: -20px;
+    } 
+}
+
+
+@media only screen and (max-width: 700px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sorting_drop {
+        margin-top: 4%;
+        margin-left: 20%;
+    }
+
+    .cardkep {
+        width: 100%;
+    }
+
+    .sale {
+        width: 22%;
+        position: absolute;
+        top: -18px;
+        left: -20px;
+    }
+    
+    .sale1 {
+        width: 22%;
+        position: absolute;
+        top: -18px;
+        left: -20px;
+    } 
 }
 
 /* Lábléc reszponzivitása */
@@ -849,20 +894,6 @@ footer {
     }
 }
 
-/* Bal oldal reszponzivitás */
-@media only screen and (max-width: 700px) {
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .sorting_drop {
-        margin-top: 4%;
-        margin-left: 20%;
-    }
-
-    .cardkep {
-        width: 100%;
-    }
+.mobilmenuli a{
+    padding-left: 18px;
 }

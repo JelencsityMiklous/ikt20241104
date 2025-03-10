@@ -2,11 +2,18 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .resz {
     float: left;
 }
 
 .bal {
+    align-content: center;
+    margin: auto;
+    justify-content: center;
     width: 60%;
     margin-left: 5%;
 }
@@ -20,15 +27,6 @@ html {
 :root {
     --ColorPrimaryDk: #5f0606;
     --ColorPrimaryLt: #ff0022;
-}
-
-/*
-body {
-    padding: 60px 16px 0;
-}
-*/
-body {
-    font-family: Arial, Helvetica, sans-serif
 }
 
 .range-slider {
@@ -194,7 +192,6 @@ div.range-slider>input[type="range"]::-ms-tooltip {
 
 .range-slider>div>.range-slider-tooltip:after {
     content: "";
-
     position: absolute;
     left: 0;
     top: 19px;
@@ -253,7 +250,19 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     margin-top: 2%;
 }
 
+.cim {
+    margin-bottom: 2.5%;
+    margin-left: 6%;
+    font-size: xx-large;
+}
+
 .card {
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 260px;
+    background-color: #f8f8f8;
+    margin-bottom: 5%;
     position: relative;
 }
 
@@ -280,7 +289,7 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     margin: 0 auto;
     opacity: 0;
     top: 37%;
-    left: 18%;
+    left: 14%;
     text-align: center;
     font-size: smaller;
     color: white;
@@ -289,38 +298,6 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     padding-left: 17px;
     padding-right: 17px;
     background: none;
-}
-
-@keyframes fadeInRed {
-    0% {
-        background: none;
-    }
-
-    100% {
-        opacity: 0.2;
-    }
-}
-
-@keyframes fadeInMid {
-    0% {
-        color: white;
-        background: none;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeInTop {
-    0% {
-        color: black;
-        background: white;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 
 .middle:hover {
@@ -370,7 +347,7 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     margin: 0 auto;
     padding: 0;
     opacity: 0;
-    top: 18%;
+    top: 17%;
     left: 79%;
     text-align: center;
     font-size: large;
@@ -384,47 +361,69 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     opacity: 1;
 }
 
-.parent {
-    margin-top: 5%;
-    margin-left: 6.2%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 3%;
-    row-gap: 10%;
+@keyframes fadeInRed {
+    0% {
+        background: none;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
 }
 
-.div1 {
-    width: 170px;
-    background-color: #f8f8f8;
+@keyframes fadeInMid {
+    0% {
+        color: white;
+        background: none;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-.div2 {
-    width: 170px;
-    background-color: #f8f8f8;
+@keyframes fadeInTop {
+    0% {
+        color: black;
+        background: white;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-.div3 {
-    width: 170px;
-    background-color: #f8f8f8;
+.container {
+    margin: 7%;
 }
 
-.div4 {
-    width: 170px;
-    grid-row-start: 2;
-    background-color: #f8f8f8;
+.card-container {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 12%;
+    row-gap: 1%;
 }
 
-.div5 {
-    width: 170px;
-    grid-row-start: 2;
-    background-color: #f8f8f8;
+.cardcim {
+    font-size: larger;
 }
 
-.div6 {
+.vilagosabb {
+    color: #8b8b8b;
+}
+
+.imghover {
     width: 170px;
-    grid-row-start: 2;
-    background-color: #f8f8f8;
+    height: 170px;
+    margin: 0 auto;
+    background: rgb(255, 90, 90);
+}
+
+.imghover:hover img {
+    animation: fadeInRed 0.3s;
+    animation-fill-mode: forwards;
 }
 
 .results_sorting {
@@ -443,14 +442,6 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     width: 150px;
     padding-top: 3px;
     padding-bottom: 3px;
-}
-
-.container {
-    text-indent: 10%;
-}
-
-.balindent {
-    text-indent: 6.2%;
 }
 
 .normalis {
@@ -475,7 +466,6 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     padding-left: 5%;
 }
 
-
 #piroshr {
     background-color: #d1d1d1;
     border: none;
@@ -495,21 +485,20 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     position: absolute;
     top: 0px;
     width: 20%;
-
 }
 
-#baloshr {
+#balpiroshr {
     background-color: #d1d1d1;
     border: none;
     display: block;
     height: 2px;
     overflow: visible;
     position: relative;
-    width: 87%;
-    margin-left: 6.2%;
+    width: 92%;
+    margin-left: 4%;
 }
 
-#baloshr:before {
+#balpiroshr:before {
     background-color: rgb(255, 0, 0);
     content: '';
     display: block;
@@ -517,21 +506,25 @@ div.range-slider>input[type="range"]::-ms-tooltip {
     left: 0;
     position: absolute;
     top: 0px;
-    width: 10%;
+    width: 20%;
 }
 
-#toprated {
-    padding-top: 5%;
-    padding-bottom: 8%;
+.sale {
+    width: 30%;
+    position: absolute;
+    top: -18px;
+    left: -20px;
 }
 
-#topratedutso {
-    padding-top: 5%;
-    padding-bottom: 8%;
-    border: none;
+.sale1 {
+    width: 30%;
+    position: absolute;
+    top: -18px;
+    left: -20px;
 }
 
 footer {
+    margin-top: 2%;
     width: 100%;
     height: auto;
     background-color: rgb(22, 18, 31);
@@ -567,10 +560,8 @@ footer {
 }
 
 .belsofootercontainer>img {
-
     display: flex;
     width: 8%;
-
 }
 
 #belsofootercontainerutso {
@@ -578,42 +569,25 @@ footer {
     position: relative;
 }
 
-#torzs {
-    font-size: 1vw;
-}
-
-
-.sale {
-    width: 30%;
-    position: absolute;
-    top: -18px;
-    left: -20px;
-}
-
-.sale1 {
-    width: 30%;
-    position: absolute;
-    top: -18px;
-    left: -20px;
-}
-
 .belsofootercontainer:nth-of-type(3) {
     margin-top: 2%;
 }
 
-#feherrepeatnyil {
-    margin-top: 4%;
-}
-
-#penztarca {
-    margin-bottom: 2%;
-}
-
-.jobb>.felsorolas_item {
-    font-size: 1.1vw;
+@media only screen and (max-width: 1150px) {
+    .card-container{
+        gap: 7%;
+        position: relative;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 1030px) {
+    .card-container{
+        gap: 20%;
+        position: relative;
+        justify-content: center;
+    }
+
     .jobb {
         display: block;
         width: 95%;
@@ -638,8 +612,13 @@ footer {
         display: block;
     }
 
-    .casualcim {
+    .cim {
         font-size: x-large;
+    }
+
+    #balpiroshr {
+        width: 90%;
+        margin-left: 6%;
     }
 
     .results {
@@ -647,10 +626,8 @@ footer {
     }
 
     .container {
-        text-indent: 0px;
         font-size: medium;
         width: 200px;
-        text-indent: 10%;
     }
 
     .sorting_drop {
@@ -658,22 +635,27 @@ footer {
         margin-left: 50%;
     }
 
+    .card {
+        width: 200px;
+        height: 290px;
+    }
+
     .cardkep {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
 
     .imghover {
         margin-left: 0px;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         margin: 0 auto;
         background: rgb(255, 90, 90);
     }
 
     .middle {
         top: 37%;
-        left: 20%;
+        left: 14%;
         font-size: medium;
         border: white solid 2px;
         padding: 10px;
@@ -683,7 +665,7 @@ footer {
 
     .top1img {
         top: 3%;
-        left: 79%;
+        left: 76%;
         width: 40px;
         height: 40px;
         border: white solid 2px;
@@ -691,63 +673,10 @@ footer {
 
     .top2img {
         top: 18%;
-        left: 79%;
+        left: 76%;
         width: 40px;
         height: 40px;
         border: white solid 2px;
-    }
-
-    .parent {
-        margin-top: 5%;
-        margin-left: 6.2%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 35%;
-        row-gap: 3%;
-        position: relative;
-    }
-
-    .div1 {
-        width: 250px;
-        height: 350px;
-        background-color: #f8f8f8;
-    }
-
-    .div2 {
-        width: 250px;
-        height: 350px;
-        background-color: #f8f8f8;
-    }
-
-    .div3 {
-        width: 250px;
-        height: 350px;
-        background-color: #f8f8f8;
-        grid-row-start: 2;
-    }
-
-    .div4 {
-        width: 250px;
-        height: 350px;
-        background-color: #f8f8f8;
-        grid-row-start: 2;
-    }
-
-    .div5 {
-        width: 250px;
-        height: 350px;
-        background-color: #f8f8f8;
-        grid-row-start: 3;
-        margin-bottom: 10%;
-    }
-
-    .div6 {
-        width: 250px;
-        height: 350px;
-        background-color: #f8f8f8;
-        grid-row-start: 3;
-        margin-bottom: 10%;
     }
 
     .range-slider {
@@ -755,20 +684,168 @@ footer {
     }
 }
 
+@media only screen and (max-width: 910px) {
+    .cim {
+        font-size: xx-large;
+        text-indent: 2%;
+    }
+    
+    .card-container {
+        column-gap: 15%;
+    }
+
+    .container {
+        font-size: large;
+        width: 300px;
+    }
+
+    .card {
+        width: 300px;
+        height: 410px;
+    }
+
+    .cardkep {
+        width: 300px;
+        height: 300px;
+    }
+
+    .imghover {
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        background: rgb(255, 90, 90);
+    }
+
+    .middle {
+        top: 37%;
+        left: 24%;
+        font-size: medium;
+        border: white solid 2px;
+        padding: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .top1img {
+        top: 3%;
+        left: 82%;
+        width: 40px;
+        height: 40px;
+        border: white solid 2px;
+    }
+
+    .top2img {
+        top: 14.5%;
+        left: 82%;
+        width: 40px;
+        height: 40px;
+        border: white solid 2px;
+    }
+}
+
 @media only screen and (max-width: 850px) {
-    .parent {
-        margin-top: 5%;
-        margin-left: 6.2%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 20%;
-        row-gap: 3%;
+    .bal {
+        margin-left: 0.5%;
+    }
+
+    .container {
+        font-size: large;
+        width: 400px;
+    }
+
+    .card {
+        width: 400px;
+        height: 520px;
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+
+    .cardkep {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .imghover {
+        width: 400px;
+        height: 400px;
+    }
+
+    .middle {
+        top: 37%;
+        left: 32%;
+        font-size: medium;
+        border: white solid 2px;
+        padding: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .top1img {
+        top: 3%;
+        left: 85%;
+        width: 40px;
+        height: 40px;
+        border: white solid 2px;
+    }
+
+    .top2img {
+        top: 13.5%;
+        left: 85%;
+        width: 40px;
+        height: 40px;
+        border: white solid 2px;
     }
 
     .sorting_drop {
         margin-left: 40%;
     }
+
+    .sale {
+        width: 22%;
+        position: absolute;
+        top: -18px;
+        left: -20px;
+    }
+    
+    .sale1 {
+        width: 22%;
+        position: absolute;
+        top: -18px;
+        left: -20px;
+    } 
+}
+
+
+@media only screen and (max-width: 700px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sorting_drop {
+        margin-top: 4%;
+        margin-left: 20%;
+    }
+
+    .cardkep {
+        width: 100%;
+    }
+
+    .sale {
+        width: 22%;
+        position: absolute;
+        top: -18px;
+        left: -20px;
+    }
+    
+    .sale1 {
+        width: 22%;
+        position: absolute;
+        top: -18px;
+        left: -20px;
+    } 
 }
 
 /* Lábléc reszponzivitása */
@@ -817,54 +894,6 @@ footer {
     }
 }
 
-/* Bal oldal reszponzivitás */
-@media only screen and (max-width: 700px) {
-    .parent {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        margin: auto;
-        width: 50%;
-    }
-
-    .div1 {
-        grid-area: 1 / 1 / 2 / 2;
-    }
-
-    .div2 {
-        grid-area: 2 / 1 / 3 / 2;
-    }
-
-    .div3 {
-        grid-area: 3 / 1 / 4 / 2;
-    }
-
-    .div4 {
-        grid-area: 4 / 1 / 5 / 2;
-    }
-
-    .div5 {
-        grid-area: 5 / 1 / 6 / 2;
-    }
-
-    .div6 {
-        grid-area: 6 / 1 / 7 / 2;
-    }
-
-    .sorting_drop {
-        margin-top: 4%;
-        margin-left: 20%;
-    }
-
-    .cardkep {
-        width: 100%;
-    }
-}
-
-
-
 .mobilmenuli a{
     padding-left: 18px;
-  }
+}
