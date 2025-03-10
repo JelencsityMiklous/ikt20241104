@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    
-    <link rel="stylesheet" href="/ikt20241104/elooldal.css">
 
-  <link rel="stylesheet" href="./css/casual.css">
+  <link rel="stylesheet" href="./css/shop_oldalak.css">
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../elooldal.css">
   
@@ -84,111 +82,102 @@
 
   <div id="torzs">
     <div class="resz bal">
-      <h1 class="balindent casualcim">Clothing</h1>
-      <hr id="baloshr">
+
+      <h1 class="cim">Clothing</h1>
+      <hr id="balpiroshr">
       <div class="results_sorting">
-        <div class="results">
-          <p style="color:rgb(138, 138, 138)">Showing all 6 results</p>
-        </div>
-        <div class="sorting_drop">
-          <select name="sortingdropdown" id="sortingdropdown" style="color:rgb(138, 138, 138)">
-            <option value="def_sorting">Default sorting</option>
-          </select>
-        </div>
+          <div class="results">
+              <p style="color:rgb(138, 138, 138)">Showing all 6 results</p>
+          </div>
+          <div class="sorting_drop">
+              <select name="sortingdropdown" id="sortingdropdown" style="color:rgb(138, 138, 138)" onchange="Sorting()">
+                  <option value="1" id="def_sorting">Default sorting</option>
+                  <option value="2" id="hightolow">Highest to lowest</option>
+                  <option value="3" id="lowtohigh">Lowest to highest</option>
+              </select>
+          </div>
       </div>
-      <div class="parent">
-        <div class="div1">
-          <div class="card">
+
+      <div class="card-container">
+        <div class="card">
             <div class="imghover">
-              <img src="../kepek/clothing/FerfiAdidasKapucnisPulover.png" alt="Men adidas hoodie" class="cardkep">
-              <button class="middle">ADD TO CART</button>
-              <button class="top1img">❤</button>
-              <button class="top2img">👁</button>
+                <img src="../kepek/clothing/FerfiAdidasKapucnisPulover.png" alt="Men adidas hoodie" class="cardkep">
+                <button class="middle">ADD TO CART</button>
+                <button class="top1img">❤</button>
+                <button class="top2img">👁</button>
             </div>
             <div class="container">
-              <img src="../kepek/sale.png" alt="" class="sale1">
-              <h4><b>Men adidas hoodie</b></h4>
-              <p class="normalis"> <b class="learazott">$35.00</b> $19.00</p>
-              
+                <img src="../kepek/sale.png" alt="" class="sale1">
+                <h4><b>Men adidas hoodie</b></h4>
+                <p class="normalis"> <b class="learazott">$35.00</b> $19.00</p>
             </div>
-          </div>
         </div>
 
-        <div class="div2">
-          <div class="card">
+        <div class="card">
             <div class="imghover">
-              <img src="../kepek/clothing/NoiHugoPolo.png" alt="Women Hugo Shirt" class="cardkep">
-              <button class="middle">ADD TO CART</button>
-              <button class="top1img">❤</button>
-              <button class="top2img">👁</button>
+                <img src="../kepek/clothing/NoiHugoPolo.png" alt="Women Hugo Shirt" class="cardkep">
+                <button class="middle">ADD TO CART</button>
+                <button class="top1img">❤</button>
+                <button class="top2img">👁</button>
             </div>
             <div class="container">
-              <h4><b>Woman Hugo Shirt</b></h4>
-              <p class="normalis">$57.00</p>
+                <h4><b>Woman Hugo Shirt</b></h4>
+                <p class="normalis">$57.00</p>
             </div>
-          </div>
         </div>
 
-        <div class="div3">
-          <div class="card">
+        <div class="card">
             <div class="imghover">
-              <img src="../kepek/clothing/NoiLevisKapucnisPulover.png" alt="Women Levis Hoodie" class="cardkep">
-              <button class="middle">ADD TO CART</button>
-              <button class="top1img">❤</button>
-              <button class="top2img">👁</button>
+                <img src="../kepek/clothing/NoiLevisKapucnisPulover.png" alt="Women Levis Hoodie" class="cardkep">
+                <button class="middle">ADD TO CART</button>
+                <button class="top1img">❤</button>
+                <button class="top2img">👁</button>
             </div>
             <div class="container">
-              <img src="../kepek/sale.png" class="sale">
-              <h4><b>Woman Levis Hoodie</b></h4>
-              <p class="normalis"> <b class="learazott">$65.00</b> $52.00</p>
+                <img src="../kepek/sale.png" class="sale">
+                <h4><b>Woman Levis Hoodie</b></h4>
+                <p class="normalis"> <b class="learazott">$65.00</b> $52.00</p>
             </div>
-          </div>
         </div>
 
-        <div class="div4">
-          <div class="card">
-            <div class="imghover">
+        <div class="card">
+          <div class="imghover">
               <img src="../kepek/clothing/FerfiJackAndJonesFarmer.png" alt="Men Jack&Jones Jeans" class="cardkep">
               <button class="middle">ADD TO CART</button>
               <button class="top1img">❤</button>
               <button class="top2img">👁</button>
-            </div>
-            <div class="container">
+          </div>
+          <div class="container">
               <h4><b>Men Jack&Jones Jeans</b></h4>
               <p class="normalis">$43.00</p>
-            </div>
           </div>
-        </div>
+      </div>
 
-        <div class="div5">
-          <div class="card">
-            <div class="imghover">
+      <div class="card">
+          <div class="imghover">
               <img src="../kepek/clothing/NoiOnlyBlezer.png" alt="Woman Only Blazer" class="cardkep">
               <button class="middle">ADD TO CART</button>
               <button class="top1img">❤</button>
               <button class="top2img">👁</button>
-            </div>
-            <div class="container">
+          </div>
+          <div class="container">
               <h4><b>Woman Only Blazer</b></h4>
               <p class="normalis">$55.00</p>
-            </div>
           </div>
-        </div>
+      </div>
 
-        <div class="div6">
-          <div class="card">
-            <div class="imghover">
+      <div class="card">
+          <div class="imghover">
               <img src="../kepek/clothing/FerfiKarlLagerfeldPolo.png" alt="Men Karl Lagerfeld Shirt" class="cardkep">
               <button class="middle">ADD TO CART</button>
               <button class="top1img">❤</button>
               <button class="top2img">👁</button>
-            </div>
-            <div class="container">
+          </div>
+          <div class="container">
               <h4><b>Men Karl Lagerfeld Shirt</b></h4>
               <p class="normalis">$65.00</p>
-            </div>
           </div>
-        </div>
+      </div>
       </div>
     </div>
 

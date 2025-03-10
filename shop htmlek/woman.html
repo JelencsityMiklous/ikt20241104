@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    
-    <link rel="stylesheet" href="/ikt20241104/elooldal.css">
 
-  <link rel="stylesheet" href="./css/casual.css">
+  <link rel="stylesheet" href="./css/shop_oldalak.css">
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../elooldal.css">
   
@@ -84,112 +82,22 @@
 
   <div id="torzs">
     <div class="resz bal">
-      <h1 class="balindent casualcim">Woman</h1>
-      <hr id="baloshr">
-      <div class="results_sorting">
-        <div class="results">
-          <p style="color:rgb(138, 138, 138)">Showing all 6 results</p>
-        </div>
-        <div class="sorting_drop">
-          <select name="sortingdropdown" id="sortingdropdown" style="color:rgb(138, 138, 138)">
-            <option value="def_sorting">Default sorting</option>
-          </select>
-        </div>
+
+    <h1 class="cim">Clothing</h1>
+    <hr id="balpiroshr">
+    <div class="results_sorting">
+      <div class="results">
+        <p style="color:rgb(138, 138, 138)">Showing all 6 results</p>
       </div>
-      <div class="parent">
-        <div class="div1">
-          <div class="card">
-            <div class="imghover">
-              <img src="../kepek/woman kepek/NoiFarmerNadrag.png" alt="Denim Jeans" class="cardkep">
-              <button class="middle">ADD TO CART</button>
-              <button class="top1img">❤</button>
-              <button class="top2img">👁</button>
-            </div>
-            <div class="container">
-              <h4><b>Denim Jeans</b></h4>
-              <p class="normalis">$35.00</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="div2">
-          <div class="card">
-            <div class="imghover">
-              <img src="../kepek/woman kepek/NoiFeherKotottFelso.png" alt="Knitted Top" class="cardkep">
-              <button class="middle">ADD TO CART</button>
-              <button class="top1img">❤</button>
-              <button class="top2img">👁</button>
-            </div>
-            <div class="container">
-              <h4><b>Knitted Top</b></h4>
-              <p class="normalis">$49.00</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="div3">
-          <div class="card">
-            <div class="imghover">
-              <img src="../kepek/woman kepek/NoiFeherMelleny.png" alt="White vest" class="cardkep">
-              <button class="middle">ADD TO CART</button>
-              <button class="top1img">❤</button>
-              <button class="top2img">👁</button>
-            </div>
-            <div class="container">
-              <img src="../kepek/sale.png" class="sale">
-              <h4><b>White vest</b></h4>
-              <p class="normalis"> <b class="learazott">$26.00</b> $15.00</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="div4">
-          <div class="card">
-            <div class="imghover">
-              <img src="../kepek/woman kepek/NoiFeherNadrag.png" alt="White Jeans" class="cardkep">
-              <button class="middle">ADD TO CART</button>
-              <button class="top1img">❤</button>
-              <button class="top2img">👁</button>
-            </div>
-            <div class="container">
-              <img src="../kepek/sale.png" alt="" class="sale1">
-              <h4><b>White Jeans</b></h4>
-              <p class="normalis"> <b class="learazott">$80.00</b> $45.00</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="div5">
-          <div class="card">
-            <div class="imghover">
-              <img src="../kepek/woman kepek/NoiFeherPolo.png" alt="White Shirt" class="cardkep">
-              <button class="middle">ADD TO CART</button>
-              <button class="top1img">❤</button>
-              <button class="top2img">👁</button>
-            </div>
-            <div class="container">
-              <h4><b>White Shirt</b></h4>
-              <p class="normalis">$35.00</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="div6">
-          <div class="card">
-            <div class="imghover">
-              <img src="../kepek/woman kepek/NoiViragosRuha.png" alt="Flower Dress" class="cardkep">
-              <button class="middle">ADD TO CART</button>
-              <button class="top1img">❤</button>
-              <button class="top2img">👁</button>
-            </div>
-            <div class="container">
-              <h4><b>Flower Dress</b></h4>
-              <p class="normalis">$15.00</p>
-            </div>
-          </div>
-        </div>
+      <div class="sorting_drop">
+        <select name="sortingdropdown" id="sortingdropdown" style="color:rgb(138, 138, 138)" onchange="Sorting()">
+          <option value="1" id="def_sorting">Default sorting</option>
+          <option value="2" id="hightolow">Highest to lowest</option>
+          <option value="3" id="lowtohigh">Lowest to highest</option>
+        </select>
       </div>
     </div>
+
 
     <div class="resz jobb">
       <h2>Filter by price</h2>
