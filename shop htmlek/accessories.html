@@ -90,8 +90,10 @@
             <p style="color:rgb(138, 138, 138)">Showing all 6 results</p>
           </div>
           <div class="sorting_drop">
-            <select name="sortingdropdown" id="sortingdropdown" style="color:rgb(138, 138, 138)">
-              <option value="def_sorting">Default sorting</option>
+            <select name="sortingdropdown" id="sortingdropdown" style="color:rgb(138, 138, 138)" onchange="Sorting()">
+              <option value="1" id="def_sorting">Default sorting</option>
+              <option value="2" id="hightolow">Highest to lowest</option>
+              <option value="3" id="lowtohigh">Lowest to highest</option>
             </select>
           </div>
         </div>

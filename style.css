@@ -1,103 +1,107 @@
+body {
+  margin: 0 auto;
+}
 
-
-
-.kep{
-  width:10px;
+.kep {
+  width: 10px;
   height: 10px;
 }
 
-#hihi{
-  margin-left:7vw;
-}
-.szius{
-  font-size:25px;
-  margin-top: -18px ;
- 
+#hihi {
+  margin-left: 7vw;
 }
 
-.szius2{
+.szius {
+  font-size: 25px;
+  margin-top: -18px;
+
+}
+
+.szius2 {
   margin-top: -18px;
 }
-.help a{
-    color: rgb(0, 0, 0);
-    margin-left: 20px;
-    margin-right: 5px;
-    text-decoration: none;
+
+.help a {
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  margin-right: 5px;
+  text-decoration: none;
 }
 
 .dropbtn {
+  background: none;
+  font-size: 14.49px;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+  z-index: 2;
+}
 
-    background:none;
-    font-size: 14.49px;
-    border: none;
-    font-family:monospace;
-    font-weight: bold;
-    z-index: 2;
-    
-  }
-  
-  
- .felsofejlec{
+
+.felsofejlec {
   background-color: red;
   width: 100%;
   height: 70px;
   margin-bottom: 20px;
-  
- 
- }
- #fejleclec{
-  margin-left:8.3vw;
+}
+
+#fejleclec {
+  margin-left: 8.3vw;
   color: white;
-  font-family:monospace;
+  font-family: monospace;
   font-size: 16px;
   padding-top: 26px;
-  
- }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    
-    min-width: 150px;
-    z-index: 2;
-    
-    
-    
-    
-  }
- #ize{
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  z-index: 2;
+}
+
+#ize {
   margin-top: 45px;
- }
-  .dropdown-content a {
-    color: rgb(119, 119, 119);
-    padding: 10px 10px 5px 10px;
-    text-decoration: none;
-    display: block;
-    background-color: #ffffff;
-    width:130px;
-    border-bottom: 0.5px solid rgb(214, 214, 214);
-    
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd; color: red;}
-  .menusor:hover .dropdown-content {display: block;}
-  
-  #megtekint {
-    color: #fff !important;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: #ed3330;
-   
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
-    transition: all 0.4s ease 0s;
-    }
-    #megtekint:hover {
-    background: #434343;
-    letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
-    }
+}
+
+.dropdown-content a {
+  color: rgb(119, 119, 119);
+  padding: 10px 10px 5px 10px;
+  text-decoration: none;
+  display: block;
+  background-color: #ffffff;
+  width: 130px;
+  border-bottom: 0.5px solid rgb(214, 214, 214);
+
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+.menusor:hover .dropdown-content {
+  display: block;
+}
+
+#megtekint {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ed3330;
+
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+#megtekint:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
