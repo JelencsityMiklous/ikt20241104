@@ -1,9 +1,13 @@
 .jobbresz{
-    
+    border-radius: 15px;
     width:90vw;
     height: 730px;
-    background-color: rgb(233, 114, 114);
+    background-color: rgb(218, 218, 218);
     margin:40px;
+    box-shadow:  5px 5px rgb(218, 74, 74);
+}
+.jobbresz:hover{
+    box-shadow: 5px 5px rgb(36, 36, 36);
 }
 .balresz{
     width:600px;
@@ -90,7 +94,7 @@
 }
 .ha1{
     font-size: 47px;
-    color: rgb(235, 235, 235);
+    color: rgb(153, 63, 63);
     margin:5px;
     margin-top: 30px;
     
