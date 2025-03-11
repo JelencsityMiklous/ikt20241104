@@ -129,7 +129,10 @@ input[type=button] {
     margin-top: 19px;
     margin-bottom: 20px;
   }
-
+.divbutton{
+   margin-left: 30px;
+    
+}
   input[type=button]:focus {background-color: rgb(255, 159, 159);}
   
   #pk{

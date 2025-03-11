@@ -1,18 +1,18 @@
 #kozepdiv{
     width: 350px;
     height: 400px;
-    background-color: rgb(250, 204, 204);
+    background-color: rgb(235, 235, 235);
     margin-left: auto;
     margin-right:  auto;
     border-radius: 15px;
-    box-shadow: 5px 5px 35px 5px rgb(172, 172, 172);
+    box-shadow:  5px 5px rgb(218, 74, 74);
 
 }
 #kozepdiv:hover{
-     box-shadow: 10px 10px 45px 5px grey;
+     box-shadow: 5px 5px rgb(36, 36, 36);
 }
 
-h1{
+#welcome{
     text-align: center;
     font-size: 40px;
     font-weight: 100;
@@ -52,18 +52,17 @@ input[type=password]{
     
 }
 input[type=button] {
-    width:45%;
-    background-color: #ff0000;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-   
-    font-size: 20px;
-    margin-top: 19px;
-    margin-bottom: 20px;
-   
+    color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+width: 150px;
+margin-left: 25%;
    
   }
 
@@ -78,4 +77,12 @@ input[type=button] {
    
   }
 
-  input[type=button]:focus {background-color: rgb(250, 132, 132);}
+ 
+  input[type=button]:hover{background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;}
+
+  
