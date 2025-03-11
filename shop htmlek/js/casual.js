@@ -209,33 +209,42 @@ function Sorting(){
 			document.getElementById("masodikar").innerHTML=`$${eredeti_termekek[1].price}.00`
 		}
 		else{
-			document.getElementById("masodikar").innerHTML=`$${eredeti_termekek[1].discount_price} $${eredeti_termekek[0].price}.00`
+			document.getElementById("masodikar").innerHTML=`$${eredeti_termekek[1].discount_price} $${eredeti_termekek[1].price}.00`
 		}
 		if(eredeti_termekek[2].discount_price==""){
 			document.getElementById("harmadikar").innerHTML=`$${eredeti_termekek[2].price}.00`
 		}
 		else{
-			document.getElementById("harmadikar").innerHTML=`$${eredeti_termekek[2].discount_price} $${eredeti_termekek[0].price}.00`
+			document.getElementById("harmadikar").innerHTML=`$${eredeti_termekek[2].discount_price} $${eredeti_termekek[2].price}.00`
 		}
 		if(eredeti_termekek[3].discount_price==""){
 			document.getElementById("negyedikar").innerHTML=`$${eredeti_termekek[3].price}.00`
 		}
 		else{
-			document.getElementById("negyedikar").innerHTML=`$${eredeti_termekek[3].discount_price} $${eredeti_termekek[0].price}.00`
+			document.getElementById("negyedikar").innerHTML=`$${eredeti_termekek[3].discount_price} $${eredeti_termekek[3].price}.00`
 		}
 		if(eredeti_termekek[4].discount_price==""){
 			document.getElementById("otodikar").innerHTML=`$${eredeti_termekek[4].price}.00`
 		}
 		else{
-			document.getElementById("otodikar").innerHTML=`$${eredeti_termekek[4].discount_price} $${eredeti_termekek[0].price}.00`
+			document.getElementById("otodikar").innerHTML=`$${eredeti_termekek[4].discount_price} $${eredeti_termekek[4].price}.00`
 		}
 		if(eredeti_termekek[5].discount_price==""){
 			document.getElementById("hatodikar").innerHTML=`$${eredeti_termekek[5].price}.00`
 		}
 		else{
-			document.getElementById("hatodikar").innerHTML=`$${eredeti_termekek[5].discount_price} $${eredeti_termekek[0].price}.00`
+			document.getElementById("hatodikar").innerHTML=`$${eredeti_termekek[5].discount_price} $${eredeti_termekek[5].price}.00`
 		}
 		
+		
+		/*Terméknév*/
+
+		document.getElementById("termeknev1").innerHTML=`${eredeti_termekek[0].name}`
+		document.getElementById("termeknev2").innerHTML=`${eredeti_termekek[1].name}`
+		document.getElementById("termeknev3").innerHTML=`${eredeti_termekek[2].name}`
+		document.getElementById("termeknev4").innerHTML=`${eredeti_termekek[3].name}`
+		document.getElementById("termeknev5").innerHTML=`${eredeti_termekek[4].name}`
+		document.getElementById("termeknev6").innerHTML=`${eredeti_termekek[5].name}`
 		
 
 
@@ -254,14 +263,51 @@ function Sorting(){
 
 		/* Árak */
 
-		document.getElementById("elsoar").innerHTML=`$${termekek[0].price}.00`
-		document.getElementById("masodikar").innerHTML=`$${termekek[1].price}.00`
-		document.getElementById("harmadikar").innerHTML=`$${termekek[2].price}.00`
-		document.getElementById("negyedikar").innerHTML=`$${termekek[3].price}.00`
-		document.getElementById("otodikar").innerHTML=`$${termekek[4].price}.00`
-		document.getElementById("hatodikar").innerHTML=`$${termekek[5].price}.00`
+		if(termekek[0].discount_price==""){
+			document.getElementById("elsoar").innerHTML=`$${termekek[0].price}.00`
+		}
+		else{
+			document.getElementById("elsoar").innerHTML=`$${termekek[0].discount_price} $${termekek[0].price}.00`
+		}
+		if(termekek[1].discount_price==""){
+			document.getElementById("masodikar").innerHTML=`$${termekek[1].price}.00`
+		}
+		else{
+			document.getElementById("masodikar").innerHTML=`$${termekek[1].discount_price} $${termekek[1].price}.00`
+		}
+		if(termekek[2].discount_price==""){
+			document.getElementById("harmadikar").innerHTML=`$${termekek[2].price}.00`
+		}
+		else{
+			document.getElementById("harmadikar").innerHTML=`$${termekek[2].discount_price} $${termekek[2].price}.00`
+		}
+		if(termekek[3].discount_price==""){
+			document.getElementById("negyedikar").innerHTML=`$${termekek[3].price}.00`
+		}
+		else{
+			document.getElementById("negyedikar").innerHTML=`$${termekek[3].discount_price} $${termekek[3].price}.00`
+		}
+		if(termekek[4].discount_price==""){
+			document.getElementById("otodikar").innerHTML=`$${termekek[4].price}.00`
+		}
+		else{
+			document.getElementById("otodikar").innerHTML=`$${termekek[4].discount_price} $${termekek[4].price}.00`
+		}
+		if(termekek[5].discount_price==""){
+			document.getElementById("hatodikar").innerHTML=`$${termekek[5].price}.00`
+		}
+		else{
+			document.getElementById("hatodikar").innerHTML=`$${termekek[5].discount_price} $${termekek[5].price}.00`
+		}
 		
-	
+		/*Terméknév*/
+
+		document.getElementById("termeknev1").innerHTML=`${termekek[0].name}`
+		document.getElementById("termeknev2").innerHTML=`${termekek[1].name}`
+		document.getElementById("termeknev3").innerHTML=`${termekek[2].name}`
+		document.getElementById("termeknev4").innerHTML=`${termekek[3].name}`
+		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
+		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
 		
 		
 
@@ -284,13 +330,52 @@ function Sorting(){
 		/* Árak */
 
 		
-		document.getElementById("elsoar").innerHTML=`$${termekek[0].price}.00`
-		document.getElementById("masodikar").innerHTML=`$${termekek[1].price}.00`
-		document.getElementById("harmadikar").innerHTML=`$${termekek[2].price}.00`
-		document.getElementById("negyedikar").innerHTML=`$${termekek[3].price}.00`
-		document.getElementById("otodikar").innerHTML=`$${termekek[4].price}.00`
-		document.getElementById("hatodikar").innerHTML=`$${termekek[5].price}.00`
+		if(termekek[0].discount_price==""){
+			document.getElementById("elsoar").innerHTML=`$${termekek[0].price}.00`
+		}
+		else{
+			document.getElementById("elsoar").innerHTML=`$${termekek[0].discount_price} $${termekek[0].price}.00`
+		}
+		if(termekek[1].discount_price==""){
+			document.getElementById("masodikar").innerHTML=`$${termekek[1].price}.00`
+		}
+		else{
+			document.getElementById("masodikar").innerHTML=`$${termekek[1].discount_price} $${termekek[1].price}.00`
+		}
+		if(termekek[2].discount_price==""){
+			document.getElementById("harmadikar").innerHTML=`$${termekek[2].price}.00`
+		}
+		else{
+			document.getElementById("harmadikar").innerHTML=`$${termekek[2].discount_price} $${termekek[2].price}.00`
+		}
+		if(termekek[3].discount_price==""){
+			document.getElementById("negyedikar").innerHTML=`$${termekek[3].price}.00`
+		}
+		else{
+			document.getElementById("negyedikar").innerHTML=`$${termekek[3].discount_price} $${termekek[3].price}.00`
+		}
+		if(termekek[4].discount_price==""){
+			document.getElementById("otodikar").innerHTML=`$${termekek[4].price}.00`
+		}
+		else{
+			document.getElementById("otodikar").innerHTML=`$${termekek[4].discount_price} $${termekek[4].price}.00`
+		}
+		if(termekek[5].discount_price==""){
+			document.getElementById("hatodikar").innerHTML=`$${termekek[5].price}.00`
+		}
+		else{
+			document.getElementById("hatodikar").innerHTML=`$${termekek[5].discount_price} $${termekek[5].price}.00`
+		}
 
+
+		/*Terméknév*/
+
+		document.getElementById("termeknev1").innerHTML=`${termekek[0].name}`
+		document.getElementById("termeknev2").innerHTML=`${termekek[1].name}`
+		document.getElementById("termeknev3").innerHTML=`${termekek[2].name}`
+		document.getElementById("termeknev4").innerHTML=`${termekek[3].name}`
+		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
+		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
 
 }
 }
