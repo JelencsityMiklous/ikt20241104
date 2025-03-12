@@ -32,7 +32,7 @@ h5{
     margin-left: 45px;
 }
 input[type=email]{
-    font-size: 20px;
+    font-size: 16px;
     width:250px;
     border-radius: 4px;
     border: none;
@@ -42,7 +42,7 @@ input[type=email]{
     
 }
 input[type=password]{
-    font-size: 20px;
+    font-size: 16px;
     width:250px;
     border-radius: 4px;
     border: none;
@@ -66,7 +66,15 @@ width: 150px;
 margin-left: 25%;
    
   }
-
+#accname{
+    font-size: 16px;
+    width:250px;
+    border-radius: 4px;
+    border: none;
+    height: 25px;
+    margin-left: 30px;
+    color: #a33c3b;
+}
   #accinput{
     font-size: 15px;
     width:250px;
@@ -75,6 +83,7 @@ margin-left: 25%;
     height: 25px;
     margin-left: 30px;
     margin-bottom: -3px;
+    color: #a33c3b;
    
   }
 
@@ -86,4 +95,30 @@ margin-left: 25%;
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.4s ease 0s;}
 
-  
+   
+.cursor{
+    position: relative;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 50px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    margin-top: 50px;    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+    .typewriter-animation {
+        animation: 
+          typewriter 10s steps(50) 1s 1 normal both, 
+          blinkingCursor 500ms steps(50) infinite normal;
+      }
+      @keyframes typewriter {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      @keyframes blinkingCursor{
+        from { border-right-color: rgba(255, 255, 255, 0.75); }
+        to { border-right-color: transparent; }
+      }
