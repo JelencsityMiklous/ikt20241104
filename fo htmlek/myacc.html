@@ -70,22 +70,31 @@
 </div>
 <div class="felsofejlec"><p id="fejleclec">Home / My Account</p></div>
 
-<h1 id="welcome">Welcome back!</h1>
+<h1 class="cursor typewriter-animation">It's good to see you again!</h1>
 
 <div id="kozepdiv">
   
   <h2>Log into MintaWeb</h2>
+
+        <label for="accname"><p id="accinput">Enter your account name:</p></label>
+        <input type="text" id="accname" name="accname">
+
         <label for="accemail"><p id="accinput">Enter your email:</p></label>
         <input type="email" id="accemail" name="accemail">
 
         <label for="accpass"><p id="accinput">Enter your password:</p></label>
         <input type="password" id="accpass" name="accpass">
         <a href=""><h5>I don't have a MintaWeb account..</h5></a>
-        <input type="button" value="Log in" id="login">
+
+        <input type="button"  value="Log in" id="login" onclick="SameTab()">
         
         
 </div>
 
 <script src="../menu.js"></script>
+<script>function SameTab() {
+  window.location.replace(
+      "myacc2.html");
+}</script>
 </body>
 </html>
