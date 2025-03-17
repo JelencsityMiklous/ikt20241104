@@ -1,5 +1,5 @@
 #nagydiv{
-    width: 700px;
+    width: 80vw;
     height: 600px;
     background-color: rgb(224, 224, 224);
     box-shadow: 5px 5px rgba(36, 36, 36, 0.603);
@@ -7,8 +7,16 @@
     margin-right: auto;
     margin-top: 50px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: row;
 }
-#felsodiv{
-    height: 20vh;
-    border-bottom: 2px rgba(46, 46, 46, 0.651) solid;
+  
+#kozepsodiv{
+width:80vw;
+}
+#baloldaldiv{
+    width:10vw;
+}
+#jobbdiv{
+    width:10vw;
 }
