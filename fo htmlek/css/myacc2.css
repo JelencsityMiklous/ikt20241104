@@ -12,11 +12,19 @@
 }
   
 #kozepsodiv{
-width:80vw;
+width:70vw;
+margin:20px;
 }
 #baloldaldiv{
     width:10vw;
+    margin:20px;
+
 }
 #jobbdiv{
-    width:10vw;
+    width:20vw;
+    margin:20px;
+}
+#pfp{
+    width:200px;
+    height: 200px;
 }
