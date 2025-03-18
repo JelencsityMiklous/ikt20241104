@@ -100,7 +100,6 @@ body {
 
 
 
-
 .mainkep {
     width: 500px;
     margin-left: 5.5%;
@@ -115,6 +114,49 @@ body {
     color: red;
     font-size: large;
 }
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kosarba {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    font-size: large;
+
+    border-radius: 0;
+    background-color: #F0F0F0;
+    border-color: #F0F0F0;
+    border-style: solid;
+}
+
+.kosarba:hover {
+    animation: fadeInMid 0.4s forwards;
+}
+
+@keyframes fadeInMid {
+    0% {
+        background-color: #F0F0F0;
+        border-color: #F0F0F0;
+        border-style: solid;
+    }
+
+    100% {
+        background-color: #f8d0d0;
+        border-color: red;
+        border-style: solid;
+    }
+}
+
 
 
 footer {
