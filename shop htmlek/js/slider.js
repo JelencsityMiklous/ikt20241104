@@ -43,3 +43,11 @@ document.querySelector('#RangeSlider .range-slider-input-right').addEventListene
 
 	children[13].childNodes[1].innerHTML = e.target.value;
 });
+
+function Filter()
+{
+
+	let balos = document.getElementsByClassName("range-slider-val-range")
+	
+	console.log(balos.value)
+}
