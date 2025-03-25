@@ -1,3 +1,20 @@
+function ujAblak() {
+	window.open('./ruhadarab.html').focus();
+}
+
+let ruhadaraboldal_termekek = [
+	{
+		price:"$85.00",
+
+		dizajn_anyag_extrak1:"Logó nyomtatás",
+		dizajn_anyag_extrak2:"Pamut",
+		dizajn_anyag_extrak3:"Textil",
+
+		meret_szabas1:"Öv- / fogantyú hossza: Hosszú vállpánt / crossbody",
+		meret_szabas2:"Öv- / fogantyú hossza: Rövid vállpánt / fogantyú"
+	}
+]
+
 /* Objektum a termékekről */
 
 let termekek = [
