@@ -24,6 +24,11 @@ body {
     margin-top: 0.85%;
 }
 
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+
 :root {
     --ColorPrimaryDk: #5f0606;
     --ColorPrimaryLt: #ff0022;

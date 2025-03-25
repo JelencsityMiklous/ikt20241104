@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./css/shop_oldalak.css">
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../elooldal.css">
+  <link rel="stylesheet" href="./js/slider.css">
   
   <title>Woman</title>
 </head>
@@ -184,29 +185,19 @@
     <div class="resz jobb">
       <h2>Filter by price</h2>
       <hr id="piroshr">
-      <div id="RangeSlider" class="range-slider">
-        <div>
-          <div class="range-slider-val-left"></div>
-          <div class="range-slider-val-right"></div>
-          <div class="range-slider-val-range"></div>
-
-          <span class="range-slider-handle range-slider-handle-left"></span>
-          <span class="range-slider-handle range-slider-handle-right"></span>
-
-          <div class="range-slider-tooltip range-slider-tooltip-left">
-            <span class="range-slider-tooltip-text"></span>
-          </div>
-
-          <div class="range-slider-tooltip range-slider-tooltip-right">
-            <span class="range-slider-tooltip-text"></span>
-          </div>
+      <div class="double_range_slider_box">
+        <div class="double_range_slider">
+          <span class="range_track" id="range_track"></span>
+  
+          <input type="range" class="min" min="0" max="67" value="10" step="0" />
+          <input type="range" class="max" min="0" max="67" value="50" step="0" />
+  
+          <div class="minvalue"></div>
+          <div class="maxvalue"></div>
         </div>
-
-        <input type="range" class="range-slider-input-left" tabindex="0" max="100" min="0" step="1">
-        <input type="range" class="range-slider-input-right" tabindex="0" max="100" min="0" step="1">
       </div>
       <div id="filtergombdiv">
-        <button id="filtergomb">FILTER</button>
+        <button onclick="Filter()" id="filtergomb">FILTER</button>
         <div id="pricefelirat">
           Price: $17 - $67
         </div>

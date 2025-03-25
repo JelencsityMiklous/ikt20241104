@@ -16,12 +16,15 @@ body {
     justify-content: center;
     width: 55%;
     margin-left: 5%;
+    margin-bottom: 10%;
 }
 
 .jobb {
     width: 35%;
     margin-top: 10%;
 }
+
+
 
 #topgomb {
     display: none;
