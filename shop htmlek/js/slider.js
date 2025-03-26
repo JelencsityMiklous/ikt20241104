@@ -76,7 +76,7 @@ function Filter(){
   termekadatok1=document.getElementsByClassName("card")
   
 for(let i = 0; i < termekek.length; i++){
-  if(rangeInput[0].value<termekek[i].price && rangeInput[1].value>termekek[i].price){
+  if(rangeInput[0].value<=termekek[i].price && rangeInput[1].value>=termekek[i].price){
     termekadatok1[i].style.display="block"
   }
   else{
