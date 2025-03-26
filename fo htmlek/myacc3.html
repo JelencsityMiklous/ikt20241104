@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../elooldal.css">
     <link rel="stylesheet" href="./css/myacc.css">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="myacc3.css">
 </head>
 <body>
     <div class="help">
@@ -73,20 +74,56 @@
 <h1 class="cursor typewriter-animation">Welcome to MintaWeb!</h1>
 
 <div id="kozepdiv">
-  
-  <h2>Log into MintaWeb</h2>
+  <div id="kozepbaldiv">
+    <div class="slideshow-container">
 
-        <label for="accname"><p id="accinput">Register your account name:</p></label>
-        <input type="text" id="accname" name="accname">
-
-        <label for="accemail"><p id="accinput">Register your email:</p></label>
-        <input type="email" id="accemail" name="accemail">
-
-        <label for="accpass"><p id="accinput">Enter your password:</p></label>
-        <input type="password" id="accpass" name="accpass">
+     
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="../kepek/sliderkepek/fjdfd.png" style="width:320px ;height:400px ;border-radius: 15px;">
         
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../kepek/sliderkepek/sokadik..jpg" style="width:320px;height:400px ;border-radius: 15px;">
+       
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="../kepek/sliderkepek/nubu_budapest.jpg" style="width:320px;height:400px ;border-radius: 15px;">
+        
+      </div>
+    
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
 
-        <input type="button" style="margin-top: 30px;" value="Log in" id="login" onclick="SameTab()">
+  <div id="kozepjobbdiv"><h2>Log into MintaWeb</h2>
+
+    <label for="accname"><p id="accinput">Register your account name:</p></label>
+    <input type="text" id="accname" name="accname">
+
+    <label for="accemail"><p id="accinput">Register your email:</p></label>
+    <input type="email" id="accemail" name="accemail">
+
+    <label for="accpass"><p id="accinput">Create your password:</p></label>
+    <input type="password" id="accpass" name="accpass">
+    
+
+    <input type="button" style="margin-top: 20px;" value="Log in" id="login" onclick="SameTab()"></div>
+  
         
         
 </div>
@@ -96,5 +133,44 @@
   window.location.replace(
       "myacc2.html");
 }</script>
+<script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  
+  
+
+        
+        
+        
+
+
+
 </body>
 </html>

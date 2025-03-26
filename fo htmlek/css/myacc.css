@@ -11,7 +11,7 @@
 
 }
 #kozepbaldiv{
-  width:350px;
+  width:320px;
   height: 400px;
 }
 #kozepdiv:hover{
@@ -128,7 +128,7 @@ margin-left: 25%;
         from { border-right-color: rgba(255, 255, 255, 0.75); }
         to { border-right-color: transparent; }
       }
-      * {box-sizing:border-box}
+      
 
       /* Slideshow container */
       .slideshow-container {
