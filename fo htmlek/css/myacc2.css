@@ -12,11 +12,11 @@
 }
   
 #kozepsodiv{
-width:70vw;
+width:50vw;
 margin:20px;
 }
 #baloldaldiv{
-    width:10vw;
+    width:20%;
     margin:20px;
 
 }
@@ -27,4 +27,19 @@ margin:20px;
 #pfp{
     width:200px;
     height: 200px;
+}
+#balul li{
+    margin-top: 9px;
+}
+#focim{
+    font-weight: 700;
+}
+#email{
+    padding-bottom: 15px;
+}
+#slct{
+    margin-bottom: 15px;
+    width:130px;
+    height: 25px;
+    border-radius:0px;
 }
