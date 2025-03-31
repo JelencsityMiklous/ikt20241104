@@ -59,7 +59,8 @@ input[type=password]{
      
 }
 input[type=button] {
-    color: #fff !important;
+margin-top: -8px;
+color: #fff !important;
 text-transform: uppercase;
 text-decoration: none;
 background: #ed3330;
