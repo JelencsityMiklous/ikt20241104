@@ -6,7 +6,7 @@ let termekek = [
 		price:19,
 		gender:"men",
 		discount:true,
-		discount_price:"35.00",
+		discount_price:35,
 		img:"../../kepek/clothing/FerfiAdidasKapucnisPulover.png"
 	},
 	{
@@ -22,7 +22,7 @@ let termekek = [
 		price:52,
 		gender:"women",
 		discount:true,
-		discount_price:"65.00",
+		discount_price:65,
 		img:"../../kepek/clothing/NoiLevisKapucnisPulover.png"
 	},
 	{
@@ -57,7 +57,7 @@ let eredeti_termekek = [
 		price:19,
 		gender:"men",
 		discount:true,
-		discount_price:"19.00",
+		discount_price:"35.00",
 		img:"../../kepek/clothing/FerfiAdidasKapucnisPulover.png"
 	},
 	{
