@@ -229,6 +229,7 @@ function Sorting(){
 		}
 		else{
 			document.getElementById("masodikar").innerHTML=`$${termekek[1].discount_price}.00 $${termekek[1].price}.00`
+			document.getElementById("masodikar").style.color="gray"
 		}
 		if(termekek[2].discount_price==""){
 			document.getElementById("harmadikar").innerHTML=`$${termekek[2].price}.00`
