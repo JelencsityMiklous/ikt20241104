@@ -17,15 +17,18 @@ function topFunction() {
 }
 
 
+const params = new URLSearchParams(window.location.search);
+const productSzam = params.get("id");
 
-
-let productSzam = sessionStorage.getItem("productszam");
-console.log(productSzam)
+console.log("Product number:", productSzam); // Check if it's working
 /*window.onload = console.log(localStorage.getItem(productSzam));*/
 
-function feltoltAdat(productSzam) {
-	if (productSzam == '6') {
-		document.getElementsByClassName("product_nev").innerHTML = `${accessories_termekek[0].nev}`;
+function feltoltAdat() {
+	if (productSzam == 1) {
+		document.getElementById("product_nev").innerHTML = accessories_termekek[0].nev;
+	}
+	else if (productSzam) {
+		document.getElementsByClassName("product_nev").innerHTML = accessories_termekek[1].nev;
 	}
 }
 
