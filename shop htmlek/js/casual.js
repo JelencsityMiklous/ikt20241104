@@ -287,6 +287,7 @@ function Sorting(){
 		
 		if(termekek[0].discount_price==""){
 			document.getElementById("elsoar").innerHTML=`$${termekek[0].price}.00`
+
 		}
 		else{
 			document.getElementById("elsoar").innerHTML=`<span class="learazott">$${termekek[0].discount_price}.00</span> $${termekek[0].price}.00`
@@ -335,7 +336,8 @@ function Sorting(){
 
 	}
 
-	document.getElementById("elsoar").value.substring
+	
+	
 
 }
 
