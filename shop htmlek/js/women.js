@@ -136,37 +136,37 @@ function Sorting(){
 			document.getElementById("elsoar").innerHTML=`$${eredeti_termekek[0].price}.00`
 		}
 		else{
-			document.getElementById("elsoar").innerHTML=`$${eredeti_termekek[0].discount_price}.00 $${eredeti_termekek[0].price}.00`
+			document.getElementById("elsoar").innerHTML=`<span class="learazott">$${eredeti_termekek[0].discount_price}.00</span> $${eredeti_termekek[0].price}.00`
 		}
 		if(eredeti_termekek[1].discount_price==""){
 			document.getElementById("masodikar").innerHTML=`$${eredeti_termekek[1].price}.00`
 		}
 		else{
-			document.getElementById("masodikar").innerHTML=`$${eredeti_termekek[1].discount_price}.00 $${eredeti_termekek[1].price}.00`
+			document.getElementById("masodikar").innerHTML=`<span class="learazott">$${eredeti_termekek[1].discount_price}.00</span> $${eredeti_termekek[1].price}.00`
 		}
 		if(eredeti_termekek[2].discount_price==""){
 			document.getElementById("harmadikar").innerHTML=`$${eredeti_termekek[2].price}.00`
 		}
 		else{
-			document.getElementById("harmadikar").innerHTML=`$${eredeti_termekek[2].discount_price}.00 $${eredeti_termekek[2].price}.00`
+			document.getElementById("harmadikar").innerHTML=`<span class="learazott">$${eredeti_termekek[2].discount_price}.00</span> $${eredeti_termekek[2].price}.00`
 		}
 		if(eredeti_termekek[3].discount_price==""){
 			document.getElementById("negyedikar").innerHTML=`$${eredeti_termekek[3].price}.00`
 		}
 		else{
-			document.getElementById("negyedikar").innerHTML=`$${eredeti_termekek[3].discount_price}.00 $${eredeti_termekek[3].price}.00`
+			document.getElementById("negyedikar").innerHTML=`<span class="learazott">$${eredeti_termekek[3].discount_price}.00</span> $${eredeti_termekek[3].price}.00`
 		}
 		if(eredeti_termekek[4].discount_price==""){
 			document.getElementById("otodikar").innerHTML=`$${eredeti_termekek[4].price}.00`
 		}
 		else{
-			document.getElementById("otodikar").innerHTML=`$${eredeti_termekek[4].discount_price}.00 $${eredeti_termekek[4].price}.00`
+			document.getElementById("otodikar").innerHTML=`<span class="learazott">$${eredeti_termekek[4].discount_price}.00</span> $${eredeti_termekek[4].price}.00`
 		}
 		if(eredeti_termekek[5].discount_price==""){
 			document.getElementById("hatodikar").innerHTML=`$${eredeti_termekek[5].price}.00`
 		}
 		else{
-			document.getElementById("hatodikar").innerHTML=`$${eredeti_termekek[5].discount_price}.00 $${eredeti_termekek[5].price}.00`
+			document.getElementById("hatodikar").innerHTML=`<span class="learazott">$${eredeti_termekek[5].discount_price}.00</span> $${eredeti_termekek[5].price}.00`
 		}
 		
 		
@@ -200,37 +200,37 @@ function Sorting(){
 			document.getElementById("elsoar").innerHTML=`$${termekek[0].price}.00`
 		}
 		else{
-			document.getElementById("elsoar").innerHTML=`$${termekek[0].discount_price}.00 $${termekek[0].price}.00`
+			document.getElementById("elsoar").innerHTML=`<span class="learazott">$${termekek[0].discount_price}.00</span> $${termekek[0].price}.00`
 		}
 		if(termekek[1].discount_price==""){
 			document.getElementById("masodikar").innerHTML=`$${termekek[1].price}.00`
 		}
 		else{
-			document.getElementById("masodikar").innerHTML=`$${termekek[1].discount_price}.00 $${termekek[1].price}.00`
+			document.getElementById("masodikar").innerHTML=`<span class="learazott">$${termekek[1].discount_price}.00</span> $${termekek[1].price}.00`
 		}
 		if(termekek[2].discount_price==""){
 			document.getElementById("harmadikar").innerHTML=`$${termekek[2].price}.00`
 		}
 		else{
-			document.getElementById("harmadikar").innerHTML=`$${termekek[2].discount_price}.00 $${termekek[2].price}.00`
+			document.getElementById("harmadikar").innerHTML=`<span class="learazott">$${termekek[2].discount_price}.00</span> $${termekek[2].price}.00`
 		}
 		if(termekek[3].discount_price==""){
 			document.getElementById("negyedikar").innerHTML=`$${termekek[3].price}.00`
 		}
 		else{
-			document.getElementById("negyedikar").innerHTML=`$${termekek[3].discount_price}.00 $${termekek[3].price}.00`
+			document.getElementById("negyedikar").innerHTML=`<span class="learazott">$${termekek[3].discount_price}.00</span> $${termekek[3].price}.00`
 		}
 		if(termekek[4].discount_price==""){
 			document.getElementById("otodikar").innerHTML=`$${termekek[4].price}.00`
 		}
 		else{
-			document.getElementById("otodikar").innerHTML=`$${termekek[4].discount_price}.00 $${termekek[4].price}.00`
+			document.getElementById("otodikar").innerHTML=`<span class="learazott">$${termekek[4].discount_price}.00</span> $${termekek[4].price}.00`
 		}
 		if(termekek[5].discount_price==""){
 			document.getElementById("hatodikar").innerHTML=`$${termekek[5].price}.00`
 		}
 		else{
-			document.getElementById("hatodikar").innerHTML=`$${termekek[5].discount_price}.00 $${termekek[5].price}.00`
+			document.getElementById("hatodikar").innerHTML=`<span class="learazott">$${termekek[5].discount_price}.00</span> $${termekek[5].price}.00`
 		}
 		
 		/*Terméknév*/
@@ -267,37 +267,37 @@ function Sorting(){
 			document.getElementById("elsoar").innerHTML=`$${termekek[0].price}.00`
 		}
 		else{
-			document.getElementById("elsoar").innerHTML=`$${termekek[0].discount_price}.00 $${termekek[0].price}.00`
+			document.getElementById("elsoar").innerHTML=`<span class="learazott">$${termekek[0].discount_price}.00</span> $${termekek[0].price}.00`
 		}
 		if(termekek[1].discount_price==""){
 			document.getElementById("masodikar").innerHTML=`$${termekek[1].price}.00`
 		}
 		else{
-			document.getElementById("masodikar").innerHTML=`$${termekek[1].discount_price}.00 $${termekek[1].price}.00`
+			document.getElementById("masodikar").innerHTML=`<span class="learazott">$${termekek[1].discount_price}.00</span> $${termekek[1].price}.00`
 		}
 		if(termekek[2].discount_price==""){
 			document.getElementById("harmadikar").innerHTML=`$${termekek[2].price}.00`
 		}
 		else{
-			document.getElementById("harmadikar").innerHTML=`$${termekek[2].discount_price}.00 $${termekek[2].price}.00`
+			document.getElementById("harmadikar").innerHTML=`<span class="learazott">$${termekek[2].discount_price}.00</span> $${termekek[2].price}.00`
 		}
 		if(termekek[3].discount_price==""){
 			document.getElementById("negyedikar").innerHTML=`$${termekek[3].price}.00`
 		}
 		else{
-			document.getElementById("negyedikar").innerHTML=`$${termekek[3].discount_price}.00 $${termekek[3].price}.00`
+			document.getElementById("negyedikar").innerHTML=`<span class="learazott">$${termekek[3].discount_price}.00</span> $${termekek[3].price}.00`
 		}
 		if(termekek[4].discount_price==""){
 			document.getElementById("otodikar").innerHTML=`$${termekek[4].price}.00`
 		}
 		else{
-			document.getElementById("otodikar").innerHTML=`$${termekek[4].discount_price}.00 $${termekek[4].price}.00`
+			document.getElementById("otodikar").innerHTML=`<span class="learazott">$${termekek[4].discount_price}.00</span> $${termekek[4].price}.00`
 		}
 		if(termekek[5].discount_price==""){
 			document.getElementById("hatodikar").innerHTML=`$${termekek[5].price}.00`
 		}
 		else{
-			document.getElementById("hatodikar").innerHTML=`$${termekek[5].discount_price}.00 $${termekek[5].price}.00`
+			document.getElementById("hatodikar").innerHTML=`<span class="learazott">$${termekek[5].discount_price}.00</span> $${termekek[5].price}.00`
 		}
 
 
