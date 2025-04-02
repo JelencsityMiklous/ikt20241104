@@ -1,5 +1,5 @@
-function megszerezAdat(productSzam) {
-	sessionStorage.setItem("productszam", productSzam);
+function megszerezAdat(productSzam) { 
+    window.open(`ruhadarab.html?id=${productSzam}`, '_blank'); 
 }
 
 /* Objektum a termékekről */
