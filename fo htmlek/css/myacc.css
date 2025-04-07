@@ -4,7 +4,7 @@
     background-color: rgb(235, 235, 235);
     margin-left: auto;
     margin-right:  auto;
-    border-radius: 15px;
+    
     box-shadow:  5px 5px rgb(218, 74, 74);
     display: flex;
     flex-direction: row;
@@ -40,7 +40,7 @@ h5{
 input[type=email]{
     font-size: 16px;
     width:250px;
-    border-radius: 4px;
+    
     border: none;
     height: 25px;
     margin-left: 30px;
@@ -50,7 +50,7 @@ input[type=email]{
 input[type=password]{
     font-size: 16px;
     width:250px;
-    border-radius: 4px;
+    
     border: none;
     height: 25px;
     margin-left: 30px;
@@ -65,7 +65,7 @@ text-transform: uppercase;
 text-decoration: none;
 background: #ed3330;
 padding: 20px;
-border-radius: 5px;
+
 display: inline-block;
 border: none;
 transition: all 0.4s ease 0s;
@@ -76,7 +76,7 @@ margin-left: 25%;
 #accname{
     font-size: 16px;
     width:250px;
-    border-radius: 4px;
+   
     border: none;
     height: 25px;
     margin-left: 30px;
@@ -85,7 +85,7 @@ margin-left: 25%;
   #accinput{
     font-size: 15px;
     width:250px;
-    border-radius: 4px;
+   
     border: none;
     height: 25px;
     margin-left: 30px;
@@ -166,9 +166,7 @@ margin-left: 25%;
       }
       
       /* On hover, add a black background color with a little bit see-through */
-      .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-      }
+      
       
       /* Caption text */
       .text {
