@@ -103,19 +103,24 @@ body {
 
 
 
-.mainkep {
+#mainkep {
     width: 500px;
     margin-left: 5.5%;
 }
 
-.product_nev {
+#product_nev {
     font-size: larger;
     font-weight: 600;
 }
 
-.product_ar {
+#product_ar {
     color: red;
     font-size: large;
+}
+
+#learazott {
+    text-decoration: line-through;
+    color: rgb(182, 182, 182);
 }
 
 .button_container {
@@ -125,6 +130,8 @@ body {
 }
 
 .kosarba {
+    margin-top: 5%;
+    margin-bottom: 3%;
     position: inherit;
     display: flex;
     justify-content: center;
