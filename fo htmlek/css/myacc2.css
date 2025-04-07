@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    border-radius: 15px;
+    
     display: flex;
     flex-direction: row;
 }
@@ -17,33 +17,34 @@
 #kozepsodiv{
 width:50vw;
 margin:20px;
+padding:15px;
 }
+
 #baloldaldiv{
     width:20%;
     margin:20px;
-    
-
 }
+
 #nev{
     text-align: center;
 }
 #nagyjobbdiv{
     width:20vw;
     height: 260px;
-    background-color: rgb(214, 214, 214);
-    border-bottom:1px rgb(27, 27, 27) solid;
+    
+    
 
 }
-#nagyjobbdiv:hover{
-    background-color: rgb(185, 185, 185);
-}
+
 #jobbdiv{
     width:20vw;
     margin:20px;
-    background-color: rgb(185, 185, 185);
-    border:1px rgb(27, 27, 27) solid;
+    
+    
 }
-
+#jobbdiv:hover{
+    background-color: rgb(211, 211, 211);
+}
 
 #pfp{
     width:220px;
@@ -54,8 +55,23 @@ margin:20px;
    
 }
 #balul li{
-    margin-top: 9px;
+    margin-bottom: 25px;
+    list-style: none ;
 }
+#balul li:hover{
+    text-transform: uppercase;
+text-decoration: none;
+
+margin-top: none;
+display: inline-block;
+border: none;
+transition: all 0.2s ease 0s;
+}
+#balul li:hover{
+    letter-spacing: 1px;
+ 
+    
+    transition: all 0.4s ease 0s;}
 #focim{
     font-weight: 700;
 }
