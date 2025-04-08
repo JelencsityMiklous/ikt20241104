@@ -28,7 +28,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/collar-light-gray-t-m.png"
+		img:"../../kepek/collar-light-gray-t-m.png",
 	},
 	{
 		name:"Gents T-Shirt",
@@ -213,7 +213,8 @@ function Sorting(){
 		document.getElementById("termeknev5").innerHTML=`${eredeti_termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${eredeti_termekek[5].name}`
 		
-
+		/* Href */
+		document.getElementById("termeknev1").href=``
 
 	}
 	else if (sortingdropdownvalue==2){

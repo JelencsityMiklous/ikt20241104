@@ -11,7 +11,8 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/karl_lagerfeld_taska.png"
+		img:"../../kepek/accessories/karl_lagerfeld_taska.png",
+		href:"./ruhadarab.html?id=1"
 	},
 	{
 		name:"Furla Táska",
@@ -19,7 +20,8 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"350",
-		img:"../../kepek/accessories/furla_taska.png"
+		img:"../../kepek/accessories/furla_taska.png",
+		href:"./ruhadarab.html?id=2"
 	},
 	{
 		name:"Vanzetti Öv",
@@ -27,7 +29,8 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/vanzetti_ov.png"
+		img:"../../kepek/accessories/vanzetti_ov.png",
+		href:"./ruhadarab.html?id=3"
 	},
 	{
 		name:"Nike Hátitáska",
@@ -35,7 +38,8 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/nike_hatitaska.png"
+		img:"../../kepek/accessories/nike_hatitaska.png",
+		href:"./ruhadarab.html?id=4"
 	},
 	{
 		name:"Expatrie Övtáska",
@@ -43,7 +47,8 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"",
-		img:"../../kepek/accessories/expatrie_ovtaska.png"
+		img:"../../kepek/accessories/expatrie_ovtaska.png",
+		href:"./ruhadarab.html?id=5"
 	},
 	{
 		name:"Alpha Industries Sapka",
@@ -51,7 +56,8 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"35",
-		img:"../../kepek/accessories/alpha_industries_sapka.png"
+		img:"../../kepek/accessories/alpha_industries_sapka.png",
+		href:"./ruhadarab.html?id=6"
 	}
 ]
 
@@ -63,7 +69,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/karl_lagerfeld_taska.png"
+		img:"../../kepek/accessories/karl_lagerfeld_taska.png",
+		href:"./ruhadarab.html?id=1"
 	},
 	{
 		name:"Furla Táska",
@@ -71,7 +78,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"350",
-		img:"../../kepek/accessories/furla_taska.png"
+		img:"../../kepek/accessories/furla_taska.png",
+		href:"./ruhadarab.html?id=2"
 	},
 	{
 		name:"Vanzetti Öv",
@@ -79,7 +87,8 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/vanzetti_ov.png"
+		img:"../../kepek/accessories/vanzetti_ov.png",
+		href:"./ruhadarab.html?id=3"
 	},
 	{
 		name:"Nike Hátitáska",
@@ -87,7 +96,8 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/nike_hatitaska.png"
+		img:"../../kepek/accessories/nike_hatitaska.png",
+		href:"./ruhadarab.html?id=4"
 	},
 	{
 		name:"Expatrie Övtáska",
@@ -95,7 +105,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"",
-		img:"../../kepek/accessories/expatrie_ovtaska.png"
+		img:"../../kepek/accessories/expatrie_ovtaska.png",
+		href:"./ruhadarab.html?id=5"
 	},
 	{
 		name:"Alpha Industries Sapka",
@@ -103,7 +114,8 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"35",
-		img:"../../kepek/accessories/alpha_industries_sapka.png"
+		img:"../../kepek/accessories/alpha_industries_sapka.png",
+		href:"./ruhadarab.html?id=6"
 	}
 ]
 
@@ -193,7 +205,13 @@ function Sorting(){
 		document.getElementById("termeknev5").innerHTML=`${eredeti_termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${eredeti_termekek[5].name}`
 		
-
+		/* Href */
+		document.getElementById("termeknev1").href=`${eredeti_termekek[0].href}`
+		document.getElementById("termeknev2").href=`${eredeti_termekek[1].href}`
+		document.getElementById("termeknev3").href=`${eredeti_termekek[2].href}`
+		document.getElementById("termeknev4").href=`${eredeti_termekek[3].href}`
+		document.getElementById("termeknev5").href=`${eredeti_termekek[4].href}`
+		document.getElementById("termeknev6").href=`${eredeti_termekek[5].href}`
 
 	}
 	else if (sortingdropdownvalue==2){
@@ -267,6 +285,15 @@ function Sorting(){
 		document.getElementById("termeknev4").innerHTML=`${termekek[3].name}`
 		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
+
+
+		/* Href */
+		document.getElementById("termeknev1").href=`${termekek[0].href}`
+		document.getElementById("termeknev2").href=`${termekek[1].href}`
+		document.getElementById("termeknev3").href=`${termekek[2].href}`
+		document.getElementById("termeknev4").href=`${termekek[3].href}`
+		document.getElementById("termeknev5").href=`${termekek[4].href}`
+		document.getElementById("termeknev6").href=`${termekek[5].href}`
 		
 		
 
@@ -347,6 +374,14 @@ function Sorting(){
 		document.getElementById("termeknev4").innerHTML=`${termekek[3].name}`
 		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
+
+		/* Href */
+		document.getElementById("termeknev1").href=`${termekek[0].href}`
+		document.getElementById("termeknev2").href=`${termekek[1].href}`
+		document.getElementById("termeknev3").href=`${termekek[2].href}`
+		document.getElementById("termeknev4").href=`${termekek[3].href}`
+		document.getElementById("termeknev5").href=`${termekek[4].href}`
+		document.getElementById("termeknev6").href=`${termekek[5].href}`
 
 }
 }
