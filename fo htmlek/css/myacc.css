@@ -39,7 +39,7 @@ h5{
 }
 input[type=email]{
     font-size: 16px;
-    width:250px;
+    width:220px;
     
     border: none;
     height: 25px;
@@ -49,7 +49,7 @@ input[type=email]{
 }
 input[type=password]{
     font-size: 16px;
-    width:250px;
+    width:220px;
     
     border: none;
     height: 25px;
@@ -75,7 +75,7 @@ margin-left: 25%;
   }
 #accname{
     font-size: 16px;
-    width:250px;
+    width:220px;
    
     border: none;
     height: 25px;
@@ -84,7 +84,7 @@ margin-left: 25%;
 }
   #accinput{
     font-size: 15px;
-    width:250px;
+    width:220px;
    
     border: none;
     height: 25px;
@@ -213,4 +213,43 @@ margin-left: 25%;
       @keyframes fade {
         from {opacity: .4}
         to {opacity: 1}
+      }
+
+      @media only screen and (max-width: 690px){
+        #kozepdiv{
+          width: 90vw;
+          height: fit-content;
+          background-color: rgb(235, 235, 235);
+          margin-left: auto;
+          margin-right:  auto;
+          
+          box-shadow:  5px 5px rgb(218, 74, 74);
+          display: flex;
+          flex-direction: column;
+          
+      
+      }
+      #kozepbaldiv{
+        width:90vw;
+        height: 400px;
+      }
+      #kozepjobbdiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #login{
+        margin-left: 0px;
+       margin-bottom: 15px;
+      }
+    }
+
+
+
+
+
+      @media only screen and (max-width: 587px){
+       #egy{
+          visibility: hidden;
+        }
       }
