@@ -47,7 +47,7 @@ padding:15px;
 }
 
 #pfp{
-    width:220px;
+    width:90%;
     height: 190px;
     display: block;
      margin: auto;
@@ -55,7 +55,7 @@ padding:15px;
    
 }
 #balul li{
-    margin-bottom: 25px;
+    
     list-style: none ;
 }
 #balul li:hover{
@@ -84,3 +84,18 @@ transition: all 0.2s ease 0s;
     height: 25px;
     border-radius:0px;
 }
+@media only screen and (max-width: 690px){
+    #nagydiv{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        
+    }
+    #baloldaldiv{
+        width:60%;
+
+    }
+   
+    
+  
+  }
