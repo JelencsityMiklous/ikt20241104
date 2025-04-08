@@ -1,4 +1,6 @@
-
+function megszerezAdat(productSzam) { 
+    window.open(`ruhadarab.html?id=${productSzam}`, '_blank'); 
+}
 
 let mybutton = document.getElementById("topgomb");
 
