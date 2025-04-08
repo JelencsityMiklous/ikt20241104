@@ -28,7 +28,8 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/collar-light-gray-t-m.png"
+		img:"../../kepek/collar-light-gray-t-m.png",
+		href:"./ruhadarab.html?id=7"
 	},
 	{
 		name:"Gents T-Shirt",
@@ -36,7 +37,8 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/white-t-m.png"
+		img:"../../kepek/white-t-m.png",
+		href:"./ruhadarab.html?id=8"
 	},
 	{
 		name:"Ladies Hat",
@@ -44,7 +46,8 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"22",
-		img:"../../kepek/hat-f.png"
+		img:"../../kepek/hat-f.png",
+		href:"./ruhadarab.html?id=9"
 	},
 	{
 		name:"Leather Jacket",
@@ -52,7 +55,8 @@ let termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:"100",
-		img:"../../kepek/leather-jacket-m.png"
+		img:"../../kepek/leather-jacket-m.png",
+		href:"./ruhadarab.html?id=10"
 	},
 	{
 		name:"Printed Tops",
@@ -60,7 +64,8 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/patterned-dress-f.png"
+		img:"../../kepek/patterned-dress-f.png",
+		href:"./ruhadarab.html?id=11"
 		
 	},
 	{
@@ -69,7 +74,8 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/black-dress-f.png"
+		img:"../../kepek/black-dress-f.png",
+		href:"./ruhadarab.html?id=12"
 	}
 ]
 
@@ -80,7 +86,8 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/collar-light-gray-t-m.png"
+		img:"../../kepek/collar-light-gray-t-m.png",
+		href:"./ruhadarab.html?id=7"
 	},
 	{
 		name:"Gents T-Shirt",
@@ -88,7 +95,8 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/white-t-m.png"
+		img:"../../kepek/white-t-m.png",
+		href:"./ruhadarab.html?id=8"
 	},
 	{
 		name:"Ladies Hat",
@@ -96,7 +104,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"22.00",
-		img:"../../kepek/hat-f.png"
+		img:"../../kepek/hat-f.png",
+		href:"./ruhadarab.html?id=9"
 	},
 	{
 		name:"Leather Jacket",
@@ -104,7 +113,8 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:"100.00",
-		img:"../../kepek/leather-jacket-m.png"
+		img:"../../kepek/leather-jacket-m.png",
+		href:"./ruhadarab.html?id=10"
 	},
 	{
 		name:"Printed Tops",
@@ -112,7 +122,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/patterned-dress-f.png"
+		img:"../../kepek/patterned-dress-f.png",
+		href:"./ruhadarab.html?id=11"
 		
 	},
 	{
@@ -121,7 +132,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/black-dress-f.png"
+		img:"../../kepek/black-dress-f.png",
+		href:"./ruhadarab.html?id=12"
 	}
 ]
 
@@ -213,7 +225,13 @@ function Sorting(){
 		document.getElementById("termeknev5").innerHTML=`${eredeti_termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${eredeti_termekek[5].name}`
 		
-
+		/* Href */
+		document.getElementById("termeknev1").href=`${eredeti_termekek[0].href}`
+		document.getElementById("termeknev2").href=`${eredeti_termekek[1].href}`
+		document.getElementById("termeknev3").href=`${eredeti_termekek[2].href}`
+		document.getElementById("termeknev4").href=`${eredeti_termekek[3].href}`
+		document.getElementById("termeknev5").href=`${eredeti_termekek[4].href}`
+		document.getElementById("termeknev6").href=`${eredeti_termekek[5].href}`
 
 	}
 	else if (sortingdropdownvalue==2){
@@ -287,6 +305,13 @@ function Sorting(){
 		document.getElementById("termeknev4").innerHTML=`${termekek[3].name}`
 		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
+
+		document.getElementById("termeknev1").href=`${termekek[0].href}`
+		document.getElementById("termeknev2").href=`${termekek[1].href}`
+		document.getElementById("termeknev3").href=`${termekek[2].href}`
+		document.getElementById("termeknev4").href=`${termekek[3].href}`
+		document.getElementById("termeknev5").href=`${termekek[4].href}`
+		document.getElementById("termeknev6").href=`${termekek[5].href}`
 		
 		
 
@@ -368,6 +393,12 @@ function Sorting(){
 		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
 
+		document.getElementById("termeknev1").href=`${termekek[0].href}`
+		document.getElementById("termeknev2").href=`${termekek[1].href}`
+		document.getElementById("termeknev3").href=`${termekek[2].href}`
+		document.getElementById("termeknev4").href=`${termekek[3].href}`
+		document.getElementById("termeknev5").href=`${termekek[4].href}`
+		document.getElementById("termeknev6").href=`${termekek[5].href}`
 
 	}
 
