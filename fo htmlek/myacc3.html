@@ -131,22 +131,28 @@
 <script src="../menu.js"></script>
 <script>function SameTab() {
 
-
   let ujnev = document.getElementById("accname").value
   let ujemail = document.getElementById("accemail").value
-
-  if(ujemail==""){
-    alert("Nem adtál meg email címet!")
-  }
+  let ujpass = document.getElementById("accpass").value
+  
+  
   if(ujnev==""){
-    alert("Nem adtál meg nevet!")
+    alert("Nem adtad meg a neved!")
   }
-
- 
-
-  window.location.replace(
-      "myacc2.html");
-}</script>
+  else if(ujemail==""){
+    alert("Nem adtál meg emailt!")
+  }
+  else if(!ujemail.includes("@")){
+    alert("Email címnek tartalmaznia kell ' @ ' ")
+  }
+  else if(ujpass==""){
+    alert("Nem adtál meg jelszót")
+  }
+  else{
+    window.location.replace(
+        "myacc2.html");
+  }
+  }</script>
 <script>
   let slideIndex = 1;
 showSlides(slideIndex);
