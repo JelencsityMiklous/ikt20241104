@@ -95,6 +95,28 @@ transition: all 0.2s ease 0s;
         width:60%;
 
     }
+    #kozepsodiv{
+        width:50vw;
+        margin:20px;
+        padding:15px;
+        margin-left:45px;
+        }
+        #jobbdiv{
+            width:40vw;
+            margin:20px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        #nagyjobbdiv{
+            width:40vw;
+            height: 260px;
+            
+        }
+        #pfp{
+            margin: auto;
+            
+        }
    
     
   
