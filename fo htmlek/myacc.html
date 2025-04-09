@@ -132,8 +132,28 @@
 
 <script src="../menu.js"></script>
 <script>function SameTab() {
+
+let nev = document.getElementById("accname").value
+let email = document.getElementById("accemail").value
+let pass = document.getElementById("accpass").value
+
+
+if(nev==""){
+  alert("Nem adtad meg a neved!")
+}
+else if(email==""){
+  alert("Nem adtál meg emailt!")
+}
+else if(!email.includes("@")){
+  alert("Hibás email cím")
+}
+else if(pass==""){
+  alert("Nem adtál meg jelszót")
+}
+else{
   window.location.replace(
       "myacc2.html");
+}
 }</script>
 <script>
   let slideIndex = 1;
