@@ -130,6 +130,20 @@
 
 <script src="../menu.js"></script>
 <script>function SameTab() {
+
+
+  let ujnev = document.getElementById("accname").value
+  let ujemail = document.getElementById("accemail").value
+
+  if(ujemail==""){
+    alert("Nem adtál meg email címet!")
+  }
+  if(ujnev==""){
+    alert("Nem adtál meg nevet!")
+  }
+
+ 
+
   window.location.replace(
       "myacc2.html");
 }</script>
