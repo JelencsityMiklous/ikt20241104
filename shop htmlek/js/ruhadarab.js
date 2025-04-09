@@ -303,6 +303,60 @@ function feltoltAdat() {
 
 		main_image.src="../kepek/accessories/alpha_industries_sapka.png"
 	}
+
+	else if (productSzam == 7) {
+		oldalcim.innerHTML = "Collar T-Shirt"
+		fejlec_cim.innerHTML = "Home / Products / Casual / Collar T-Shirt"
+
+		document.getElementById("product_nev").innerHTML = casual_termekek[0].nev;
+
+		document.getElementById("product_ar").innerHTML = casual_termekek[0].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = casual_termekek[0].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = casual_termekek[0].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = casual_termekek[0].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = casual_termekek[0].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = casual_termekek[0].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = casual_termekek[0].dizajn_anyag_extrak6
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = casual_termekek[0].dizajn_anyag_extrak7
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = casual_termekek[0].dizajn_anyag_extrak8
+		let list_item9 = document.createElement("li")
+		list_item9.innerHTML = casual_termekek[0].dizajn_anyag_extrak9
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+		un_list_des.appendChild(list_item7)
+		un_list_des.appendChild(list_item8)
+		un_list_des.appendChild(list_item9)
+
+		let list_item10 = document.createElement("li")
+		list_item10.innerHTML = casual_termekek[0].meret_szabas1
+		let list_item11 = document.createElement("li")
+		list_item11.innerHTML = casual_termekek[0].meret_szabas1
+		let list_item12 = document.createElement("li")
+		list_item12.innerHTML = casual_termekek[0].meret_szabas1
+		let list_item13 = document.createElement("li")
+		list_item13.innerHTML = casual_termekek[0].meret_szabas1
+
+		un_list_meret.appendChild(list_item10)
+		un_list_meret.appendChild(list_item11)
+		un_list_meret.appendChild(list_item12)
+		un_list_meret.appendChild(list_item13)
+
+		main_image.src="../kepek/collartshirt.jpg"
+	}
 }
 
 
@@ -417,7 +471,124 @@ let accessories_termekek = [
 
 		meret_szabas1:"Állítható"
 	},
+]
 
+let casual_termekek = [
+	//1
+	{
+		nev:"Tight-fit Collared T-Shirt",
+		price:"$35.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Pamut",
+		dizajn_anyag_extrak3:"Galléros póló",
+		dizajn_anyag_extrak4:"Levarrt szegély",
+		dizajn_anyag_extrak5:"Mandzsetta-/bordázott gallér",
+		dizajn_anyag_extrak6:"Címkehímzés",
+		dizajn_anyag_extrak7:"Ton inTon tűzések",
+		dizajn_anyag_extrak8:"Lágy fogantyú",
+		dizajn_anyag_extrak9:"Gombos lezárás",
+
+		meret_szabas1:"Csomag: 1 darabos csomag",
+		meret_szabas2:"Ujjhossz: Negyedes ujj",
+		meret_szabas3:"Hossz: Normál hosszúságú",
+		meret_szabas4:"Fazon: normál fazon"
+	},
+
+	//2
+	{
+		nev:"Gentlemen's Casual T-Shirt",
+		price:"$35.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Dzsörzé",
+		dizajn_anyag_extrak3:"Kereknyakú kivágás",
+		dizajn_anyag_extrak4:"Levarrt szegély",
+		dizajn_anyag_extrak5:"Mandzsetta-/bordázott gallér",
+		dizajn_anyag_extrak6:"Egyenes alsó szegély",
+		dizajn_anyag_extrak7:"Ton inTon tűzések",
+		dizajn_anyag_extrak8:"Lágy fogantyú",
+		dizajn_anyag_extrak9:"Nyakszalag",
+
+		meret_szabas1:"Csomag: 1 darabos csomag",
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas1:"Hossz: Normál hosszúságú",
+		meret_szabas1:"Fazon: normál fazon"
+	},
+
+	//3
+	{
+		nev:"Brixton Hat 'WESLEY FEDORA'",
+		real_price:"$22.00",
+		sale_price:"$17.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Filc",
+		dizajn_anyag_extrak3:"Filc sapka",
+
+		meret_szabas1:"Univerzális méret/Állítható",
+	},
+
+	//4
+	{
+		nev:"Gentlemen's Casual T-Shirt",
+		real_price:"$100.00",
+		sale_price:"$50.00",
+
+		dizajn_anyag_extrak1:"Bőr",
+		dizajn_anyag_extrak2:"Kerékpáros dzseki",
+		dizajn_anyag_extrak3:"Nyomógombos zár",
+		dizajn_anyag_extrak4:"Cipzár",
+		dizajn_anyag_extrak5:"Hátrészvarrás",
+		dizajn_anyag_extrak6:"Mellbevarrás",
+		dizajn_anyag_extrak7:"Címke",
+		dizajn_anyag_extrak8:"Ton inTon tűzések",
+		dizajn_anyag_extrak9:"Puha fogantyú",
+
+		meret_szabas1:"Fazon: karcsúsított fazon"
+	},
+
+	//5
+	{
+		nev:"Printed Floral Top Dress 'Joaline'",
+		price:"$75.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"V-kivágás",
+		dizajn_anyag_extrak3:"Fodor",
+		dizajn_anyag_extrak4:"Redőzött",
+		dizajn_anyag_extrak5:"Levarrt szegély",
+		dizajn_anyag_extrak6:"Hátcipzár",
+		dizajn_anyag_extrak7:"Húzott derék",
+		dizajn_anyag_extrak8:"Ton inTon tűzések",
+		dizajn_anyag_extrak9:"Folyó anyag",
+
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas2:"Hossz: Hosszú/maxi",
+		meret_szabas3:"Fazon: normál fazon",
+		meret_szabas4:"Vágás: Beépített"
+	},
+
+	//6
+	{
+		nev:"Lauren Ralph Lauren Night Tops 'Leonidas'",
+		price:"$45.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"V-kivágás",
+		dizajn_anyag_extrak3:"Átlapolós dizájn",
+		dizajn_anyag_extrak4:"Redőzött",
+		dizajn_anyag_extrak5:"Levarrt szegély",
+		dizajn_anyag_extrak6:"Oldalhasíték",
+		dizajn_anyag_extrak7:"Mély kivágás/dekoltázs",
+		dizajn_anyag_extrak8:"Ton inTon tűzések",
+		dizajn_anyag_extrak9:"Lágy fogantyú",
+
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas2:"Hossz: Hosszú/maxi",
+		meret_szabas3:"Fazon: normál fazon",
+		meret_szabas4:"Vágás: Beépített"
+	},
 ]
 
 feltoltAdat();
