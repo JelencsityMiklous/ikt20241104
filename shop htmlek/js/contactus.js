@@ -1,23 +1,23 @@
-Emailkuldes()
+function Emailkuldes()
 {
 
-    alert("aa")
+    
     let firstname=document.getElementById("fname").value
     let lastname=document.getElementById("lname").value
     let email=document.getElementById("email").value
 
-    if(firstname.value=""){
+    if(firstname==""){
         alert("Adj meg egy first namet!")
     }
     else{
-        if(lastname.value=""){
+        if(lastname==""){
             alert("Adj meg egy last namet!")   
         }
         else{
-            if(email.value=""){
+            if(email==""){
                 alert("Kérlek adj meg egy email címet!")
             }
-            else if(email.value.contains("@")){
+            else if(email.includes("@")){
                 alert("Sikeresen elküldted!")
             }
             else{
