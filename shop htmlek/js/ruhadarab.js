@@ -34,6 +34,8 @@ function feltoltAdat() {
 	let main_image = document.getElementById("mainkep")
 
 	if (productSzam == 1) {
+		document.title = "Karl Lagerfeld Bag";
+
 		oldalcim.innerHTML = "Karl Lagerfeld Bag"
 		fejlec_cim.innerHTML = "Home / Products / Accessories / Karl Lagerfeld Bag"
 
@@ -64,6 +66,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 2) {
+		document.title = "Furla Bag";
+
 		oldalcim.innerHTML = "Furla Bag"
 		fejlec_cim.innerHTML = "Home / Products / Accessories / Furla Bag"
 
@@ -122,6 +126,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 3) {
+		document.title = "Vanzetti Belt";
+
 		oldalcim.innerHTML = "Vanzetti Belt"
 		fejlec_cim.innerHTML = "Home / Products / Accessories / Vanzetti Belt"
 
@@ -158,6 +164,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 4) {
+		document.title = "Nike Backpack";
+
 		oldalcim.innerHTML = "Nike Backpack"
 		fejlec_cim.innerHTML = "Home / Products / Accessories / Nike Backpack"
 
@@ -211,6 +219,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 5) {
+		document.title = "Expatrie Beltbag";
+
 		oldalcim.innerHTML = "Expatrie Beltbag"
 		fejlec_cim.innerHTML = "Home / Products / Accessories / Expatrie Beltbag"
 
@@ -259,6 +269,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 6) {
+		document.title = "Alpha Industries Hat";
+
 		oldalcim.innerHTML = "Alpha Industries Hat"
 		fejlec_cim.innerHTML = "Home / Products / Accessories / Alpha Industries Hat"
 
@@ -306,6 +318,8 @@ function feltoltAdat() {
 
 	//casual termékek
 	else if (productSzam == 7) {
+		document.title = "Collar T-Shirt";
+
 		oldalcim.innerHTML = "Collar T-Shirt"
 		fejlec_cim.innerHTML = "Home / Products / Casual / Collar T-Shirt"
 
@@ -360,6 +374,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 8) {
+		document.title = "Gents T-Shirt";
+
 		oldalcim.innerHTML = "Gents T-Shirt"
 		fejlec_cim.innerHTML = "Home / Products / Casual / Gents T-Shirt"
 
@@ -414,6 +430,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 9) {
+		document.title = "Ladies Hat";
+
 		oldalcim.innerHTML = "Ladies Hat"
 		fejlec_cim.innerHTML = "Home / Products / Casual / Ladies Hat"
 
@@ -442,6 +460,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 10) {
+		document.title = "Collar T-Shirt";
+
 		oldalcim.innerHTML = "Collar T-Shirt"
 		fejlec_cim.innerHTML = "Home / Products / Casual / Collar T-Shirt"
 
@@ -488,6 +508,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 11) {
+		document.title = "Printed Tops";
+
 		oldalcim.innerHTML = "Printed Tops"
 		fejlec_cim.innerHTML = "Home / Products / Casual / Printed Tops"
 
@@ -542,6 +564,8 @@ function feltoltAdat() {
 	}
 
 	else if (productSzam == 12) {
+		document.title = "Women Tops";
+
 		oldalcim.innerHTML = "Women Tops"
 		fejlec_cim.innerHTML = "Home / Products / Casual / Women Tops"
 
@@ -597,24 +621,26 @@ function feltoltAdat() {
 
 	//clothing
 	else if (productSzam == 13) {
+		document.title = "Men adidas hoodie";
+
 		oldalcim.innerHTML = "Men adidas hoodie"
-		fejlec_cim.innerHTML = "Home / Products / Casual / Men adidas hoodie"
+		fejlec_cim.innerHTML = "Home / Products / Clothing / Men adidas hoodie"
 
-		document.getElementById("product_nev").innerHTML = casual_termekek[0].nev;
+		document.getElementById("product_nev").innerHTML = clothing_termekek[0].nev;
 
-		document.getElementById("product_ar").innerHTML = casual_termekek[0].sale_price;
-		document.getElementById("learazott").innerHTML = casual_termekek[0].real_price;
+		document.getElementById("product_ar").innerHTML = clothing_termekek[0].sale_price;
+		document.getElementById("learazott").innerHTML = clothing_termekek[0].real_price;
 		
 		let list_item1 = document.createElement("li")
-		list_item1.innerHTML = casual_termekek[0].dizajn_anyag_extrak1
+		list_item1.innerHTML = clothing_termekek[0].dizajn_anyag_extrak1
 		let list_item2 = document.createElement("li")
-		list_item2.innerHTML = casual_termekek[0].dizajn_anyag_extrak2
+		list_item2.innerHTML = clothing_termekek[0].dizajn_anyag_extrak2
 		let list_item3 = document.createElement("li")
-		list_item3.innerHTML = casual_termekek[0].dizajn_anyag_extrak3
+		list_item3.innerHTML = clothing_termekek[0].dizajn_anyag_extrak3
 		let list_item4 = document.createElement("li")
-		list_item4.innerHTML = casual_termekek[0].dizajn_anyag_extrak4
+		list_item4.innerHTML = clothing_termekek[0].dizajn_anyag_extrak4
 		let list_item5 = document.createElement("li")
-		list_item5.innerHTML = casual_termekek[0].dizajn_anyag_extrak5
+		list_item5.innerHTML = clothing_termekek[0].dizajn_anyag_extrak5
 
 		un_list_des.appendChild(list_item1)
 		un_list_des.appendChild(list_item2)
@@ -623,37 +649,232 @@ function feltoltAdat() {
 		un_list_des.appendChild(list_item5)
 
 		let list_item6 = document.createElement("li")
-		list_item6.innerHTML = casual_termekek[0].meret_szabas1
+		list_item6.innerHTML = clothing_termekek[0].meret_szabas1
 		let list_item7 = document.createElement("li")
-		list_item7.innerHTML = casual_termekek[0].meret_szabas1
+		list_item7.innerHTML = clothing_termekek[0].meret_szabas2
+
+		un_list_meret.appendChild(list_item6)
+		un_list_meret.appendChild(list_item7)
+
+		main_image.src="../kepek/clothing/FerfiAdidasKapucnisPulover.png"
+	}
+
+	else if (productSzam == 14) {
+		document.title = "Woman Hugo T-Shirt";
+
+		oldalcim.innerHTML = "Woman Hugo Shirt"
+		fejlec_cim.innerHTML = "Home / Products / Clothing / Woman Hugo Shirt"
+
+		document.getElementById("product_nev").innerHTML = clothing_termekek[1].nev;
+
+		document.getElementById("product_ar").innerHTML = clothing_termekek[1].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = clothing_termekek[1].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = clothing_termekek[1].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = clothing_termekek[1].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = clothing_termekek[1].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = clothing_termekek[1].dizajn_anyag_extrak5
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = clothing_termekek[1].meret_szabas1
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = clothing_termekek[1].meret_szabas2
 		let list_item8 = document.createElement("li")
-		list_item8.innerHTML = casual_termekek[0].meret_szabas1
+		list_item8.innerHTML = clothing_termekek[1].meret_szabas3
 
 		un_list_meret.appendChild(list_item6)
 		un_list_meret.appendChild(list_item7)
 		un_list_meret.appendChild(list_item8)
 
-		main_image.src="../kepek/leather-jacket-m.png"
-	}
-
-	else if (productSzam == 14) {
-
+		main_image.src="../kepek/clothing/NoiHugoPolo.png"
 	}
 
 	else if (productSzam == 15) {
+		document.title = "Woman Levis Hoodie";
 
+		oldalcim.innerHTML = "Woman Levis Hoodie"
+		fejlec_cim.innerHTML = "Home / Products / Clothing / Woman Levis Hoodie"
+
+		document.getElementById("product_nev").innerHTML = clothing_termekek[2].nev;
+
+		document.getElementById("product_ar").innerHTML = clothing_termekek[2].sale_price;
+		document.getElementById("learazott").innerHTML = clothing_termekek[2].real_price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = clothing_termekek[2].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = clothing_termekek[2].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = clothing_termekek[2].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = clothing_termekek[2].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = clothing_termekek[2].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item5.innerHTML = clothing_termekek[2].dizajn_anyag_extrak6
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = clothing_termekek[2].meret_szabas1
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = clothing_termekek[2].meret_szabas2
+		let list_item9 = document.createElement("li")
+		list_item9.innerHTML = clothing_termekek[2].meret_szabas3
+
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+		un_list_meret.appendChild(list_item9)
+
+		main_image.src="../kepek/clothing/NoiLevisKapucnisPulover.png"
 	}
 
 	else if (productSzam == 16) {
+		document.title = "Men Jack&Jones Jeans";
 
+		oldalcim.innerHTML = "Men Jack&Jones Jeans"
+		fejlec_cim.innerHTML = "Home / Products / Clothing / Men Jack&Jones Jeans"
+
+		document.getElementById("product_nev").innerHTML = clothing_termekek[3].nev;
+
+		document.getElementById("product_ar").innerHTML = clothing_termekek[3].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = clothing_termekek[3].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = clothing_termekek[3].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = clothing_termekek[3].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = clothing_termekek[3].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = clothing_termekek[3].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = clothing_termekek[3].dizajn_anyag_extrak6
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = clothing_termekek[3].meret_szabas1
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = clothing_termekek[3].meret_szabas2
+		let list_item9 = document.createElement("li")
+		list_item9.innerHTML = clothing_termekek[3].meret_szabas3
+
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+		un_list_meret.appendChild(list_item9)
+
+		main_image.src="../kepek/clothing/FerfiJackAndJonesFarmer.png"
 	}
 
 	else if (productSzam == 17) {
+		document.title = "Woman Only Blazer";
 
+		oldalcim.innerHTML = "Woman Only Blazer"
+		fejlec_cim.innerHTML = "Home / Products / Clothing / Woman Only Blazer"
+
+		document.getElementById("product_nev").innerHTML = clothing_termekek[4].nev;
+
+		document.getElementById("product_ar").innerHTML = clothing_termekek[4].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = clothing_termekek[4].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = clothing_termekek[4].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = clothing_termekek[4].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = clothing_termekek[4].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = clothing_termekek[4].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = clothing_termekek[4].dizajn_anyag_extrak6
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = clothing_termekek[4].meret_szabas1
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = clothing_termekek[4].meret_szabas2
+		let list_item9 = document.createElement("li")
+		list_item9.innerHTML = clothing_termekek[4].meret_szabas3
+
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+		un_list_meret.appendChild(list_item9)
+
+		main_image.src="../kepek/clothing/NoiOnlyBlezer.png"
 	}
 
 	else if (productSzam == 18) {
+		document.title = "Men Karl Lagerfeld Shirt";
 
+		oldalcim.innerHTML = "Men Karl Lagerfeld Shirt"
+		fejlec_cim.innerHTML = "Home / Products / Clothing / Men Karl Lagerfeld Shirt"
+
+		document.getElementById("product_nev").innerHTML = clothing_termekek[5].nev;
+
+		document.getElementById("product_ar").innerHTML = clothing_termekek[5].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = clothing_termekek[5].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = clothing_termekek[5].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = clothing_termekek[5].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = clothing_termekek[5].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = clothing_termekek[5].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = clothing_termekek[5].dizajn_anyag_extrak6
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = clothing_termekek[5].meret_szabas1
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = clothing_termekek[5].meret_szabas2
+		let list_item9 = document.createElement("li")
+		list_item9.innerHTML = clothing_termekek[5].meret_szabas3
+
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+		un_list_meret.appendChild(list_item9)
+
+		main_image.src="../kepek/clothing/FerfiKarlLagerfeldPolo.png"
 	}
 }
 
@@ -902,34 +1123,93 @@ let clothing_termekek = [
 		dizajn_anyag_extrak4:"Címke",
 		dizajn_anyag_extrak5:"Ton inTon tűzések",
 
-		meret_szabas1:"Csomag: 1 darabos csomag",
-		meret_szabas2:"Hossz: Normál hosszúságú",
-		meret_szabas3:"Fazon: normál fazon"
+		meret_szabas1:"Hossz: Normál hosszúságú",
+		meret_szabas2:"Fazon: normál fazon"
 	},
 
 	//2
 	{
-		
+		nev:"Women Hugo T-Shirt 'Classic 4'",
+		price: "$57.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Logó nyomtatás",
+		dizajn_anyag_extrak3:"Dzsörzé",
+		dizajn_anyag_extrak4:"Levarrt szegély",
+		dizajn_anyag_extrak5:"Ton inTon tűzések",
+
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas2:"Hossz: Normál hosszúságú",
+		meret_szabas3:"Fazon: karcsúsított fazon"
 	},
 
 	//3
 	{
-		
+		nev:"Woman LEVI'S® Training Hoodie 'ANNESSA'",
+		real_price:"$65.00",
+		sale_price:"$52.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Melegítőanyag",
+		dizajn_anyag_extrak3:"Kereknyakú kivágás",
+		dizajn_anyag_extrak4:"Bordás mandzsetta",
+		dizajn_anyag_extrak5:"Puha, bolyhozott belső oldal",
+		dizajn_anyag_extrak6:"Címke nyomtatás",
+
+		meret_szabas1:"Ujjhossz: Hosszú ujj",
+		meret_szabas2:"Hossz: Normál hosszúságú",
+		meret_szabas3:"Fazon: laza fazon",
 	},
 
 	//4
 	{
-		
+		nev:"JACK & JONES Slimfit Jeans 'JJIGlenn JJOriginal'",
+		price:"$43.00",
+
+		dizajn_anyag_extrak1:"Farmer",
+		dizajn_anyag_extrak2:"Enyhén koptatott",
+		dizajn_anyag_extrak3:"Levarrt szegély",
+		dizajn_anyag_extrak4:"Nadrághasíték gombja",
+		dizajn_anyag_extrak5:"Címkedarab/címkezászló",
+		dizajn_anyag_extrak6:"Gombos lezárás",
+
+		meret_szabas1:"Ujjhossz: Hosszú ujj",
+		meret_szabas2:"Hossz: Hosszú/maxi",
+		meret_szabas3:"Fazon: slimfit",
 	},
 
 	//5
 	{
-		
+		nev:"Women's ONLY Blazer 'Agently'",
+		price:"$55.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Állógallér",
+		dizajn_anyag_extrak3:"Redőzött",
+		dizajn_anyag_extrak4:"Zár nélkül",
+		dizajn_anyag_extrak5:"Ton inTon tűzések",
+		dizajn_anyag_extrak6:"Béleletlen",
+
+		meret_szabas1:"Ujjhossz: Háromnegyedes ujj",
+		meret_szabas2:"Hossz: Normál hosszúságú",
+		meret_szabas3:"Fazon: normál fazon",
 	},
 
 	//6
 	{
-		
+		nev:"Black and Gold Karl Lagerfeld Men's T-Shirt",
+		price:"$55.00",
+
+		dizajn_anyag_extrak1:"Logó nyomtatás",
+		dizajn_anyag_extrak2:"Dzsörzé",
+		dizajn_anyag_extrak3:"Kereknyakú kivágás",
+		dizajn_anyag_extrak4:"Levarrt szegély",
+		dizajn_anyag_extrak5:"Mandzsetta-/bordázott gallér",
+		dizajn_anyag_extrak6:"Ton inTon tűzések",
+
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas2:"Hossz: Normál hosszúságú",
+		meret_szabas3:"Fazon: normál fazon",
 	},
 ]
 
