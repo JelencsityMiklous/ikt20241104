@@ -316,7 +316,7 @@ function feltoltAdat() {
 		main_image.src="../kepek/accessories/alpha_industries_sapka.png"
 	}
 
-	//casual termékek
+	// CASUAL XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	else if (productSzam == 7) {
 		document.title = "Collar T-Shirt";
 
@@ -619,7 +619,7 @@ function feltoltAdat() {
 		main_image.src="../kepek/black-dress-f.png"
 	}
 
-	//clothing
+	// CLOTHING XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	else if (productSzam == 13) {
 		document.title = "Men adidas hoodie";
 
@@ -875,6 +875,264 @@ function feltoltAdat() {
 		un_list_meret.appendChild(list_item9)
 
 		main_image.src="../kepek/clothing/FerfiKarlLagerfeldPolo.png"
+	}
+
+	// MEN XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+	else if (productSzam == 19) {
+		document.title = "Brown Hoodie";
+
+		oldalcim.innerHTML = "Brown Hoodie"
+		fejlec_cim.innerHTML = "Home / Products / Men / Brown Hoodie"
+
+		document.getElementById("product_nev").innerHTML = men_termekek[0].nev;
+
+		document.getElementById("product_ar").innerHTML = men_termekek[0].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = men_termekek[0].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = men_termekek[0].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = men_termekek[0].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = men_termekek[0].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = men_termekek[0].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = men_termekek[0].dizajn_anyag_extrak6
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = men_termekek[0].meret_szabas1
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = men_termekek[0].meret_szabas2
+
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+
+		main_image.src="../kepek/men kepek/FerfiBarnaPulcsi.png"
+	}
+
+	else if (productSzam == 20) {
+		document.title = "Baggy Jeans";
+
+		oldalcim.innerHTML = "Baggy Jeans"
+		fejlec_cim.innerHTML = "Home / Products / Men / Baggy Jeans"
+
+		document.getElementById("product_nev").innerHTML = men_termekek[1].nev;
+
+		document.getElementById("product_ar").innerHTML = men_termekek[1].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = men_termekek[1].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = men_termekek[1].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = men_termekek[1].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = men_termekek[1].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = men_termekek[1].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = men_termekek[1].dizajn_anyag_extrak6
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = men_termekek[1].meret_szabas1
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = men_termekek[1].meret_szabas2
+
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+
+		main_image.src="../kepek/men kepek/FerfiFarmer.png"
+	}
+
+	else if (productSzam == 21) {
+		document.title = "White T-Shirt";
+
+		oldalcim.innerHTML = "White T-Shirt"
+		fejlec_cim.innerHTML = "Home / Products / Men / White T-Shirt"
+
+		document.getElementById("product_nev").innerHTML = men_termekek[2].nev;
+
+		document.getElementById("product_ar").innerHTML = men_termekek[2].sale_price;
+		document.getElementById("learazott").innerHTML = men_termekek[2].real_price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = men_termekek[2].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = men_termekek[2].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = men_termekek[2].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = men_termekek[2].dizajn_anyag_extrak4
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = men_termekek[2].meret_szabas1
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = men_termekek[2].meret_szabas2
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = men_termekek[2].meret_szabas3
+
+		un_list_meret.appendChild(list_item5)
+		un_list_meret.appendChild(list_item6)
+		un_list_meret.appendChild(list_item7)
+
+		main_image.src="../kepek/men kepek/FerfiFeherPolo.png"
+	}
+
+	else if (productSzam == 22) {
+		document.title = "Linen-Blend Shirt";
+
+		oldalcim.innerHTML = "Linen-Blend Shirt"
+		fejlec_cim.innerHTML = "Home / Products / Men / Linen-Blend Shirt"
+
+		document.getElementById("product_nev").innerHTML = men_termekek[3].nev;
+
+		document.getElementById("product_ar").innerHTML = men_termekek[3].sale_price;
+		document.getElementById("learazott").innerHTML = men_termekek[3].real_price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = men_termekek[3].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = men_termekek[3].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = men_termekek[3].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = men_termekek[3].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = men_termekek[3].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = men_termekek[3].dizajn_anyag_extrak6
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = men_termekek[3].dizajn_anyag_extrak7
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+		un_list_des.appendChild(list_item7)
+
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = men_termekek[3].meret_szabas1
+		let list_item9 = document.createElement("li")
+		list_item9.innerHTML = men_termekek[3].meret_szabas2
+		let list_item10 = document.createElement("li")
+		list_item10.innerHTML = men_termekek[3].meret_szabas3
+
+		un_list_meret.appendChild(list_item8)
+		un_list_meret.appendChild(list_item9)
+		un_list_meret.appendChild(list_item10)
+
+		main_image.src="../kepek/men kepek/FerfiIng.png"
+	}
+
+	else if (productSzam == 23) {
+		document.title = "Jacket";
+
+		oldalcim.innerHTML = "Jacket"
+		fejlec_cim.innerHTML = "Home / Products / Men / Jacket"
+
+		document.getElementById("product_nev").innerHTML = men_termekek[4].nev;
+
+		document.getElementById("product_ar").innerHTML = men_termekek[4].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = men_termekek[4].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = men_termekek[4].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = men_termekek[4].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = men_termekek[4].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = men_termekek[4].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = men_termekek[4].dizajn_anyag_extrak6
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = men_termekek[4].dizajn_anyag_extrak7
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = men_termekek[4].dizajn_anyag_extrak8
+		let list_item9 = document.createElement("li")
+		list_item9.innerHTML = men_termekek[4].dizajn_anyag_extrak9
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+		un_list_des.appendChild(list_item7)
+		un_list_des.appendChild(list_item8)
+		un_list_des.appendChild(list_item9)
+
+		let list_item10 = document.createElement("li")
+		list_item10.innerHTML = men_termekek[4].meret_szabas1
+
+		un_list_meret.appendChild(list_item10)
+
+		main_image.src="../kepek/men kepek/FerfiKabat.png"
+	}
+
+	else if (productSzam == 24) {
+		document.title = "Printed Tops";
+
+		oldalcim.innerHTML = "Printed Tops"
+		fejlec_cim.innerHTML = "Home / Products / Men / Printed Tops"
+
+		document.getElementById("product_nev").innerHTML = men_termekek[5].nev;
+
+		document.getElementById("product_ar").innerHTML = men_termekek[5].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = men_termekek[5].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = men_termekek[5].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = men_termekek[5].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = men_termekek[5].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = men_termekek[5].dizajn_anyag_extrak5
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = men_termekek[5].meret_szabas1
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = men_termekek[5].meret_szabas2
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = men_termekek[5].meret_szabas3
+
+		un_list_meret.appendChild(list_item6)
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+
+		main_image.src="../kepek/men kepek/FerfiPolo.png"
 	}
 }
 
@@ -1209,6 +1467,108 @@ let clothing_termekek = [
 
 		meret_szabas1:"Ujjhossz: Negyedes ujj",
 		meret_szabas2:"Hossz: Normál hosszúságú",
+		meret_szabas3:"Fazon: normál fazon",
+	},
+]
+
+let men_termekek = [
+	//1
+	{
+		nev:"Brown Hoodie 'Henrique'",
+		price:"$25.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Kapucnival",
+		dizajn_anyag_extrak3:"Kapucni bujtatott zsinórral",
+		dizajn_anyag_extrak4:"Bordás mandzsetta",
+		dizajn_anyag_extrak5:"Strukturált fogantyú",
+		dizajn_anyag_extrak6:"Címkehímzés",
+
+		meret_szabas1:"Hossz: Normál hosszúságú",
+		meret_szabas2:"Fazon: normál fazon"
+	},
+
+	//2
+	{
+		nev:"Black Pull&Bear Baggy Cargo Jeans",
+		price:"$59.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Farmer",
+		dizajn_anyag_extrak3:"Sötét",
+		dizajn_anyag_extrak4:"Cipzár",
+		dizajn_anyag_extrak5:"Övbujtatók",
+		dizajn_anyag_extrak6:"Erős szövet",
+
+		meret_szabas1:"Hossz: Hosszú/maxi",
+		meret_szabas2:"Fazon: Baggy",
+	},
+
+	//3
+	{
+		nev:"Peanuts Racing Team T-Shirt",
+		real_price:"$32.00",
+		sale_price:"$17.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Dzsörzé",
+		dizajn_anyag_extrak3:"Kereknyakú kivágás",
+		dizajn_anyag_extrak4:"Ton inTon tűzések",
+
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas2:"Hossz: Normál hosszúságú",
+		meret_szabas3:"Fazon: normál fazon",
+	},
+
+	//4
+	{
+		nev:"Regular fit Linen-Blend 'FLEX'",
+		real_price:"$80.00",
+		sale_price:"$58.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Vászon",
+		dizajn_anyag_extrak3:"Végiggombos",
+		dizajn_anyag_extrak4:"Ráültetett gombszegély",
+		dizajn_anyag_extrak5:"Egyenes alsó szegély",
+		dizajn_anyag_extrak6:"Ton inTon tűzések",
+		dizajn_anyag_extrak7:"Gombos lezárás",
+
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas2:"Fazon: Regular fit"
+	},
+
+	//5
+	{
+		nev:"Taupe G-STAR Windbreaker",
+		price:"$70.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Cipzár",
+		dizajn_anyag_extrak3:"Bordás mandzsetta",
+		dizajn_anyag_extrak4:"Állógallér",
+		dizajn_anyag_extrak5:"Oldalsó zsebek",
+		dizajn_anyag_extrak6:"Címke",
+		dizajn_anyag_extrak7:"Ton inTon tűzések",
+		dizajn_anyag_extrak8:"Sima szövet",
+		dizajn_anyag_extrak9:"Enyhén bélelt",
+
+		meret_szabas1:"Fazon: normál fazon",
+	},
+
+	//6
+	{
+		nev:"Kani Printed T-Shirt",
+		price:"$40.00",
+
+		dizajn_anyag_extrak1:"Logó nyomtatás",
+		dizajn_anyag_extrak2:"Univerzális színek",
+		dizajn_anyag_extrak3:"V-kivágás",
+		dizajn_anyag_extrak4:"Ton inTon tűzések",
+		dizajn_anyag_extrak5:"Lágy fogantyú",
+
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas2:"Hossz: Normál hosszúság",
 		meret_szabas3:"Fazon: normál fazon",
 	},
 ]
