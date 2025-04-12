@@ -1134,6 +1134,255 @@ function feltoltAdat() {
 
 		main_image.src="../kepek/men kepek/FerfiPolo.png"
 	}
+
+	// WOMEN XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+	else if (productSzam == 25) {
+		document.title = "Denim Jeans";
+
+		oldalcim.innerHTML = "Denim Jeans"
+		fejlec_cim.innerHTML = "Home / Products / Women / Denim Jeans"
+
+		document.getElementById("product_nev").innerHTML = women_termekek[0].nev;
+
+		document.getElementById("product_ar").innerHTML = women_termekek[0].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = women_termekek[0].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = women_termekek[0].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = women_termekek[0].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = women_termekek[0].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = women_termekek[0].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = women_termekek[0].dizajn_anyag_extrak6
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = women_termekek[0].meret_szabas1
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = women_termekek[0].meret_szabas2
+		let list_item9 = document.createElement("li")
+		list_item9.innerHTML = women_termekek[0].meret_szabas3
+
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+		un_list_meret.appendChild(list_item9)
+
+		main_image.src="../kepek/woman kepek/NoiFarmerNadrag.png"
+	}
+
+	else if (productSzam == 26) {
+		document.title = "Knitted Top";
+
+		oldalcim.innerHTML = "Knitted Top"
+		fejlec_cim.innerHTML = "Home / Products / Women / Knitted Top"
+
+		document.getElementById("product_nev").innerHTML = women_termekek[1].nev;
+
+		document.getElementById("product_ar").innerHTML = women_termekek[1].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = women_termekek[1].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = women_termekek[1].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = women_termekek[1].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = women_termekek[1].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = women_termekek[1].dizajn_anyag_extrak5
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = women_termekek[1].meret_szabas1
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = women_termekek[1].meret_szabas2
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = women_termekek[1].meret_szabas3
+
+		un_list_meret.appendChild(list_item6)
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+
+		main_image.src="../kepek/woman kepek/NoiFeherKotottFelso.png"
+	}
+
+	else if (productSzam == 27) {
+		document.title = "White vest";
+
+		oldalcim.innerHTML = "White vest"
+		fejlec_cim.innerHTML = "Home / Products / Women / White vest"
+
+		document.getElementById("product_nev").innerHTML = women_termekek[2].nev;
+
+		document.getElementById("product_ar").innerHTML = women_termekek[2].sale_price;
+		document.getElementById("learazott").innerHTML = women_termekek[2].real_price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = women_termekek[2].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = women_termekek[2].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = women_termekek[2].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = women_termekek[2].dizajn_anyag_extrak4
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = women_termekek[2].meret_szabas1
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = women_termekek[2].meret_szabas2
+
+		un_list_meret.appendChild(list_item5)
+		un_list_meret.appendChild(list_item6)
+
+		main_image.src="../kepek/woman kepek/NoiFeherMelleny.png"
+	}
+
+	else if (productSzam == 28) {
+		document.title = "White Jeans";
+
+		oldalcim.innerHTML = "White Jeans"
+		fejlec_cim.innerHTML = "Home / Products / women / White Jeans"
+
+		document.getElementById("product_nev").innerHTML = women_termekek[3].nev;
+
+		document.getElementById("product_ar").innerHTML = women_termekek[3].sale_price;
+		document.getElementById("learazott").innerHTML = women_termekek[3].real_price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = women_termekek[3].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = women_termekek[3].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = women_termekek[3].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = women_termekek[3].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = women_termekek[3].dizajn_anyag_extrak5
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = women_termekek[3].dizajn_anyag_extrak6
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = women_termekek[3].dizajn_anyag_extrak7
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+		un_list_des.appendChild(list_item6)
+		un_list_des.appendChild(list_item7)
+
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = women_termekek[3].meret_szabas1
+		let list_item9 = document.createElement("li")
+		list_item9.innerHTML = women_termekek[3].meret_szabas2
+
+		un_list_meret.appendChild(list_item8)
+		un_list_meret.appendChild(list_item9)
+
+		main_image.src="../kepek/woman kepek/NoiFeherNadrag.png"
+	}
+
+	else if (productSzam == 29) {
+		document.title = "White Shirt";
+
+		oldalcim.innerHTML = "White Shirt"
+		fejlec_cim.innerHTML = "Home / Products / Women / White Shirt"
+
+		document.getElementById("product_nev").innerHTML = women_termekek[4].nev;
+
+		document.getElementById("product_ar").innerHTML = women_termekek[4].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = women_termekek[4].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = women_termekek[4].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = women_termekek[4].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = women_termekek[4].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = women_termekek[4].dizajn_anyag_extrak5
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = women_termekek[4].meret_szabas1
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = women_termekek[4].meret_szabas2
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = women_termekek[4].meret_szabas3
+
+		un_list_meret.appendChild(list_item6)
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+
+		main_image.src="../kepek/woman kepek/NoiFeherPolo.png"
+	}
+
+	else if (productSzam == 30) {
+		document.title = "Flower Dress";
+
+		oldalcim.innerHTML = "Flower Dress"
+		fejlec_cim.innerHTML = "Home / Products / Women / Flower Dress"
+
+		document.getElementById("product_nev").innerHTML = women_termekek[5].nev;
+
+		document.getElementById("product_ar").innerHTML = women_termekek[5].price;
+		
+		let list_item1 = document.createElement("li")
+		list_item1.innerHTML = women_termekek[5].dizajn_anyag_extrak1
+		let list_item2 = document.createElement("li")
+		list_item2.innerHTML = women_termekek[5].dizajn_anyag_extrak2
+		let list_item3 = document.createElement("li")
+		list_item3.innerHTML = women_termekek[5].dizajn_anyag_extrak3
+		let list_item4 = document.createElement("li")
+		list_item4.innerHTML = women_termekek[5].dizajn_anyag_extrak4
+		let list_item5 = document.createElement("li")
+		list_item5.innerHTML = women_termekek[5].dizajn_anyag_extrak5
+
+		un_list_des.appendChild(list_item1)
+		un_list_des.appendChild(list_item2)
+		un_list_des.appendChild(list_item3)
+		un_list_des.appendChild(list_item4)
+		un_list_des.appendChild(list_item5)
+
+		let list_item6 = document.createElement("li")
+		list_item6.innerHTML = women_termekek[5].meret_szabas1
+		let list_item7 = document.createElement("li")
+		list_item7.innerHTML = women_termekek[5].meret_szabas2
+		let list_item8 = document.createElement("li")
+		list_item8.innerHTML = women_termekek[5].meret_szabas3
+
+		un_list_meret.appendChild(list_item6)
+		un_list_meret.appendChild(list_item7)
+		un_list_meret.appendChild(list_item8)
+
+		main_image.src="../kepek/woman kepek/NoiViragosRuha.png"
+	}
 }
 
 
@@ -1566,6 +1815,106 @@ let men_termekek = [
 		dizajn_anyag_extrak3:"V-kivágás",
 		dizajn_anyag_extrak4:"Ton inTon tűzések",
 		dizajn_anyag_extrak5:"Lágy fogantyú",
+
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas2:"Hossz: Normál hosszúság",
+		meret_szabas3:"Fazon: normál fazon",
+	},
+]
+
+let women_termekek = [
+	//1
+	{
+		nev:"LEVI'S® Denim Jeans",
+		price:"$35.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Farmer",
+		dizajn_anyag_extrak3:"Enyhén koptatott",
+		dizajn_anyag_extrak4:"Cipzár",
+		dizajn_anyag_extrak5:"Kontrasztvarrás",
+		dizajn_anyag_extrak6:"Övbujtatók",
+
+		meret_szabas1:"Hossz: Hosszú/maxi",
+		meret_szabas2:"Fazon: Bő szár",
+		meret_szabas3:"Testmagasság: Közepes derék"
+	},
+
+	//2
+	{
+		nev:"IZIA Knitted Top",
+		price:"$49.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Kötöttáruk",
+		dizajn_anyag_extrak3:"Kereknyakú kivágás",
+		dizajn_anyag_extrak4:"Belebújós",
+		dizajn_anyag_extrak5:"Zseb",
+
+		meret_szabas1:"Ujjhossz: Háromnegyedes ujj",
+		meret_szabas2:"Hossz: Normál hosszúságú",
+		meret_szabas3:"Fazon: laza fazon"
+	},
+
+	//3
+	{
+		nev:"Khaki CECIL Mellény",
+		real_price:"$26.00",
+		sale_price:"$15.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Melegítőanyag",
+		dizajn_anyag_extrak3:"Béleletlen",
+		dizajn_anyag_extrak4:"Gomb",
+
+		meret_szabas1:"Hossz: Normál hosszúságú",
+		meret_szabas2:"Fazon: normál fazon"
+	},
+
+	//4
+	{
+		nev:"REMAIN Baggy Farmer 'Cocoon'",
+		real_price:"$80.00",
+		sale_price:"$45.00",
+
+		dizajn_anyag_extrak1:"Univerzális színek",
+		dizajn_anyag_extrak2:"Farmer",
+		dizajn_anyag_extrak3:"Cipzár",
+		dizajn_anyag_extrak4:"5-zsebes fazon",
+		dizajn_anyag_extrak5:"Rögzített fogantyú",
+		dizajn_anyag_extrak6:"Övbujtatók",
+		dizajn_anyag_extrak7:"Könnyű",
+
+		meret_szabas1:"UjHossz: Hosszú/maxi",
+		meret_szabas2:"Fazon: Baggy"
+	},
+
+	//5
+	{
+		nev:"Tramonto T-Shirt",
+		price:"$35.00",
+
+		dizajn_anyag_extrak1:"Logó nyomtatás",
+		dizajn_anyag_extrak2:"Univerzális színek",
+		dizajn_anyag_extrak3:"Kereknyakú kivágás",
+		dizajn_anyag_extrak4:"Ton inTon tűzések",
+		dizajn_anyag_extrak5:"Lágy fogantyú",
+
+		meret_szabas1:"Ujjhossz: Negyedes ujj",
+		meret_szabas2:"Hossz: Normál hosszúság",
+		meret_szabas3:"Fazon: normál fazon",
+	},
+
+	//6
+	{
+		nev:"Kani Printed T-Shirt",
+		price:"$15.00",
+
+		dizajn_anyag_extrak1:"Nyomott minta",
+		dizajn_anyag_extrak2:"Univerzális színek",
+		dizajn_anyag_extrak3:"Kereknyakú kivágás",
+		dizajn_anyag_extrak4:"Normál pánt",
+		dizajn_anyag_extrak5:"Redőzött",
 
 		meret_szabas1:"Ujjhossz: Negyedes ujj",
 		meret_szabas2:"Hossz: Normál hosszúság",
