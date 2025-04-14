@@ -8,6 +8,8 @@ let termekek = [
 		discount:true,
 		discount_price:35,
 		img:"../../kepek/clothing/FerfiAdidasKapucnisPulover.png"
+		,
+		href:"./ruhadarab.html?id=13"
 	},
 	{
 		name:"Woman Hugo Shirt",
@@ -15,7 +17,8 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/NoiHugoPolo.png"
+		img:"../../kepek/clothing/NoiHugoPolo.png",
+		href:"./ruhadarab.html?id=14"
 	},
 	{
 		name:"Woman Levis Hoodie",
@@ -23,7 +26,8 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:65,
-		img:"../../kepek/clothing/NoiLevisKapucnisPulover.png"
+		img:"../../kepek/clothing/NoiLevisKapucnisPulover.png",
+		href:"./ruhadarab.html?id=15"
 	},
 	{
 		name:"Men Jack&Jones Jeans",
@@ -31,7 +35,8 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/FerfiJackAndJonesFarmer.png"
+		img:"../../kepek/clothing/FerfiJackAndJonesFarmer.png",
+		href:"./ruhadarab.html?id=16"
 	},
 	{
 		name:"Woman Only Blazer",
@@ -39,7 +44,8 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/NoiOnlyBlezer.png"
+		img:"../../kepek/clothing/NoiOnlyBlezer.png",
+		href:"./ruhadarab.html?id=17"
 	},
 	{
 		name:"Men Karl Lagerfeld Shirt",
@@ -47,7 +53,9 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/FerfiKarlLagerfeldPolo.png"
+		img:"../../kepek/clothing/FerfiKarlLagerfeldPolo.png",
+		href:"./ruhadarab.html?id=18"
+		
 	}
 ]
 
@@ -57,8 +65,10 @@ let eredeti_termekek = [
 		price:19,
 		gender:"men",
 		discount:true,
-		discount_price:"35.00",
+		discount_price:35,
 		img:"../../kepek/clothing/FerfiAdidasKapucnisPulover.png"
+		,
+		href:"./ruhadarab.html?id=13"
 	},
 	{
 		name:"Woman Hugo Shirt",
@@ -66,15 +76,17 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/NoiHugoPolo.png"
+		img:"../../kepek/clothing/NoiHugoPolo.png",
+		href:"./ruhadarab.html?id=14"
 	},
 	{
 		name:"Woman Levis Hoodie",
 		price:52,
 		gender:"women",
 		discount:true,
-		discount_price:"65.00",
-		img:"../../kepek/clothing/NoiLevisKapucnisPulover.png"
+		discount_price:65,
+		img:"../../kepek/clothing/NoiLevisKapucnisPulover.png",
+		href:"./ruhadarab.html?id=15"
 	},
 	{
 		name:"Men Jack&Jones Jeans",
@@ -82,7 +94,8 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/FerfiJackAndJonesFarmer.png"
+		img:"../../kepek/clothing/FerfiJackAndJonesFarmer.png",
+		href:"./ruhadarab.html?id=16"
 	},
 	{
 		name:"Woman Only Blazer",
@@ -90,7 +103,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/NoiOnlyBlezer.png"
+		img:"../../kepek/clothing/NoiOnlyBlezer.png",
+		href:"./ruhadarab.html?id=17"
 	},
 	{
 		name:"Men Karl Lagerfeld Shirt",
@@ -98,10 +112,11 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/FerfiKarlLagerfeldPolo.png"
+		img:"../../kepek/clothing/FerfiKarlLagerfeldPolo.png",
+		href:"./ruhadarab.html?id=18"
+		
 	}
 ]
-
 
 function Sorting(){
 
@@ -188,6 +203,14 @@ function Sorting(){
 		document.getElementById("termeknev4").innerHTML=`${eredeti_termekek[3].name}`
 		document.getElementById("termeknev5").innerHTML=`${eredeti_termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${eredeti_termekek[5].name}`
+
+		/* Href */
+		document.getElementById("termeknev1").href=`${eredeti_termekek[0].href}`
+		document.getElementById("termeknev2").href=`${eredeti_termekek[1].href}`
+		document.getElementById("termeknev3").href=`${eredeti_termekek[2].href}`
+		document.getElementById("termeknev4").href=`${eredeti_termekek[3].href}`
+		document.getElementById("termeknev5").href=`${eredeti_termekek[4].href}`
+		document.getElementById("termeknev6").href=`${eredeti_termekek[5].href}`
 		
 
 
@@ -264,6 +287,13 @@ function Sorting(){
 		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
 		
+			/* Href */
+			document.getElementById("termeknev1").href=`${termekek[0].href}`
+			document.getElementById("termeknev2").href=`${termekek[1].href}`
+			document.getElementById("termeknev3").href=`${termekek[2].href}`
+			document.getElementById("termeknev4").href=`${termekek[3].href}`
+			document.getElementById("termeknev5").href=`${termekek[4].href}`
+			document.getElementById("termeknev6").href=`${termekek[5].href}`
 		
 
 	}
@@ -344,5 +374,13 @@ function Sorting(){
 		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
 
+
+			/* Href */
+			document.getElementById("termeknev1").href=`${termekek[0].href}`
+			document.getElementById("termeknev2").href=`${termekek[1].href}`
+			document.getElementById("termeknev3").href=`${termekek[2].href}`
+			document.getElementById("termeknev4").href=`${termekek[3].href}`
+			document.getElementById("termeknev5").href=`${termekek[4].href}`
+			document.getElementById("termeknev6").href=`${termekek[5].href}`
 }
 }

@@ -7,7 +7,8 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../kepek/woman kepek/NoiFarmerNadrag.png"
+		img:"../kepek/woman kepek/NoiFarmerNadrag.png",
+		href:"./ruhadarab.html?id=25"
 	},
 	{
 		name:"Knitted Top",
@@ -15,7 +16,8 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../kepek/woman kepek/NoiFeherKotottFelso.png"
+		img:"../kepek/woman kepek/NoiFeherKotottFelso.png",
+		href:"./ruhadarab.html?id=26"
 	},
 	{
 		name:"White vest",
@@ -23,7 +25,8 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"26",
-		img:"../kepek/woman kepek/NoiFeherMelleny.png"
+		img:"../kepek/woman kepek/NoiFeherMelleny.png",
+		href:"./ruhadarab.html?id=27"
 	},
 	{
 		name:"White Jeans",
@@ -31,7 +34,8 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"80",
-		img:"../kepek/woman kepek/NoiFeherNadrag.png"
+		img:"../kepek/woman kepek/NoiFeherNadrag.png",
+		href:"./ruhadarab.html?id=28"
 	},
 	{
 		name:"White Shirt",
@@ -39,7 +43,8 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../kepek/woman kepek/NoiFeherPolo.png"
+		img:"../kepek/woman kepek/NoiFeherPolo.png",
+		href:"./ruhadarab.html?id=29"
 	},
 	{
 		name:"Flower Dress",
@@ -47,7 +52,8 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../kepek/woman kepek/NoiViragosRuha.png"
+		img:"../kepek/woman kepek/NoiViragosRuha.png",
+		href:"./ruhadarab.html?id=30"
 	}
 ]
 
@@ -58,7 +64,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../kepek/woman kepek/NoiFarmerNadrag.png"
+		img:"../kepek/woman kepek/NoiFarmerNadrag.png",
+		href:"./ruhadarab.html?id=25"
 	},
 	{
 		name:"Knitted Top",
@@ -66,7 +73,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../kepek/woman kepek/NoiFeherKotottFelso.png"
+		img:"../kepek/woman kepek/NoiFeherKotottFelso.png",
+		href:"./ruhadarab.html?id=26"
 	},
 	{
 		name:"White vest",
@@ -74,7 +82,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"26",
-		img:"../kepek/woman kepek/NoiFeherMelleny.png"
+		img:"../kepek/woman kepek/NoiFeherMelleny.png",
+		href:"./ruhadarab.html?id=27"
 	},
 	{
 		name:"White Jeans",
@@ -82,7 +91,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"80",
-		img:"../kepek/woman kepek/NoiFeherNadrag.png"
+		img:"../kepek/woman kepek/NoiFeherNadrag.png",
+		href:"./ruhadarab.html?id=28"
 	},
 	{
 		name:"White Shirt",
@@ -90,7 +100,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../kepek/woman kepek/NoiFeherPolo.png"
+		img:"../kepek/woman kepek/NoiFeherPolo.png",
+		href:"./ruhadarab.html?id=29"
 	},
 	{
 		name:"Flower Dress",
@@ -98,7 +109,8 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../kepek/woman kepek/NoiViragosRuha.png"
+		img:"../kepek/woman kepek/NoiViragosRuha.png",
+		href:"./ruhadarab.html?id=30"
 	}
 ]
 
@@ -190,6 +202,14 @@ function Sorting(){
 		document.getElementById("termeknev4").innerHTML=`${eredeti_termekek[3].name}`
 		document.getElementById("termeknev5").innerHTML=`${eredeti_termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${eredeti_termekek[5].name}`
+
+		/* Href */
+		document.getElementById("termeknev1").href=`${eredeti_termekek[0].href}`
+		document.getElementById("termeknev2").href=`${eredeti_termekek[1].href}`
+		document.getElementById("termeknev3").href=`${eredeti_termekek[2].href}`
+		document.getElementById("termeknev4").href=`${eredeti_termekek[3].href}`
+		document.getElementById("termeknev5").href=`${eredeti_termekek[4].href}`
+		document.getElementById("termeknev6").href=`${eredeti_termekek[5].href}`
 		
 
 
@@ -266,7 +286,13 @@ function Sorting(){
 		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
 		
-		
+		/* Href */
+		document.getElementById("termeknev1").href=`${termekek[0].href}`
+		document.getElementById("termeknev2").href=`${termekek[1].href}`
+		document.getElementById("termeknev3").href=`${termekek[2].href}`
+		document.getElementById("termeknev4").href=`${termekek[3].href}`
+		document.getElementById("termeknev5").href=`${termekek[4].href}`
+		document.getElementById("termeknev6").href=`${termekek[5].href}`
 
 	}
 
@@ -347,5 +373,13 @@ function Sorting(){
 		document.getElementById("termeknev5").innerHTML=`${termekek[4].name}`
 		document.getElementById("termeknev6").innerHTML=`${termekek[5].name}`
 
+
+		/* Href */
+		document.getElementById("termeknev1").href=`${termekek[0].href}`
+		document.getElementById("termeknev2").href=`${termekek[1].href}`
+		document.getElementById("termeknev3").href=`${termekek[2].href}`
+		document.getElementById("termeknev4").href=`${termekek[3].href}`
+		document.getElementById("termeknev5").href=`${termekek[4].href}`
+		document.getElementById("termeknev6").href=`${termekek[5].href}`
 }
 }
