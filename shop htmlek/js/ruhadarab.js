@@ -1261,7 +1261,7 @@ function feltoltAdat() {
 		document.title = "White Jeans";
 
 		oldalcim.innerHTML = "White Jeans"
-		fejlec_cim.innerHTML = "Home / Products / women / White Jeans"
+		fejlec_cim.innerHTML = "Home / Products / Women / White Jeans"
 
 		document.getElementById("product_nev").innerHTML = women_termekek[3].nev;
 
