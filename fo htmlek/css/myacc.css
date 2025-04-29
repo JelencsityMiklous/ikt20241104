@@ -1,3 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#topgomb {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#nyilkep {
+  width: 40px;
+  height: 40px;
+}
+
 #kozepdiv{
     width: 650px;
     height: 400px;
@@ -256,3 +282,100 @@ margin-left: 25%;
           visibility: hidden;
         }
       }
+
+
+footer {
+    margin-top: 6%;
+    width: 100%;
+    height: auto;
+    background-color: rgb(22, 18, 31);
+    display: flex;
+    color: white;
+    font-size: 1.1vw;
+}
+
+.footercontainer {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    position: relative;
+}
+
+.belsofootercontainer {
+    width: 30%;
+    color: #9795b1;
+}
+
+.belsofootercontainer>h2 {
+    color: white;
+    font-size: 1.2vw;
+}
+
+.belsofootercontainer>p {
+    font-size: 1vw;
+}
+
+.belsofootercontainer>img {
+    display: flex;
+    width: 8%;
+}
+
+#belsofootercontainerutso {
+    display: inline;
+    position: relative;
+}
+
+.belsofootercontainer:nth-of-type(3) {
+    margin-top: 2%;
+}
+
+/* Lábléc reszponzivitása */
+@media only screen and (max-width: 700px) {
+  .belsofootercontainer>p {
+      font-size: 4vw;
+  }
+
+  .belsofootercontainer>h2 {
+      font-size: 4vw;
+  }
+
+  .belsofootercontainer>div {
+      margin-left: 5%;
+  }
+
+  .belsofootercontainer {
+      font-size: 4vw;
+      width: 100%;
+  }
+
+  .footercontainer {
+      flex-direction: column;
+      font-size: 2vw;
+      align-items: center;
+  }
+
+  .belsofootercontainer:first-child {
+      margin-left: 15%;
+  }
+
+  #feherrepeatnyil {
+      margin-top: 5%;
+  }
+
+  #penztarca {
+      margin-top: 0%;
+  }
+
+  #belsofootercontainerutso>h2 {
+      margin-top: 5%;
+  }
+
+  footer {
+      text-align: center;
+  }
+}

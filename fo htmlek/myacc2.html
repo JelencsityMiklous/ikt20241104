@@ -70,6 +70,8 @@
       </div>
 </div>
 <div class="felsofejlec"><p id="fejleclec">Home / My Account / Profile</p></div>
+
+<button onclick="topFunction()" id="topgomb" title="Vissza a tetejére"><img src="../kepek/kislogok/felmutatonyilszurke-removebg-preview.png" alt="" id="nyilkep"></button>
  
 <div id="nagydiv">
   
@@ -103,7 +105,50 @@
           <li>Password</li>
           <li>Changed one month ago</li></ul></div>
 </div>
+
+<footer>
+  <div class="footercontainer">
+    <div class="belsofootercontainer" style="line-height: 1.6;">
+      <h2>Rólunk</h2>Nunc et ornare tellus. Quisque imperdiet interdum commondo. Integer laoreet tristique neque quis
+      laoreet. Duis ut ultrices est, sed feugiat leo.
+    </div>
+    <div class="belsofootercontainer" style="margin-left: 10%;">
+      <h2 style="margin-left: 2%;">Contact Us</h2><img src="../kepek/kislogok/emailfeher.png"
+        style="display: inline; margin-top: 5%; "> New York, US<br>
+      <img src="../kepek/kislogok/gpsfeher.png" style="display: inline; margin-top: 5%;"> xxx@yyyyyyyy.com<br><img
+        src="../kepek/kislogok/teloandtablet.png" style="display: inline; margin-top: 5%;"> +1-123-456--7890
+    </div>
+    <div class="belsofootercontainer" id="belsofootercontainerutso"><img src="../kepek/kislogok/feherrepeatnyil.png"
+        style="width: 8%; display:flex; float: left; padding: 5%;" id="feherrepeatnyil">
+      <h2>Free shipping & Return</h2>
+      <p style="margin-left: 20%;">Free shipping on all orders above $99</p>
+      <img src="../kepek/kislogok/feherpeztarca.png" style="width: 8%; display:flex; float: left; padding: 5%;"
+        height="max-content" id="penztarca">
+      <h2>Money Back Guarantee</h2>
+      <p style="margin-left: 20%;">100% money back Gents</p>
+    </div>
+  </div>
+</footer>
 <script src="../menu.js"></script>
+<script>
+  let mybutton = document.getElementById("topgomb");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	}
+	else {
+		mybutton.style.display = "none";
+	}
+}
+
+function topFunction() {
+	document.body.scrollTop = 0; // Safari
+	document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
+}
+</script>
 <script src="../shop htmlek/js/myaccount.js"></script>
     
 </body>
