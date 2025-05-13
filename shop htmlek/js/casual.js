@@ -20,6 +20,14 @@ function topFunction() {
 	document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
 }
 
+function PopUp(popupszam) {
+	if (popupszam === 1) {
+		alert("Wishlisted.")
+	}
+	else if(popupszam === 2) {
+		alert("Added to Cart.")
+	}
+}
 
 /* Objektum a termékekről */
 
@@ -30,7 +38,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/collar-light-gray-t-m.png",
+		img:"../kepek/collar-light-gray-t-m.png",
 		href:"./ruhadarab.html?id=7"
 	},
 	{
@@ -39,7 +47,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/white-t-m.png",
+		img:"../kepek/white-t-m.png",
 		href:"./ruhadarab.html?id=8"
 	},
 	{
@@ -48,7 +56,7 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"22",
-		img:"../../kepek/hat-f.png",
+		img:"../kepek/hat-f.png",
 		href:"./ruhadarab.html?id=9"
 	},
 	{
@@ -57,7 +65,7 @@ let termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:"100",
-		img:"../../kepek/leather-jacket-m.png",
+		img:"../kepek/leather-jacket-m.png",
 		href:"./ruhadarab.html?id=10"
 	},
 	{
@@ -66,7 +74,7 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/patterned-dress-f.png",
+		img:"../kepek/patterned-dress-f.png",
 		href:"./ruhadarab.html?id=11"
 		
 	},
@@ -76,7 +84,7 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/black-dress-f.png",
+		img:"../kepek/black-dress-f.png",
 		href:"./ruhadarab.html?id=12"
 	}
 ]
@@ -88,7 +96,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/collar-light-gray-t-m.png",
+		img:"../kepek/collar-light-gray-t-m.png",
 		href:"./ruhadarab.html?id=7"
 	},
 	{
@@ -97,7 +105,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/white-t-m.png",
+		img:"../kepek/white-t-m.png",
 		href:"./ruhadarab.html?id=8"
 	},
 	{
@@ -106,7 +114,7 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"22.00",
-		img:"../../kepek/hat-f.png",
+		img:"../kepek/hat-f.png",
 		href:"./ruhadarab.html?id=9"
 	},
 	{
@@ -115,7 +123,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:"100.00",
-		img:"../../kepek/leather-jacket-m.png",
+		img:"../kepek/leather-jacket-m.png",
 		href:"./ruhadarab.html?id=10"
 	},
 	{
@@ -124,7 +132,7 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/patterned-dress-f.png",
+		img:"../kepek/patterned-dress-f.png",
 		href:"./ruhadarab.html?id=11"
 		
 	},
@@ -134,7 +142,7 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/black-dress-f.png",
+		img:"../kepek/black-dress-f.png",
 		href:"./ruhadarab.html?id=12"
 	}
 ]
