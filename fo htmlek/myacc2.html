@@ -84,26 +84,26 @@
         <div id="kozepsodiv">
             <p id="focim">Email</p>
             <hr>
-            <p>Primary email address:</p><p id="email">jeff@gmail.com</p>
+            <p>Primary email address:</p><p id="email">admin@admin.com</p>
             
             
             <p id="focim">Account management</p>
             <hr>
-            <p>Delete profile...</p>
+            <p onclick="DeleteProfile()" style="color: red;">Delete profile...</p>
             
         </div>
         <div id="jobbdiv">
         <div id="nagyjobbdiv">
         <img id="pfp" src="../kepek/pfp.png" >
-        <p id="nev">Jeff Clark</p>
+        <p id="nev">Admin</p>
         
         </div>
           <ul>
           <li>Account activity</li>
+          <br>
           <li>Last sign-in:</li>
           <li>Today 8:32 AM</li>
-          <li>Password</li>
-          <li>Changed one month ago</li></ul></div>
+          </ul></div>
 </div>
 
 <footer>
@@ -148,6 +148,14 @@ function topFunction() {
 	document.body.scrollTop = 0; // Safari
 	document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
 }
+
+function DeleteProfile(){
+  alert("Sikeres profil törlés")
+  window.location.replace(
+      "myacc.html");
+
+}
+
 </script>
 <script src="../shop htmlek/js/myaccount.js"></script>
     

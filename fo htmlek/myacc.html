@@ -164,7 +164,9 @@ let nev = document.getElementById("accname").value
 let email = document.getElementById("accemail").value
 let pass = document.getElementById("accpass").value
 
-
+let fioknev1 = "admin"
+let fiokemail1 = "admin@admin.com"
+let fiokjelszo1 = "adminadmin"
 
 
 if(nev==""){
@@ -180,8 +182,15 @@ else if(pass==""){
   alert("Nem adtál meg jelszót")
 }
 else{
-  window.location.replace(
+
+  if(nev==fioknev1 && email==fiokemail1 && pass==fiokjelszo1){
+    window.location.replace(
       "myacc2.html");
+  }
+  else{
+    alert("Hibás adatok")
+  }
+  
 }
 }</script>
 <script>
