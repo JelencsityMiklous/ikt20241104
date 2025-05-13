@@ -50,6 +50,8 @@ input.addEventListener("input", (e) => {
 
   MinVlaueBubbleStyle();
   MaxVlaueBubbleStyle();
+  let pricefelirat = document.getElementById("pricefelirat")
+pricefelirat.innerHTML=`Price: $${rangeInput[0].value} - $${rangeInput[1].value}`
 
   if (maxRange - minRange < minRangeValueGap) {
     if (e.target.className === "min") {
@@ -82,8 +84,15 @@ for(let i = 0; i < termekek.length; i++){
   else{
     termekadatok1[i].style.display="none"
   }
+  
 }
 
   
 }
+
+let pricefelirat = document.getElementById("pricefelirat")
+pricefelirat.innerHTML=`Price: $${rangeInput[0].value} - $${rangeInput[1].value}`
+
+
+
 
