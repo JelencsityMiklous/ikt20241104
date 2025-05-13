@@ -20,6 +20,14 @@ function topFunction() {
 	document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
 }
 
+function PopUp(popupszam) {
+	if (popupszam === 1) {
+		alert("Wishlisted.")
+	}
+	else if(popupszam === 2) {
+		alert("Added to Cart.")
+	}
+}
 
 /* Objektum a termékekről */
 
