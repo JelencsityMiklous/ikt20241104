@@ -34,7 +34,7 @@ let termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:35,
-		img:"../../kepek/clothing/FerfiAdidasKapucnisPulover.png"
+		img:"../kepek/clothing/FerfiAdidasKapucnisPulover.png"
 		,
 		href:"./ruhadarab.html?id=13"
 	},
@@ -44,7 +44,7 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/NoiHugoPolo.png",
+		img:"../kepek/clothing/NoiHugoPolo.png",
 		href:"./ruhadarab.html?id=14"
 	},
 	{
@@ -53,7 +53,7 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:65,
-		img:"../../kepek/clothing/NoiLevisKapucnisPulover.png",
+		img:"../kepek/clothing/NoiLevisKapucnisPulover.png",
 		href:"./ruhadarab.html?id=15"
 	},
 	{
@@ -62,7 +62,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/FerfiJackAndJonesFarmer.png",
+		img:"../kepek/clothing/FerfiJackAndJonesFarmer.png",
 		href:"./ruhadarab.html?id=16"
 	},
 	{
@@ -71,7 +71,7 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/NoiOnlyBlezer.png",
+		img:"../kepek/clothing/NoiOnlyBlezer.png",
 		href:"./ruhadarab.html?id=17"
 	},
 	{
@@ -80,7 +80,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/FerfiKarlLagerfeldPolo.png",
+		img:"../kepek/clothing/FerfiKarlLagerfeldPolo.png",
 		href:"./ruhadarab.html?id=18"
 		
 	}
@@ -93,7 +93,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:35,
-		img:"../../kepek/clothing/FerfiAdidasKapucnisPulover.png"
+		img:"../kepek/clothing/FerfiAdidasKapucnisPulover.png"
 		,
 		href:"./ruhadarab.html?id=13"
 	},
@@ -103,7 +103,7 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/NoiHugoPolo.png",
+		img:"../kepek/clothing/NoiHugoPolo.png",
 		href:"./ruhadarab.html?id=14"
 	},
 	{
@@ -112,7 +112,7 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:65,
-		img:"../../kepek/clothing/NoiLevisKapucnisPulover.png",
+		img:"../kepek/clothing/NoiLevisKapucnisPulover.png",
 		href:"./ruhadarab.html?id=15"
 	},
 	{
@@ -121,7 +121,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/FerfiJackAndJonesFarmer.png",
+		img:"../kepek/clothing/FerfiJackAndJonesFarmer.png",
 		href:"./ruhadarab.html?id=16"
 	},
 	{
@@ -130,7 +130,7 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/NoiOnlyBlezer.png",
+		img:"../kepek/clothing/NoiOnlyBlezer.png",
 		href:"./ruhadarab.html?id=17"
 	},
 	{
@@ -139,7 +139,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/clothing/FerfiKarlLagerfeldPolo.png",
+		img:"../kepek/clothing/FerfiKarlLagerfeldPolo.png",
 		href:"./ruhadarab.html?id=18"
 		
 	}

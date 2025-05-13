@@ -34,7 +34,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/men kepek/FerfiBarnaPulcsi.png",
+		img:"../kepek/men kepek/FerfiBarnaPulcsi.png",
 		href:"./ruhadarab.html?id=19"
 	},
 	{
@@ -43,7 +43,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/men kepek/FerfiFarmer.png",
+		img:"../kepek/men kepek/FerfiFarmer.png",
 		href:"./ruhadarab.html?id=20"
 	},
 	{
@@ -52,7 +52,7 @@ let termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:"32",
-		img:"../../kepek/men kepek/FerfiFeherPolo.png",
+		img:"../kepek/men kepek/FerfiFeherPolo.png",
 		href:"./ruhadarab.html?id=21"
 	},
 	{
@@ -61,7 +61,7 @@ let termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:"80",
-		img:"../../kepek/men kepek/FerfiIng.png",
+		img:"../kepek/men kepek/FerfiIng.png",
 		href:"./ruhadarab.html?id=22"
 	},
 	{
@@ -70,7 +70,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/men kepek/FerfiKabat.png",
+		img:"../kepek/men kepek/FerfiKabat.png",
 		href:"./ruhadarab.html?id=23"
 	},
 	{
@@ -79,7 +79,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/men kepek/FerfiPolo.png",
+		img:"../kepek/men kepek/FerfiPolo.png",
 		href:"./ruhadarab.html?id=24"
 	}
 ]
@@ -91,7 +91,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/men kepek/FerfiBarnaPulcsi.png",
+		img:"../kepek/men kepek/FerfiBarnaPulcsi.png",
 		href:"./ruhadarab.html?id=19"
 	},
 	{
@@ -100,7 +100,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/men kepek/FerfiFarmer.png",
+		img:"../kepek/men kepek/FerfiFarmer.png",
 		href:"./ruhadarab.html?id=20"
 	},
 	{
@@ -109,7 +109,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:"32",
-		img:"../../kepek/men kepek/FerfiFeherPolo.png",
+		img:"../kepek/men kepek/FerfiFeherPolo.png",
 		href:"./ruhadarab.html?id=21"
 	},
 	{
@@ -118,7 +118,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:true,
 		discount_price:"80",
-		img:"../../kepek/men kepek/FerfiIng.png",
+		img:"../kepek/men kepek/FerfiIng.png",
 		href:"./ruhadarab.html?id=22"
 	},
 	{
@@ -127,7 +127,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/men kepek/FerfiKabat.png",
+		img:"../kepek/men kepek/FerfiKabat.png",
 		href:"./ruhadarab.html?id=23"
 	},
 	{
@@ -136,7 +136,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/men kepek/FerfiPolo.png",
+		img:"../kepek/men kepek/FerfiPolo.png",
 		href:"./ruhadarab.html?id=24"
 	}
 ]
