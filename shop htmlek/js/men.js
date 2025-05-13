@@ -100,7 +100,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/men kepek/FerfiFarmer.png",
+		img:"../kepek/men kepek/FerfiFarmer.png",
 		href:"./ruhadarab.html?id=20"
 	},
 	{
