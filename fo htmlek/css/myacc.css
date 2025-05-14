@@ -44,7 +44,8 @@ body {
      box-shadow: 5px 5px rgb(36, 36, 36);
 }
 .prev:hover, .next:hover{
-  background-color: #b4b4b4;
+  background-color: #b4b4b491;
+  transition-duration: 0.3s;
   
 }
 #welcome{
