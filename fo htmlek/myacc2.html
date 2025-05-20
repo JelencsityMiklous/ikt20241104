@@ -101,7 +101,8 @@
           <li>Account activity</li>
           <br>
           <li>Last sign-in:</li>
-          <li>Today 8:32 AM</li>
+          <li id="todaysDate"></li>
+          <li id="todaysDate2"></li>
           </ul></div>
 </div>
 
@@ -130,7 +131,17 @@
 </footer>
 <script src="../menu.js"></script>
 <script>
-  let mybutton = document.getElementById("topgomb");
+let now = new Date();
+let now2 = new Date();
+
+let thisDate = document.getElementById("todaysDate");
+let thisDate2 = document.getElementById("todaysDate2");
+
+
+thisDate.innerHTML = now.toLocaleTimeString("en-GB");
+thisDate2.innerHTML = now2.toDateString();
+
+let mybutton = document.getElementById("topgomb");
 
 window.onscroll = function() {scrollFunction()};
 
