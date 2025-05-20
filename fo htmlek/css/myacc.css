@@ -62,6 +62,16 @@ h2{
    padding-top: 25px;
    padding-bottom: 20px;
 }
+
+.footerh2 {
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
 h5{
     color: black;
    
