@@ -29,6 +29,16 @@ a, a:visited, a:hover, a:active {
     color: black;
 }
 
+.megtekint_gomb {
+    text-decoration: none;
+    color: black;
+}
+
+.megtekint_gomb:hover {
+    text-decoration: none;
+    color: white;
+}
+
 :root {
     --ColorPrimaryDk: #5f0606;
     --ColorPrimaryLt: #ff0022;

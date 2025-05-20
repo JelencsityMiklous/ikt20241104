@@ -20,6 +20,15 @@ function topFunction() {
 	document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
 }
 
+function PopUp(popupszam) {
+	if (popupszam === 1) {
+		alert("Wishlisted.")
+	}
+	else if(popupszam === 2) {
+		alert("Added to Cart.")
+	}
+}
+
 /* Objektum a termékekről */
 
 let termekek = [
@@ -29,7 +38,7 @@ let termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/karl_lagerfeld_taska.png",
+		img:"../kepek/accessories/karl_lagerfeld_taska.png",
 		href:"./ruhadarab.html?id=1"
 	},
 	{
@@ -38,7 +47,7 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"350",
-		img:"../../kepek/accessories/furla_taska.png",
+		img:"../kepek/accessories/furla_taska.png",
 		href:"./ruhadarab.html?id=2"
 	},
 	{
@@ -47,7 +56,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/vanzetti_ov.png",
+		img:"../kepek/accessories/vanzetti_ov.png",
 		href:"./ruhadarab.html?id=3"
 	},
 	{
@@ -56,7 +65,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/nike_hatitaska.png",
+		img:"../kepek/accessories/nike_hatitaska.png",
 		href:"./ruhadarab.html?id=4"
 	},
 	{
@@ -65,7 +74,7 @@ let termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"",
-		img:"../../kepek/accessories/expatrie_ovtaska.png",
+		img:"../kepek/accessories/expatrie_ovtaska.png",
 		href:"./ruhadarab.html?id=5"
 	},
 	{
@@ -74,7 +83,7 @@ let termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"35",
-		img:"../../kepek/accessories/alpha_industries_sapka.png",
+		img:"../kepek/accessories/alpha_industries_sapka.png",
 		href:"./ruhadarab.html?id=6"
 	}
 ]
@@ -87,7 +96,7 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/karl_lagerfeld_taska.png",
+		img:"../kepek/accessories/karl_lagerfeld_taska.png",
 		href:"./ruhadarab.html?id=1"
 	},
 	{
@@ -96,7 +105,7 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"350",
-		img:"../../kepek/accessories/furla_taska.png",
+		img:"../kepek/accessories/furla_taska.png",
 		href:"./ruhadarab.html?id=2"
 	},
 	{
@@ -105,7 +114,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/vanzetti_ov.png",
+		img:"../kepek/accessories/vanzetti_ov.png",
 		href:"./ruhadarab.html?id=3"
 	},
 	{
@@ -114,7 +123,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"",
-		img:"../../kepek/accessories/nike_hatitaska.png",
+		img:"../kepek/accessories/nike_hatitaska.png",
 		href:"./ruhadarab.html?id=4"
 	},
 	{
@@ -123,7 +132,7 @@ let eredeti_termekek = [
 		gender:"women",
 		discount:true,
 		discount_price:"",
-		img:"../../kepek/accessories/expatrie_ovtaska.png",
+		img:"../kepek/accessories/expatrie_ovtaska.png",
 		href:"./ruhadarab.html?id=5"
 	},
 	{
@@ -132,7 +141,7 @@ let eredeti_termekek = [
 		gender:"men",
 		discount:false,
 		discount_price:"35",
-		img:"../../kepek/accessories/alpha_industries_sapka.png",
+		img:"../kepek/accessories/alpha_industries_sapka.png",
 		href:"./ruhadarab.html?id=6"
 	}
 ]
