@@ -17,6 +17,10 @@ function topFunction() {
 }
 
 
+function addedToCart() {
+	alert("Added to Cart.")
+}
+
 const params = new URLSearchParams(window.location.search);
 const productSzam = params.get("id");
 
@@ -1426,7 +1430,7 @@ let accessories_termekek = [
 	//3
 	{
 		nev:"Black VANZETTI belt",
-		price:"$53.00",
+		price:"$153.00",
 
 		dizajn_anyag_extrak1:"Bőr",
 		dizajn_anyag_extrak2:"Fényes",
